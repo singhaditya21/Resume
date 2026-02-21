@@ -82,91 +82,386 @@
             </div>
         </section>
 
-        <!-- The Impact Dashboard (Dense Bento Grid) -->
+        <!-- The Impact Dashboard (Dense Analytical Grid) -->
         <section id="impact" class="section fade-up">
-            <h2 class="section-title">Impact Dashboard <span><i class="fas fa-info-circle"
-                        title="Key performance indicators across global operations"></i></span></h2>
+            <h2 class="section-title">Impact Dashboard <span><i class="fas fa-tachometer-alt"
+                        title="Executive analytics across global operations"></i></span></h2>
+            <p class="section-lead">Quantified business outcomes across revenue, operations, and technology — sourced
+                from live enterprise data.</p>
 
-            <div class="bento-grid-impact">
-                <!-- KPI 1 -->
-                <div class="kpi-panel glass-panel">
-                    <div class="kpi-header">
-                        <span class="kpi-title">Utilization Visibility</span>
-                        <span class="kpi-trend positive"><i class="fas fa-arrow-up"></i> +25%</span>
-                    </div>
-                    <div class="kpi-body">
-                        <div class="kpi-value">35% <i class="fas fa-long-arrow-alt-right text-muted"></i> 60%</div>
-                    </div>
-                    <div class="kpi-footer">
-                        <span><i class="fas fa-users"></i> 800+ Resources</span>
-                        <span class="text-xs">FY23-FY25</span>
-                    </div>
-                    <!-- Decorative chart bg -->
-                    <div class="sparkline bg-line-1"></div>
-                </div>
+            <!-- ROW 1: Headline KPIs -->
+            <div class="dash-row dash-row-4">
 
-                <!-- KPI 2 -->
-                <div class="kpi-panel glass-panel">
-                    <div class="kpi-header">
-                        <span class="kpi-title">Revenue Collection Uplift</span>
-                        <span class="kpi-trend positive"><i class="fas fa-arrow-up"></i> 3x</span>
+                <!-- FTEs Governed with Donut -->
+                <div class="kpi-card glass-panel">
+                    <div class="kpi-card-top">
+                        <span class="kpi-label">Global Delivery Scale</span>
+                        <span class="kpi-trend positive"><i class="fas fa-arrow-up"></i> FY26</span>
                     </div>
-                    <div class="kpi-body">
-                        <div class="kpi-value text-emerald">+200%</div>
+                    <div class="kpi-card-center">
+                        <div class="donut-chart" style="--pct:66; --clr:var(--accent-cyan);">
+                            <div class="donut-inner">
+                                <span class="donut-val" data-count="1518">0</span>
+                                <span class="donut-label">FTEs</span>
+                            </div>
+                        </div>
+                        <div class="donut-legend">
+                            <div class="legend-row"><span class="dot" style="background:var(--accent-cyan)"></span> B1
+                                Band <strong>66%</strong></div>
+                            <div class="legend-row"><span class="dot" style="background:var(--accent-purple)"></span>
+                                B2+ Bands <strong>34%</strong></div>
+                        </div>
                     </div>
-                    <div class="kpi-footer">
-                        <span><i class="fas fa-globe"></i> 100+ Cities</span>
-                        <span class="text-xs">Foodpanda</span>
-                    </div>
-                    <div class="sparkline bg-bar-1"></div>
-                </div>
-
-                <!-- KPI 3 -->
-                <div class="kpi-panel glass-panel">
-                    <div class="kpi-header">
-                        <span class="kpi-title">Financial Leakage Reduced</span>
-                    </div>
-                    <div class="kpi-body">
-                        <div class="kpi-value text-purple">35%<span class="unit">acc. imp.</span></div>
-                    </div>
-                    <div class="kpi-footer">
-                        <span><i class="fas fa-cogs"></i> Governance BI</span>
-                        <span class="text-xs">Enterprise O2C</span>
+                    <div class="kpi-card-bottom">
+                        <span><i class="fas fa-globe"></i> Global Operations</span>
+                        <span>Cost-to-Serve Optimized</span>
                     </div>
                 </div>
 
-                <!-- KPI 4 -->
-                <div class="kpi-panel glass-panel span-2-col">
-                    <div class="kpi-header">
-                        <span class="kpi-title">Enterprise Workflows Deployed</span>
-                        <span class="kpi-trend neutral">Live</span>
+                <!-- CRM Platform Revenue with Vertical Bars -->
+                <div class="kpi-card glass-panel">
+                    <div class="kpi-card-top">
+                        <span class="kpi-label">CRM Platform Revenue Governed</span>
                     </div>
-                    <div class="kpi-body flex-row">
-                        <div class="kpi-value text-cyan">50+</div>
-                        <ul class="workflow-list">
-                            <li>NetSuite O2C</li>
-                            <li>SDR & MEDDICC</li>
-                            <li>Helpdesk Ops</li>
-                            <li>PostgreSQL Mig.</li>
-                        </ul>
+                    <div class="kpi-card-center">
+                        <div class="kpi-hero-value text-emerald">₹2,286 <span class="kpi-hero-unit">Cr</span></div>
+                        <div class="h-bar-stack">
+                            <div class="h-bar-segment" style="flex:1720; background: var(--accent-cyan);"
+                                title="Banking ₹1,720 Cr"></div>
+                            <div class="h-bar-segment" style="flex:312; background: var(--accent-purple);"
+                                title="Insurance ₹312 Cr"></div>
+                            <div class="h-bar-segment" style="flex:141; background: var(--accent-emerald);"
+                                title="NBFC ₹141 Cr"></div>
+                            <div class="h-bar-segment" style="flex:113; background: rgba(15,23,42,0.15);"
+                                title="Others ₹113 Cr"></div>
+                        </div>
+                        <div class="bar-legend-row">
+                            <span><span class="dot" style="background:var(--accent-cyan)"></span>Banking</span>
+                            <span><span class="dot" style="background:var(--accent-purple)"></span>Insurance</span>
+                            <span><span class="dot" style="background:var(--accent-emerald)"></span>NBFC</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card-bottom">
+                        <span><i class="fas fa-building"></i> 116 Accounts</span>
+                        <span>BFSI Portfolio</span>
                     </div>
                 </div>
 
-                <!-- KPI 5 -->
-                <div class="kpi-panel glass-panel">
-                    <div class="kpi-header">
-                        <span class="kpi-title">Risk Delays</span>
-                        <span class="kpi-trend positive"><i class="fas fa-arrow-down"></i> -25%</span>
+                <!-- SLA Posture with Progress Ring -->
+                <div class="kpi-card glass-panel">
+                    <div class="kpi-card-top">
+                        <span class="kpi-label">SLA Posture — Q1 FY26</span>
+                        <span class="kpi-trend positive"><i class="fas fa-shield-alt"></i> Zero Breach</span>
                     </div>
-                    <div class="kpi-body">
-                        <div class="kpi-value text-emerald">25% <span class="unit">Drop</span></div>
+                    <div class="kpi-card-center">
+                        <div class="donut-chart" style="--pct:100; --clr:var(--accent-emerald);">
+                            <div class="donut-inner">
+                                <span class="donut-val-sm">100%</span>
+                                <span class="donut-label">Uptime</span>
+                            </div>
+                        </div>
+                        <div class="donut-legend">
+                            <div class="legend-row"><span class="dot" style="background:var(--accent-emerald)"></span>
+                                8/11 Accounts <strong>100%</strong></div>
+                            <div class="legend-row"><span class="dot" style="background:var(--accent-cyan)"></span>
+                                Remaining <strong>≥99.95%</strong></div>
+                            <div class="legend-row"><span class="dot" style="background:var(--accent-purple)"></span>
+                                SLA Breaches <strong>0</strong></div>
+                        </div>
                     </div>
-                    <div class="kpi-footer">
-                        <span><i class="fas fa-shield-alt"></i> Adaptive Validation</span>
-                        <span class="text-xs">CDAC</span>
+                    <div class="kpi-card-bottom">
+                        <span><i class="fas fa-check-circle"></i> OS Patching Frameworks</span>
+                    </div>
+                </div>
+
+                <!-- Revenue Impact Compound -->
+                <div class="kpi-card glass-panel">
+                    <div class="kpi-card-top">
+                        <span class="kpi-label">Revenue Impact</span>
+                        <span class="kpi-trend positive"><i class="fas fa-arrow-up"></i> Multi-Year</span>
+                    </div>
+                    <div class="kpi-card-center stack-metrics">
+                        <div class="stack-metric-item">
+                            <span class="sm-val text-emerald">+200%</span>
+                            <span class="sm-label">Collection Uplift (100+ cities)</span>
+                        </div>
+                        <div class="stack-metric-item">
+                            <span class="sm-val text-cyan">₹26.43 Cr</span>
+                            <span class="sm-label">Revenue Unlocked (FY22)</span>
+                        </div>
+                        <div class="stack-metric-item">
+                            <span class="sm-val text-purple">₹275.98 Cr</span>
+                            <span class="sm-label">Loan Disbursement Managed</span>
+                        </div>
+                        <div class="stack-metric-item">
+                            <span class="sm-val text-cyan">₹3.8 Cr</span>
+                            <span class="sm-label">OLI Variances Corrected (FY25)</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card-bottom">
+                        <span><i class="fas fa-university"></i> Banking & Insurance</span>
                     </div>
                 </div>
             </div>
+
+            <!-- ROW 2: Operational Analytics (3 wider) -->
+            <div class="dash-row dash-row-3">
+
+                <!-- RevOps Pipeline -->
+                <div class="kpi-card glass-panel">
+                    <div class="kpi-card-top">
+                        <span class="kpi-label">RevOps Pipeline — Systems Built</span>
+                        <span class="kpi-trend neutral">12 Modules</span>
+                    </div>
+                    <div class="kpi-card-center">
+                        <div class="pipeline-bars">
+                            <div class="pipe-item"><span class="pipe-name">SDR & Demand Gen</span>
+                                <div class="pipe-bar">
+                                    <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);"></div>
+                                </div><span class="pipe-status done">Live</span>
+                            </div>
+                            <div class="pipe-item"><span class="pipe-name">MEDDICC Scoring</span>
+                                <div class="pipe-bar">
+                                    <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);"></div>
+                                </div><span class="pipe-status done">Live</span>
+                            </div>
+                            <div class="pipe-item"><span class="pipe-name">ARR Automation</span>
+                                <div class="pipe-bar">
+                                    <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);"></div>
+                                </div><span class="pipe-status done">Live</span>
+                            </div>
+                            <div class="pipe-item"><span class="pipe-name">Account 360</span>
+                                <div class="pipe-bar">
+                                    <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);"></div>
+                                </div><span class="pipe-status done">Live</span>
+                            </div>
+                            <div class="pipe-item"><span class="pipe-name">Account Planning</span>
+                                <div class="pipe-bar">
+                                    <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);"></div>
+                                </div><span class="pipe-status done">Live</span>
+                            </div>
+                            <div class="pipe-item"><span class="pipe-name">Revenue Scorecard</span>
+                                <div class="pipe-bar">
+                                    <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);"></div>
+                                </div><span class="pipe-status done">Live</span>
+                            </div>
+                            <div class="pipe-item"><span class="pipe-name">CLM (Contract Mgmt)</span>
+                                <div class="pipe-bar">
+                                    <div class="pipe-fill" style="width:60%; background:var(--accent-cyan);"></div>
+                                </div><span class="pipe-status prog">Phase 1</span>
+                            </div>
+                            <div class="pipe-item"><span class="pipe-name">CPQ / Pricing Desk</span>
+                                <div class="pipe-bar">
+                                    <div class="pipe-fill" style="width:40%; background:var(--accent-cyan);"></div>
+                                </div><span class="pipe-status prog">Building</span>
+                            </div>
+                            <div class="pipe-item"><span class="pipe-name">Data Mart</span>
+                                <div class="pipe-bar">
+                                    <div class="pipe-fill" style="width:70%; background:var(--accent-cyan);"></div>
+                                </div><span class="pipe-status prog">Scaling</span>
+                            </div>
+                            <div class="pipe-item"><span class="pipe-name">Incentive Automation</span>
+                                <div class="pipe-bar">
+                                    <div class="pipe-fill" style="width:30%; background:var(--accent-purple);"></div>
+                                </div><span class="pipe-status plan">Planned</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Automation Score with Radial Gauge -->
+                <div class="kpi-card glass-panel">
+                    <div class="kpi-card-top">
+                        <span class="kpi-label">Automation Delivery Score</span>
+                        <span class="kpi-trend positive"><i class="fas fa-robot"></i> FY26</span>
+                    </div>
+                    <div class="kpi-card-center" style="align-items:center;">
+                        <div class="radial-gauge">
+                            <div class="gauge-track">
+                                <div class="gauge-fill" style="--gauge-pct:100;"></div>
+                            </div>
+                            <div class="gauge-center">
+                                <span class="gauge-val">32/32</span>
+                                <span class="gauge-label">On-Time</span>
+                            </div>
+                        </div>
+                        <div class="gauge-stats">
+                            <div class="gs-item"><span class="gs-num text-emerald">0</span><span
+                                    class="gs-lbl">Slippage</span></div>
+                            <div class="gs-item"><span class="gs-num text-cyan">94%</span><span class="gs-lbl">Sprint
+                                    Burn</span></div>
+                            <div class="gs-item"><span class="gs-num text-purple">100%</span><span class="gs-lbl">Cases
+                                    via Web</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Enterprise Accounts Stacked Bar -->
+                <div class="kpi-card glass-panel">
+                    <div class="kpi-card-top">
+                        <span class="kpi-label">Enterprise Account Distribution</span>
+                        <span class="kpi-trend neutral">116 Accounts</span>
+                    </div>
+                    <div class="kpi-card-center">
+                        <div class="acct-breakdown">
+                            <div class="acct-row">
+                                <span class="acct-label">Banking</span>
+                                <div class="acct-bar">
+                                    <div class="acct-fill" style="width:75%; background:var(--accent-cyan);"></div>
+                                </div>
+                                <span class="acct-pct">₹1,720 Cr</span>
+                            </div>
+                            <div class="acct-row">
+                                <span class="acct-label">Insurance</span>
+                                <div class="acct-bar">
+                                    <div class="acct-fill" style="width:14%; background:var(--accent-purple);"></div>
+                                </div>
+                                <span class="acct-pct">₹312 Cr</span>
+                            </div>
+                            <div class="acct-row">
+                                <span class="acct-label">NBFC</span>
+                                <div class="acct-bar">
+                                    <div class="acct-fill" style="width:6%; background:var(--accent-emerald);"></div>
+                                </div>
+                                <span class="acct-pct">₹141 Cr</span>
+                            </div>
+                            <div class="acct-row">
+                                <span class="acct-label">Fin. Services</span>
+                                <div class="acct-bar">
+                                    <div class="acct-fill" style="width:3%; background:rgba(37,99,235,0.4);"></div>
+                                </div>
+                                <span class="acct-pct">₹58 Cr</span>
+                            </div>
+                            <div class="acct-row">
+                                <span class="acct-label">AMC / Neobank</span>
+                                <div class="acct-bar">
+                                    <div class="acct-fill" style="width:1.5%; background:rgba(124,58,237,0.4);"></div>
+                                </div>
+                                <span class="acct-pct">₹30 Cr</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="kpi-card-bottom">
+                        <span><i class="fas fa-map-marker-alt"></i> SAARC + Global</span>
+                        <span>4,319 POs Tracked</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ROW 3: Technical & Risk KPIs -->
+            <div class="dash-row dash-row-4">
+
+                <!-- O2C Automation -->
+                <div class="kpi-card glass-panel">
+                    <div class="kpi-card-top">
+                        <span class="kpi-label">O2C Automation</span>
+                        <span class="kpi-trend positive"><i class="fas fa-cog"></i> Live</span>
+                    </div>
+                    <div class="kpi-card-center stack-metrics">
+                        <div class="stack-metric-item">
+                            <span class="sm-val text-cyan" data-count="4319">0</span>
+                            <span class="sm-label">POs Auto-Tracked</span>
+                        </div>
+                        <div class="stack-metric-item">
+                            <span class="sm-val text-emerald">Auto</span>
+                            <span class="sm-label">Revenue Grid Distribution</span>
+                        </div>
+                        <div class="stack-metric-item">
+                            <span class="sm-val text-purple">7-Day</span>
+                            <span class="sm-label">Hardened Timesheet Cutoff</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card-bottom">
+                        <span>NetSuite O2C</span>
+                    </div>
+                </div>
+
+                <!-- Data Architecture -->
+                <div class="kpi-card glass-panel">
+                    <div class="kpi-card-top">
+                        <span class="kpi-label">Data Architecture</span>
+                    </div>
+                    <div class="kpi-card-center stack-metrics">
+                        <div class="stack-metric-item">
+                            <span class="sm-val text-purple">20+</span>
+                            <span class="sm-label">DataMart Tables</span>
+                        </div>
+                        <div class="stack-metric-item">
+                            <span class="sm-val text-emerald">87%</span>
+                            <span class="sm-label">Data Compression (CSV→Parquet)</span>
+                        </div>
+                        <div class="stack-metric-item">
+                            <span class="sm-val text-cyan">49</span>
+                            <span class="sm-label">Postgres Migration Items (0 defects)</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card-bottom">
+                        <span>ClickHouse + PostgreSQL</span>
+                    </div>
+                </div>
+
+                <!-- Workflows Deployed -->
+                <div class="kpi-card glass-panel">
+                    <div class="kpi-card-top">
+                        <span class="kpi-label">Workflows Deployed</span>
+                        <span class="kpi-trend neutral">Live</span>
+                    </div>
+                    <div class="kpi-card-center">
+                        <div class="kpi-hero-value text-cyan">50+</div>
+                        <div class="workflow-tags">
+                            <span class="wf-tag">NetSuite O2C</span>
+                            <span class="wf-tag">SDR & MEDDICC</span>
+                            <span class="wf-tag">Helpdesk Ops</span>
+                            <span class="wf-tag">ARR Automation</span>
+                            <span class="wf-tag">Account Plan</span>
+                            <span class="wf-tag">PostgreSQL Mig.</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card-bottom">
+                        <span>Ops, Sales, Finance, IT</span>
+                    </div>
+                </div>
+
+                <!-- Risk Reduction Compound -->
+                <div class="kpi-card glass-panel">
+                    <div class="kpi-card-top">
+                        <span class="kpi-label">Risk & Efficiency Gains</span>
+                    </div>
+                    <div class="kpi-card-center">
+                        <div class="risk-bars">
+                            <div class="risk-item">
+                                <div class="risk-header"><span>Leakage Detection</span><span
+                                        class="text-emerald">+35%</span></div>
+                                <div class="risk-bar">
+                                    <div class="risk-fill" style="width:85%; background:var(--accent-emerald);"></div>
+                                </div>
+                            </div>
+                            <div class="risk-item">
+                                <div class="risk-header"><span>Delay Reduction</span><span class="text-cyan">-25%</span>
+                                </div>
+                                <div class="risk-bar">
+                                    <div class="risk-fill" style="width:75%; background:var(--accent-cyan);"></div>
+                                </div>
+                            </div>
+                            <div class="risk-item">
+                                <div class="risk-header"><span>Inefficiency Cut</span><span
+                                        class="text-purple">-44%</span></div>
+                                <div class="risk-bar">
+                                    <div class="risk-fill" style="width:90%; background:var(--accent-purple);"></div>
+                                </div>
+                            </div>
+                            <div class="risk-item">
+                                <div class="risk-header"><span>Utilization Visibility</span><span
+                                        class="text-emerald">35→60%</span></div>
+                                <div class="risk-bar">
+                                    <div class="risk-fill" style="width:60%; background:var(--accent-emerald);"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
 
         <!-- Signature Programs -->
@@ -445,7 +740,8 @@
                                 <li>Governed delivery org at <strong>1,518+ FTEs</strong> with global band distribution
                                     (B1 band 66%) to optimize cost-to-serve.</li>
                                 <li><strong>100% uptime</strong> on 8/11 critical enterprise accounts;
-                                    <strong>≥99.95%</strong> across remaining accounts.</li>
+                                    <strong>≥99.95%</strong> across remaining accounts.
+                                </li>
                                 <li><strong>0 SLA breach</strong> incidents, with mature planned downtime + OS patching
                                     frameworks.</li>
                                 <li>Reduced unconversable "Others" tickets to <strong>&lt;20%</strong> globally,
@@ -497,9 +793,11 @@
                                     (Customer/Opportunity modules), achieving <strong>100% UAT validation</strong> and
                                     Go-Live.</li>
                                 <li>Implemented timesheet compliance governance (Monday 12 PM reviews) mapped to
-                                    <strong>Project P&L</strong> to prevent unbilled effort leakage.</li>
+                                    <strong>Project P&L</strong> to prevent unbilled effort leakage.
+                                </li>
                                 <li>Automated SaaS metrics extraction from NetSuite aligned to strict
-                                    <strong>quarter-close deadlines</strong>.</li>
+                                    <strong>quarter-close deadlines</strong>.
+                                </li>
                             </ul>
                         </div>
                         <div class="year-subsection">
@@ -572,7 +870,8 @@
                             <ul class="year-bullets">
                                 <li>Automated Order-to-Cash for Non-Service POs (Licenses & AMC): overnight jobs to
                                     auto-generate projects and tag POs → replaced manual finance tracking with
-                                    <strong>systematic revenue grid distribution</strong>.</li>
+                                    <strong>systematic revenue grid distribution</strong>.
+                                </li>
                                 <li>Operational analytics: drove <strong>44% reduction</strong> in inefficient
                                     WhatsApp-based cases; <strong>17.86% WoW case-volume reduction</strong> while
                                     managing a 12.31% AHT increase.</li>
@@ -637,7 +936,8 @@
                             <li>Managed large-scale credit services: <strong>1,28,788 loan applications</strong>
                                 processed and <strong>₹275.98 Cr disbursement</strong> during post-lockdown surge.</li>
                             <li>Implemented resource pyramid optimization (rapid hiring to strengthen B1 band within
-                                <strong>90 days</strong>).</li>
+                                <strong>90 days</strong>).
+                            </li>
                             <li>Built and deployed SLA + outbound lead reporting dashboards in <strong>&lt;72
                                     hours</strong>.</li>
                         </ul>
@@ -668,7 +968,8 @@
                         <ul class="year-bullets">
                             <li>Oversaw load testing for enterprise CRM deployments supporting <strong>1,300 concurrent
                                     users</strong>, modeling <strong>31,670 daily lead creations</strong> and
-                                <strong>42,504 modifications</strong> in peak 5-hour windows.</li>
+                                <strong>42,504 modifications</strong> in peak 5-hour windows.
+                            </li>
                         </ul>
                         <div class="year-metrics-strip">
                             <div class="year-metric"><span class="ym-val text-purple">1,300</span><span

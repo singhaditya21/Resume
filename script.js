@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    
+
     // Intersection Observer for fade-up animations
     const observerOptions = {
         root: null,
@@ -19,6 +19,31 @@ document.addEventListener('DOMContentLoaded', () => {
     const fadeElements = document.querySelectorAll('.fade-up');
     fadeElements.forEach(el => observer.observe(el));
 
+    // Animated counters for [data-count] elements
+    const counterObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const el = entry.target;
+                const target = parseInt(el.dataset.count, 10);
+                if (isNaN(target)) return;
+                const duration = 1200;
+                const start = performance.now();
+                const animate = (now) => {
+                    const elapsed = now - start;
+                    const progress = Math.min(elapsed / duration, 1);
+                    const eased = 1 - Math.pow(1 - progress, 3); // ease-out
+                    el.textContent = Math.floor(target * eased).toLocaleString();
+                    if (progress < 1) requestAnimationFrame(animate);
+                    else el.textContent = target.toLocaleString() + '+';
+                };
+                requestAnimationFrame(animate);
+                counterObserver.unobserve(el);
+            }
+        });
+    }, { threshold: 0.5 });
+
+    document.querySelectorAll('[data-count]').forEach(el => counterObserver.observe(el));
+
     // Navbar scroll effect
     const nav = document.querySelector('nav');
     window.addEventListener('scroll', () => {
@@ -32,10 +57,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // Mobile menu toggle (simple version for now)
     const menuBtn = document.querySelector('.menu-btn');
     const navLinks = document.querySelector('.nav-links');
-    
+
     if (menuBtn) {
         menuBtn.addEventListener('click', () => {
-            if(navLinks.style.display === 'flex') {
+            if (navLinks.style.display === 'flex') {
                 navLinks.style.display = 'none';
             } else {
                 navLinks.style.display = 'flex';
@@ -61,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     behavior: 'smooth',
                     block: 'start'
                 });
-                
+
                 // Close mobile menu if open
                 if (window.innerWidth <= 768 && navLinks.style.display === 'flex') {
                     navLinks.style.display = 'none';
