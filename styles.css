@@ -1,25 +1,32 @@
 :root {
-    /* UI Dashboard Colors - Dark Mode */
-    --bg-primary: #0B0F19;
-    /* Deep Midnight Space */
-    --bg-secondary: #131A2A;
-    /* Lighter Midnight */
-    --bg-glass: rgba(19, 26, 42, 0.75);
+    /* UI Dashboard Colors - Light Theme */
+    --bg-primary: #FFFFFF;
+    /* Pure White */
+    --bg-secondary: #F8FAFC;
+    /* Light slate */
+    --bg-glass: rgba(255, 255, 255, 0.85);
 
-    /* Text Colors */
-    --text-primary: #F8FAFC;
-    --text-secondary: #94A3B8;
-    --text-muted: #64748B;
+    /* Text Colors - Dark Blue/Black */
+    --text-primary: #0F172A;
+    /* Slate 900 */
+    --text-secondary: #1E293B;
+    /* Slate 800 */
+    --text-muted: #475569;
+    /* Slate 600 */
 
-    /* Accent & Neon Colors */
-    --accent-cyan: #06b6d4;
-    --accent-emerald: #10b981;
-    --accent-purple: #8b5cf6;
-    --accent-danger: #f43f5e;
+    /* Accent & Neon Colors - Deep Professional Blues */
+    --accent-cyan: #2563EB;
+    /* Royal Blue */
+    --accent-emerald: #0F766E;
+    /* Deep Teal */
+    --accent-purple: #4338CA;
+    /* Deep Indigo */
+    --accent-danger: #E11D48;
+    /* Crimson */
 
     /* UI Elements */
-    --border-light: rgba(148, 163, 184, 0.15);
-    --border-bright: rgba(255, 255, 255, 0.1);
+    --border-light: rgba(15, 23, 42, 0.1);
+    --border-bright: rgba(15, 23, 42, 0.2);
 
     /* Typography */
     --font-display: 'Outfit', sans-serif;
@@ -36,7 +43,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body.dark-mode {
+body.light-mode {
     font-family: var(--font-body);
     background-color: var(--bg-primary);
     color: var(--text-secondary);
@@ -137,7 +144,7 @@ body.dark-mode {
 
 .nav-links a:hover,
 .nav-links a.active {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(15, 23, 42, 0.05);
     color: var(--text-primary);
 }
 
@@ -156,7 +163,7 @@ body.dark-mode {
     text-align: center;
     padding: 0.75rem;
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(15, 23, 42, 0.05);
     color: var(--text-primary);
     border: 1px solid var(--border-light);
     transition: all 0.2s;
@@ -165,7 +172,7 @@ body.dark-mode {
 .nav-btn:hover {
     background: var(--accent-cyan);
     border-color: var(--accent-cyan);
-    color: #000;
+    color: #FFF;
 }
 
 /* Main Content Area */
@@ -180,14 +187,20 @@ body.dark-mode {
 /* Glass Panels (Base element for Dashboard) */
 .glass-panel {
     background: var(--bg-glass);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border: 1px solid var(--border-light);
-    border-radius: 12px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(15, 23, 42, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 4px 15px -1px rgba(15, 23, 42, 0.05), 0 2px 4px -1px rgba(15, 23, 42, 0.03);
     padding: 2rem;
     position: relative;
     overflow: hidden;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease, border-color 0.4s ease;
+}
+
+.glass-panel:hover {
+    border-color: rgba(37, 99, 235, 0.2);
+    box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.1), 0 8px 10px -6px rgba(15, 23, 42, 0.05);
 }
 
 /* Typography Helpers */
@@ -296,8 +309,9 @@ h4 {
 }
 
 .gradient-text-neon {
-    background: linear-gradient(90deg, #e2e8f0, #94a3b8);
+    background: linear-gradient(90deg, #1e293b, #475569);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -319,7 +333,7 @@ h4 {
 
 .btn-primary {
     background: var(--text-primary);
-    color: var(--bg-primary);
+    color: #fff;
 }
 
 .btn-primary:hover {
@@ -328,13 +342,13 @@ h4 {
 }
 
 .btn-secondary {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(15, 23, 42, 0.05);
     color: var(--text-primary);
     border: 1px solid var(--border-light);
 }
 
 .btn-secondary:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(15, 23, 42, 0.1);
     border-color: var(--text-primary);
 }
 
@@ -359,7 +373,7 @@ h4 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0.5rem;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(15, 23, 42, 0.05);
     padding: 0.75rem;
     border-radius: 8px;
 }
@@ -487,7 +501,7 @@ h4 {
     align-items: center;
     font-size: 0.8rem;
     color: var(--text-muted);
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-top: 1px solid rgba(15, 23, 42, 0.05);
     padding-top: 0.75rem;
     position: relative;
     z-index: 2;
@@ -566,7 +580,7 @@ h4 {
     font-weight: 600;
     padding: 0.3rem 0.6rem;
     border-radius: 4px;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(15, 23, 42, 0.05);
     border-left: 2px solid;
     color: var(--text-primary);
 }
@@ -652,7 +666,7 @@ h4 {
     margin-bottom: 0.75rem;
     padding-left: 1.25rem;
     position: relative;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    border-bottom: 1px solid rgba(15, 23, 42, 0.05);
     padding-bottom: 0.75rem;
 }
 
@@ -709,15 +723,16 @@ h4 {
 .pill.outline {
     border: 1px solid var(--border-light);
     color: var(--text-secondary);
+    background: transparent;
 }
 
 .pill.outline:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(15, 23, 42, 0.05);
     color: var(--text-primary);
 }
 
 .pill.solid {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(15, 23, 42, 0.05);
     color: var(--text-primary);
 }
 
@@ -750,7 +765,7 @@ h4 {
 }
 
 .badge-dark {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(15, 23, 42, 0.05);
     padding: 0.2rem 0.5rem;
     border-radius: 4px;
     color: var(--accent-purple);
