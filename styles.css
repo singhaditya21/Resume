@@ -142,13 +142,18 @@ a {
 
 /* Glassmorphism Classes */
 .glass-card {
-    background: var(--bg-glass);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border: 1px solid var(--border-light);
-    border-radius: 16px;
-    box-shadow: var(--shadow-glass);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.05);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease, border-color 0.4s ease;
+}
+
+.glass-card:hover {
+    border-color: rgba(59, 130, 246, 0.4);
+    box-shadow: 0 15px 35px 0 rgba(31, 38, 135, 0.1);
 }
 
 /* Navigation */
@@ -356,38 +361,39 @@ nav.scrolled {
 .metrics-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1.5rem;
+    gap: 2rem;
     padding-bottom: 2rem;
 }
 
 .metric-card {
-    padding: 2rem 1.5rem;
+    padding: 2.5rem 1.5rem;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.4) 100%);
 }
 
 .metric-card:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-md);
+    transform: translateY(-3px) scale(1.02);
 }
 
 .metric-value {
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: 800;
     line-height: 1;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
     font-family: var(--font-display);
+    letter-spacing: -2px;
 }
 
 .metric-label {
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--text-secondary);
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text-primary);
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 }
 
 /* Experience Section Timeline */
@@ -430,8 +436,7 @@ nav.scrolled {
 }
 
 .experience-card:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-md);
+    transform: scale(1.01);
 }
 
 .exp-header {
@@ -496,7 +501,7 @@ nav.scrolled {
 }
 
 .skill-category:hover {
-    transform: translateY(-5px);
+    transform: scale(1.02);
 }
 
 .category-icon {
@@ -553,9 +558,9 @@ nav.scrolled {
 }
 
 .hover-glow:hover {
-    transform: translateY(-3px);
+    transform: scale(1.02);
     box-shadow: 0 10px 30px -10px rgba(139, 92, 246, 0.2);
-    border-color: rgba(139, 92, 246, 0.3);
+    border-color: rgba(139, 92, 246, 0.4);
 }
 
 .edu-card h3 {
@@ -608,17 +613,17 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Animations */
+/* Animations - Subdued for less movement */
 .fade-up {
     opacity: 0;
-    transform: translateY(15px);
-    /* Reduced movement for smoother, less aggressive animation */
-    transition: opacity 0.8s ease, transform 0.8s ease;
+    transform: scale(0.98);
+    /* Removed translateY entirely. Replaced with subtle static scale */
+    transition: opacity 1s cubic-bezier(0.16, 1, 0.3, 1), transform 1s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .fade-up.visible {
     opacity: 1;
-    transform: translateY(0);
+    transform: scale(1);
 }
 
 /* Responsive Design */
