@@ -8,290 +8,374 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Inter:wght@400;500;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <!-- Background Decorators -->
-    <div class="bg-blur gradient-1"></div>
-    <div class="bg-blur gradient-2"></div>
-    <div class="bg-blur gradient-3"></div>
+<body class="dark-mode">
+    <!-- Ambient Dashboard Glow -->
+    <div class="ambient-glow glow-cyan"></div>
+    <div class="ambient-glow glow-emerald"></div>
+    <div class="ambient-glow glow-purple"></div>
 
-    <nav>
-        <div class="nav-container">
-            <a href="#" class="logo">AS<span>.</span></a>
-            <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#experience">Experience</a>
-                <a href="#education">Education</a>
-                <a href="#skills">Skills</a>
-                <a href="#certifications">Certifications</a>
-            </div>
-            <button class="menu-btn"><i class="fas fa-bars"></i></button>
+    <!-- Sticky Sidebar Navigation (Dashboard Style) -->
+    <nav class="side-nav">
+        <a href="#" class="logo">AS<span>_</span></a>
+        <div class="nav-links">
+            <a href="#hero" title="Overview"><i class="fas fa-home"></i> <span>Overview</span></a>
+            <a href="#impact" title="Impact & KPIs"><i class="fas fa-chart-line"></i> <span>Impact</span></a>
+            <a href="#programs" title="Programs"><i class="fas fa-project-diagram"></i> <span>Programs</span></a>
+            <a href="#experience" title="Experience"><i class="fas fa-briefcase"></i> <span>Experience</span></a>
+            <a href="#stack" title="Tech Stack"><i class="fas fa-layer-group"></i> <span>Stack</span></a>
+            <a href="#education" title="Education"><i class="fas fa-graduation-cap"></i> <span>Education</span></a>
+        </div>
+        <div class="nav-actions">
+            <a href="Aditya_Singh_Resume.pdf" target="_blank" class="nav-btn"><i class="fas fa-download"></i></a>
+            <a href="https://github.com/singhaditya21" target="_blank" class="nav-btn"><i class="fab fa-github"></i></a>
         </div>
     </nav>
 
-    <main>
-        <!-- Hero Section -->
-        <section id="hero" class="hero fade-up">
-            <div class="container">
-                <span class="greeting">Hello, I'm</span>
-                <h1 class="name-gradient">Aditya Singh</h1>
-                <h2 class="title">Global Biz-Tech & Operations Leader</h2>
-                <div class="contact-info">
-                    <a href="mailto:contact@adityasingh.com"><i class="fas fa-envelope"></i> contact@adityasingh.com</a>
-                    <a href="https://github.com/singhaditya21" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    <!-- Main Content Area -->
+    <main class="dashboard-content">
+
+        <!-- Hero & Exec Summary (Top Bendto Row) -->
+        <section id="hero" class="bento-hero fade-up">
+            <div class="hero-main glass-panel">
+                <div class="hero-content">
+                    <span class="status-badge"><i class="fas fa-circle blink"></i> Global Ops Leader</span>
+                    <h1 class="display-title">Aditya Singh</h1>
+                    <h2 class="hero-subtitle gradient-text-neon">Scaling global operations + enterprise systems to drive
+                        revenue, efficiency, and governance.</h2>
+
+                    <div class="hero-ctas">
+                        <a href="Aditya_Singh_Resume.pdf" target="_blank" class="btn btn-primary"><i
+                                class="fas fa-file-pdf"></i> Download Executive Resume</a>
+                        <a href="#impact" class="btn btn-secondary"><i class="fas fa-chart-pie"></i> View Impact
+                            Dashboard</a>
+                    </div>
                 </div>
             </div>
-        </section>
 
-        <!-- Summary Section -->
-        <section id="about" class="section fade-up">
-            <div class="container">
-                <h2 class="section-title">Professional Summary</h2>
-                <div class="card glass-card">
-                    <p class="summary-text">
-                        Strategic global operations and technology leader with exceptional experience driving
-                        multimillion-dollar enterprise transformations. Proven track record of steering cross-functional
-                        initiatives bridging Sales, Revenue, Delivery, Finance, IT, and Customer Success domains. Adept
-                        at scaling global operations centers, executing complex modernizations (NetSuite, integrations,
-                        cloud), and establishing stringent data-driven governance frameworks. Combines operational
-                        strategy, technology leadership, and data-driven transformation to enable globally consistent,
-                        scalable, and high-performance execution.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Key Metrics Highlights -->
-        <section id="metrics" class="section fade-up" style="padding-top: 0;">
-            <div class="container">
-                <div class="metrics-grid">
-                    <div class="metric-card glass-card">
-                        <div class="metric-value name-gradient">800+</div>
-                        <div class="metric-label">Delivery Resources Managed</div>
+            <div class="hero-summary glass-panel glow-border">
+                <h3><i class="fas fa-bullseye accent-cyan"></i> Executive Summary</h3>
+                <p>Strategic leader bridging tech and ops domains (Sales, Revenue, Delivery, IT). Adept at scaling
+                    global centers, executing NetSuite/PostgreSQL modernizations, and deploying data-driven governance
+                    frameworks for multimillion-dollar enterprise transformations.</p>
+                <div class="mini-kpi-strip">
+                    <div class="mini-kpi">
+                        <span class="value">800+</span>
+                        <span class="label">FTEs Managed</span>
                     </div>
-                    <div class="metric-card glass-card">
-                        <div class="metric-value name-gradient">60%</div>
-                        <div class="metric-label">Utilization Visibility Improved</div>
+                    <div class="mini-kpi">
+                        <span class="value">100%</span>
+                        <span class="label">SLA Delivery</span>
                     </div>
-                    <div class="metric-card glass-card">
-                        <div class="metric-value name-gradient">200%</div>
-                        <div class="metric-label">Revenue Collection Increase</div>
-                    </div>
-                    <div class="metric-card glass-card">
-                        <div class="metric-value name-gradient">35%</div>
-                        <div class="metric-label">Financial Leakage Reduced</div>
+                    <div class="mini-kpi">
+                        <span class="value">50+</span>
+                        <span class="label">Sys Deployed</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Experience Section -->
-        <section id="experience" class="section">
-            <div class="container">
-                <h2 class="section-title">Experience</h2>
-                <div class="timeline">
-                    <!-- BusinessNext -->
-                    <div class="timeline-item fade-up">
-                        <div class="timeline-dot"></div>
-                        <div class="card experience-card glass-card">
-                            <div class="exp-header">
-                                <h3>Global Operations Leader</h3>
-                                <span class="company"><i class="fas fa-building"></i> BUSINESSNEXT</span>
-                                <span class="location"><i class="fas fa-map-marker-alt"></i> Noida, India</span>
-                                <span class="date"><i class="far fa-calendar-alt"></i> Feb 2016 - Present</span>
-                            </div>
-                            <p class="exp-summary">Global Biz-Tech & Operations Leader architecting, governing, and
-                                scaling enterprise-wide technology and operations.</p>
-                            <ul class="achievements">
-                                <li>Deployed <strong>50+ enterprise workflows</strong> including SDR, MEDDICC, O2C,
-                                    forecasting, and helpdesk operations.</li>
-                                <li>Improved financial leakage detection accuracy by <strong>35%</strong> through
-                                    governance-driven BI automation.</li>
-                                <li>Optimized resource utilization and managed <strong>800+ delivery resources</strong>,
-                                    improving visibility by <strong>60%</strong> and reducing planning conflicts by
-                                    <strong>35%</strong>.</li>
-                                <li>Strengthened BI-driven operational control at Foodpanda, enabling a <strong>200%
-                                        revenue collection increase</strong> across <strong>100+ cities</strong>.</li>
-                            </ul>
-                        </div>
-                    </div>
+        <!-- The Impact Dashboard (Dense Bento Grid) -->
+        <section id="impact" class="section fade-up">
+            <h2 class="section-title">Impact Dashboard <span><i class="fas fa-info-circle"
+                        title="Key performance indicators across global operations"></i></span></h2>
 
-                    <!-- CDAC -->
-                    <div class="timeline-item fade-up">
-                        <div class="timeline-dot"></div>
-                        <div class="card experience-card glass-card">
-                            <div class="exp-header">
-                                <h3>Quality Lead</h3>
-                                <span class="company"><i class="fas fa-building"></i> Center for Development of Advanced
-                                    Computing</span>
-                                <span class="location"><i class="fas fa-map-marker-alt"></i> Noida, India</span>
-                                <span class="date"><i class="far fa-calendar-alt"></i> Jul 2011 - Apr 2013</span>
-                            </div>
-                            <p class="exp-summary">Strengthened delivery operations by establishing a disciplined
-                                quality and release governance framework across multiple products and projects.</p>
-                            <ul class="achievements">
-                                <li>Orchestrated enterprise-level test strategies with a <strong>100% on-time delivery
-                                        record</strong> across multiple software product streams.</li>
-                                <li>Reduced risk-related delays by <strong>25%</strong> and production issues by
-                                    <strong>30%</strong> through adaptive validation methodologies.</li>
-                                <li>Achieved <strong>100% clarity</strong> of project objectives by enhancing
-                                    cross-functional collaboration, boosting system effectiveness by
-                                    <strong>25%</strong>.</li>
-                            </ul>
-                        </div>
+            <div class="bento-grid-impact">
+                <!-- KPI 1 -->
+                <div class="kpi-panel glass-panel">
+                    <div class="kpi-header">
+                        <span class="kpi-title">Utilization Visibility</span>
+                        <span class="kpi-trend positive"><i class="fas fa-arrow-up"></i> +25%</span>
                     </div>
+                    <div class="kpi-body">
+                        <div class="kpi-value">35% <i class="fas fa-long-arrow-alt-right text-muted"></i> 60%</div>
+                    </div>
+                    <div class="kpi-footer">
+                        <span><i class="fas fa-users"></i> 800+ Resources</span>
+                        <span class="text-xs">FY23-FY25</span>
+                    </div>
+                    <!-- Decorative chart bg -->
+                    <div class="sparkline bg-line-1"></div>
+                </div>
 
-                    <!-- Infosys -->
-                    <div class="timeline-item fade-up">
-                        <div class="timeline-dot"></div>
-                        <div class="card experience-card glass-card">
-                            <div class="exp-header">
-                                <h3>Engineer Systems</h3>
-                                <span class="company"><i class="fas fa-building"></i> Infosys Technologies
-                                    Limited</span>
-                                <span class="location"><i class="fas fa-map-marker-alt"></i> Hyderabad, India</span>
-                                <span class="date"><i class="far fa-calendar-alt"></i> Oct 2009 - Jul 2011</span>
-                            </div>
-                            <p class="exp-summary">Supported agile development and testing for Horizon Healthcare
-                                database applications.</p>
-                            <ul class="achievements">
-                                <li>Executed end-to-end Agile testing cycles including integration, functional, and UAT
-                                    testing for high-quality deployments.</li>
-                                <li>Collaborated seamlessly with engineering to quickly resolve production issues,
-                                    improving user satisfaction by <strong>20%</strong>.</li>
-                                <li>Acted as a junior Business Analyst translating user requirements into scalable
-                                    system flows.</li>
-                            </ul>
-                        </div>
+                <!-- KPI 2 -->
+                <div class="kpi-panel glass-panel">
+                    <div class="kpi-header">
+                        <span class="kpi-title">Revenue Collection Uplift</span>
+                        <span class="kpi-trend positive"><i class="fas fa-arrow-up"></i> 3x</span>
+                    </div>
+                    <div class="kpi-body">
+                        <div class="kpi-value text-emerald">+200%</div>
+                    </div>
+                    <div class="kpi-footer">
+                        <span><i class="fas fa-globe"></i> 100+ Cities</span>
+                        <span class="text-xs">Foodpanda</span>
+                    </div>
+                    <div class="sparkline bg-bar-1"></div>
+                </div>
+
+                <!-- KPI 3 -->
+                <div class="kpi-panel glass-panel">
+                    <div class="kpi-header">
+                        <span class="kpi-title">Financial Leakage Reduced</span>
+                    </div>
+                    <div class="kpi-body">
+                        <div class="kpi-value text-purple">35%<span class="unit">acc. imp.</span></div>
+                    </div>
+                    <div class="kpi-footer">
+                        <span><i class="fas fa-cogs"></i> Governance BI</span>
+                        <span class="text-xs">Enterprise O2C</span>
+                    </div>
+                </div>
+
+                <!-- KPI 4 -->
+                <div class="kpi-panel glass-panel span-2-col">
+                    <div class="kpi-header">
+                        <span class="kpi-title">Enterprise Workflows Deployed</span>
+                        <span class="kpi-trend neutral">Live</span>
+                    </div>
+                    <div class="kpi-body flex-row">
+                        <div class="kpi-value text-cyan">50+</div>
+                        <ul class="workflow-list">
+                            <li>NetSuite O2C</li>
+                            <li>SDR & MEDDICC</li>
+                            <li>Helpdesk Ops</li>
+                            <li>PostgreSQL Mig.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- KPI 5 -->
+                <div class="kpi-panel glass-panel">
+                    <div class="kpi-header">
+                        <span class="kpi-title">Risk Delays</span>
+                        <span class="kpi-trend positive"><i class="fas fa-arrow-down"></i> -25%</span>
+                    </div>
+                    <div class="kpi-body">
+                        <div class="kpi-value text-emerald">25% <span class="unit">Drop</span></div>
+                    </div>
+                    <div class="kpi-footer">
+                        <span><i class="fas fa-shield-alt"></i> Adaptive Validation</span>
+                        <span class="text-xs">CDAC</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Skills Section -->
-        <section id="skills" class="section bg-light fade-up">
-            <div class="container">
-                <h2 class="section-title">Core Competencies</h2>
-                <div class="skills-grid">
-                    <!-- Category 1 -->
-                    <div class="skill-category glass-card">
-                        <div class="category-icon gradient-text-1"><i class="fas fa-chess-knight"></i></div>
-                        <h3>Leadership & Strategy</h3>
-                        <div class="tags">
-                            <span>Operational Strategy</span>
-                            <span>Cross-Functional Leadership</span>
-                            <span>Change Management</span>
-                            <span>Executive Reporting</span>
-                        </div>
-                    </div>
-                    <!-- Category 2 -->
-                    <div class="skill-category glass-card">
-                        <div class="category-icon gradient-text-2"><i class="fas fa-globe"></i></div>
-                        <h3>Global Operations</h3>
-                        <div class="tags">
-                            <span>Sales Ops</span>
-                            <span>Revenue Ops</span>
-                            <span>Delivery Ops</span>
-                            <span>Risk & Compliance</span>
-                        </div>
-                    </div>
-                    <!-- Category 3 -->
-                    <div class="skill-category glass-card">
-                        <div class="category-icon gradient-text-3"><i class="fas fa-network-wired"></i></div>
-                        <h3>Systems & Tech</h3>
-                        <div class="tags">
-                            <span>NetSuite O2C</span>
-                            <span>PostgreSQL</span>
-                            <span>API Automation</span>
-                            <span>Enterprise Systems</span>
-                        </div>
-                    </div>
-                    <!-- Category 4 -->
-                    <div class="skill-category glass-card">
-                        <div class="category-icon gradient-text-4"><i class="fas fa-chart-line"></i></div>
-                        <h3>Analytics & BI</h3>
-                        <div class="tags">
-                            <span>Power BI</span>
-                            <span>Sisense</span>
-                            <span>Data Modeling</span>
-                            <span>Forecasting</span>
-                        </div>
+        <!-- Signature Programs -->
+        <section id="programs" class="section fade-up">
+            <h2 class="section-title">Signature Programs</h2>
+            <div class="programs-grid">
+
+                <div class="program-card glass-panel">
+                    <div class="prog-icon accent-purple"><i class="fas fa-project-diagram"></i></div>
+                    <h3>Allocation Intelligence & Governance</h3>
+                    <p class="prob-statement"><strong>Challenge:</strong> Opaque resource allocation across 800+ global
+                        FTEs leading to critical planning conflicts and underutilization.</p>
+                    <p class="solution"><strong>Built:</strong> Deployed a centralized governance system and RBI-driven
+                        intelligence layer for daily delivery visibility.</p>
+                    <div class="impact-tags">
+                        <span class="tag border-emerald">Visibility: 35% → 60%</span>
+                        <span class="tag border-cyan">Conflicts: -35%</span>
                     </div>
                 </div>
+
+                <div class="program-card glass-panel">
+                    <div class="prog-icon accent-cyan"><i class="fas fa-money-check-alt"></i></div>
+                    <h3>Revenue Leakage Controls (O2C)</h3>
+                    <p class="prob-statement"><strong>Challenge:</strong> Disparate billing data and fragmented systems
+                        causing uncaptured revenue across multiple enterprise workflows.</p>
+                    <p class="solution"><strong>Built:</strong> Orchestrated NetSuite-based Order-to-Cash (O2C)
+                        transformations globally with BI-automated detection rules.</p>
+                    <div class="impact-tags">
+                        <span class="tag border-purple">Accuracy: +35%</span>
+                        <span class="tag border-emerald">Coverage: RoW Markets</span>
+                    </div>
+                </div>
+
+                <div class="program-card glass-panel">
+                    <div class="prog-icon accent-emerald"><i class="fas fa-server"></i></div>
+                    <h3>Enterprise Release Governance</h3>
+                    <p class="prob-statement"><strong>Challenge:</strong> Unpredictable release cycles and high
+                        risk-related delays across multi-product streams.</p>
+                    <p class="solution"><strong>Built:</strong> Formalized change-control frameworks, adaptive
+                        validation, and comprehensive technical documentation (LLD/HLD).</p>
+                    <div class="impact-tags">
+                        <span class="tag border-cyan">On-Time: 100%</span>
+                        <span class="tag border-purple">Delays: -25%</span>
+                    </div>
+                </div>
+
             </div>
         </section>
 
-        <!-- Education & Certifications Grouping -->
-        <section class="section double-col">
-            <div class="container">
-                <div class="grid-2">
+        <!-- Experience (CAR Format) -->
+        <section id="experience" class="section fade-up">
+            <h2 class="section-title">Experience <span><i class="fas fa-history"></i></span></h2>
+            <div class="timeline-dashboard">
 
-                    <!-- Education -->
-                    <div id="education" class="fade-up">
-                        <h2 class="section-title">Education</h2>
-                        <div class="edu-list">
-                            <div class="edu-card glass-card hover-glow">
-                                <h3>MBA, Marketing & IT</h3>
-                                <p class="inst">Indian Institute of Technology, Roorkee</p>
-                                <div class="meta">
-                                    <span>2013 - 2015</span>
-                                    <span class="gpa">GPA: 9.7</span>
-                                </div>
-                            </div>
-                            <div class="edu-card glass-card hover-glow">
-                                <h3>B.E., Electronics & Comm.</h3>
-                                <p class="inst">Bangalore Institute of Technology</p>
-                                <div class="meta">
-                                    <span>2004 - 2009</span>
-                                    <span class="gpa">GPA: 7.12</span>
-                                </div>
-                            </div>
-                        </div>
+                <!-- BusinessNext -->
+                <div class="timeline-row glass-panel hover-border-cyan">
+                    <div class="time-meta">
+                        <span class="date">Feb 2016 - Present</span>
+                        <span class="company">BUSINESSNEXT</span>
+                        <span class="role">Global Operations Leader</span>
+                        <span class="location"><i class="fas fa-map-marker-alt"></i> Noida, India</span>
                     </div>
-
-                    <!-- Certifications -->
-                    <div id="certifications" class="fade-up">
-                        <h2 class="section-title">Certifications</h2>
-                        <div class="cert-grid">
-                            <div class="cert-badge glass-card hover-lift">
-                                <i class="fas fa-award gradient-text-1"></i>
-                                <span>PMP, PMI (2021)</span>
-                            </div>
-                            <div class="cert-badge glass-card hover-lift">
-                                <i class="fas fa-agile gradient-text-2"></i>
-                                <span>CSM, Scrum Alliance (2017)</span>
-                            </div>
-                            <div class="cert-badge glass-card hover-lift">
-                                <i class="fas fa-tasks gradient-text-3"></i>
-                                <span>CSPO, Scrum Alliance (2017)</span>
-                            </div>
-                            <div class="cert-badge glass-card hover-lift">
-                                <i class="fas fa-shield-alt gradient-text-4"></i>
-                                <span>PSM 1 & 2 (2020)</span>
-                            </div>
-                            <div class="cert-badge glass-card hover-lift">
-                                <i class="fas fa-certificate gradient-text-1"></i>
-                                <span>PSPO 1 (2023) & 2 (2024)</span>
-                            </div>
-                        </div>
+                    <div class="time-content">
+                        <p class="role-desc">Global Biz-Tech & Operations Leader architecting enterprise-wide tech
+                            across Sales, Delivery, Finance, and IT.</p>
+                        <ul class="car-bullets">
+                            <li><strong>Transformation:</strong> Architected NetSuite O2C and cloud provisioning
+                                workflows globally, standardizing <strong>50+ enterprise systems</strong>.</li>
+                            <li><strong>Financial Control:</strong> Deployed automated BI governance for order flows,
+                                improving financial leakage detection accuracy by <strong>35%</strong>.</li>
+                            <li><strong>Resource intelligence:</strong> Engineered visibility frameworks across the
+                                delivery org, scaling resource utilization visibility from 35% to <strong>60%</strong>
+                                for <strong>800+ FTEs</strong>.</li>
+                            <li><strong>Scale (Foodpanda era):</strong> Strengthened operational control systems prior
+                                to current role, enabling an unprecedented <strong>200% revenue collection
+                                    increase</strong> across <strong>100+ cities</strong>.</li>
+                        </ul>
                     </div>
-
                 </div>
+
+                <!-- CDAC -->
+                <div class="timeline-row glass-panel hover-border-purple">
+                    <div class="time-meta">
+                        <span class="date">Jul 2011 - Apr 2013</span>
+                        <span class="company">CDAC</span>
+                        <span class="role">Quality Lead</span>
+                        <span class="location"><i class="fas fa-map-marker-alt"></i> Noida, India</span>
+                    </div>
+                    <div class="time-content">
+                        <ul class="car-bullets">
+                            <li><strong>Governance:</strong> Established a disciplined quality framework linking QA,
+                                Engineering, and Product, achieving a <strong>100% on-time product delivery
+                                    record</strong>.</li>
+                            <li><strong>Risk Mitigation:</strong> Implemented adaptive testing methodologies within
+                                formal change controls, reducing risk-related deployment delays by <strong>25%</strong>.
+                            </li>
+                            <li><strong>Process Alignment:</strong> Facilitated cross-departmental operations workshops,
+                                removing bottlenecks and boosting overall system effectiveness by <strong>25%</strong>.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Infosys -->
+                <div class="timeline-row glass-panel hover-border-emerald">
+                    <div class="time-meta">
+                        <span class="date">Oct 2009 - Jul 2011</span>
+                        <span class="company">Infosys</span>
+                        <span class="role">Engineer Systems</span>
+                        <span class="location"><i class="fas fa-map-marker-alt"></i> Hyderabad, India</span>
+                    </div>
+                    <div class="time-content">
+                        <ul class="car-bullets">
+                            <li><strong>Deployment Stability:</strong> Executed end-to-end Agile testing cycles for
+                                Horizon Healthcare databases, resolving production incidents to improve user
+                                satisfaction by <strong>20%</strong>.</li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
         </section>
+
+        <!-- Tech Stack & Competencies -->
+        <section id="stack" class="section fade-up">
+            <h2 class="section-title">Core Competencies & Stack</h2>
+            <div class="bento-grid-stack">
+
+                <div class="stack-panel glass-panel">
+                    <h3><i class="fas fa-layer-group accent-cyan"></i> Systems Architecture</h3>
+                    <div class="pill-group">
+                        <span class="pill outline">NetSuite O2C</span>
+                        <span class="pill outline">crmNEXT</span>
+                        <span class="pill outline">PostgreSQL</span>
+                        <span class="pill outline">PeopleStrong</span>
+                        <span class="pill outline">Enterprise API Automation</span>
+                        <span class="pill outline">Cloud Provisioning</span>
+                    </div>
+                </div>
+
+                <div class="stack-panel glass-panel">
+                    <h3><i class="fas fa-chart-bar accent-purple"></i> Analytics & BI</h3>
+                    <div class="pill-group">
+                        <span class="pill outline">Power BI</span>
+                        <span class="pill outline">Sisense</span>
+                        <span class="pill outline">Superset</span>
+                        <span class="pill outline">Redash</span>
+                        <span class="pill outline">Datamart Architecture</span>
+                        <span class="pill outline">Time-Series Analytics</span>
+                    </div>
+                </div>
+
+                <div class="stack-panel glass-panel">
+                    <h3><i class="fas fa-cogs accent-emerald"></i> Global Operations</h3>
+                    <div class="pill-group">
+                        <span class="pill solid">RevOps</span>
+                        <span class="pill solid">Sales Ops</span>
+                        <span class="pill solid">Delivery Ops (800+ FTEs)</span>
+                        <span class="pill solid">Compliance & RBAC</span>
+                        <span class="pill solid">P&L Visibility</span>
+                    </div>
+                </div>
+
+                <div class="stack-panel glass-panel">
+                    <h3><i class="fas fa-code-branch text-white"></i> Execution Methodologies</h3>
+                    <div class="pill-group">
+                        <span class="pill solid">Agile / Scrum</span>
+                        <span class="pill solid">Release Governance</span>
+                        <span class="pill solid">Enterprise Change Control</span>
+                        <span class="pill solid">LLD/HLD Documentation</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Education & Certifications -->
+        <section id="education" class="section flex-row gap-4 fade-up align-start">
+
+            <div class="glass-panel flex-1">
+                <h2 class="section-title">Education</h2>
+                <div class="edu-item">
+                    <h3 class="text-white">MBA, Marketing & IT</h3>
+                    <p class="text-muted">Indian Institute of Technology, Roorkee</p>
+                    <div class="edu-meta"><span class="badge-dark">GPA: 9.7</span> <span>2013 - 2015</span></div>
+                </div>
+                <div class="separator"></div>
+                <div class="edu-item">
+                    <h3 class="text-white">B.E., Electronics & Comm.</h3>
+                    <p class="text-muted">Bangalore Institute of Technology</p>
+                    <div class="edu-meta"><span class="badge-dark">GPA: 7.12</span> <span>2004 - 2009</span></div>
+                </div>
+            </div>
+
+            <div class="glass-panel flex-1">
+                <h2 class="section-title">Certifications</h2>
+                <ul class="cert-list">
+                    <li><i class="fas fa-award accent-cyan"></i> PMP, PMI (2021)</li>
+                    <li><i class="fas fa-certificate accent-purple"></i> PSPO 2 (2024) & PSPO 1 (2023)</li>
+                    <li><i class="fas fa-shield-alt accent-emerald"></i> PSM 2 (2020) & PSM 1 (2020)</li>
+                    <li><i class="fas fa-tasks text-white"></i> CSPO & CSM, Scrum Alliance (2017)</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Aditya Singh. Operational Excellence & Tech Leadership.</p>
+        </footer>
+
     </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Aditya Singh. All Rights Reserved.</p>
-        </div>
-    </footer>
 
     <script src="script.js"></script>
 </body>
