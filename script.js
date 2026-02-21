@@ -69,4 +69,20 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // Year-by-Year Impact Log — Expand/Collapse toggle
+    document.querySelectorAll('.year-card').forEach(card => {
+        const header = card.querySelector('.year-card-header');
+        if (header) {
+            header.addEventListener('click', () => {
+                card.classList.toggle('expanded');
+            });
+        }
+    });
+
+    // Auto-expand the most recent year card (first one)
+    const firstYearCard = document.querySelector('.year-card');
+    if (firstYearCard) {
+        firstYearCard.classList.add('expanded');
+    }
 });
