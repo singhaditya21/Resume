@@ -89,378 +89,804 @@
             <p class="section-lead">Quantified business outcomes across revenue, operations, and technology — sourced
                 from live enterprise data.</p>
 
-            <!-- ROW 1: Headline KPIs -->
-            <div class="dash-row dash-row-4">
-
-                <!-- FTEs Governed with Donut -->
-                <div class="kpi-card glass-panel">
-                    <div class="kpi-card-top">
-                        <span class="kpi-label">Global Delivery Scale</span>
-                        <span class="kpi-trend positive"><i class="fas fa-arrow-up"></i> FY26</span>
-                    </div>
-                    <div class="kpi-card-center">
-                        <div class="donut-chart" style="--pct:66; --clr:var(--accent-cyan);">
-                            <div class="donut-inner">
-                                <span class="donut-val" data-count="1518">0</span>
-                                <span class="donut-label">FTEs</span>
-                            </div>
-                        </div>
-                        <div class="donut-legend">
-                            <div class="legend-row"><span class="dot" style="background:var(--accent-cyan)"></span> B1
-                                Band <strong>66%</strong></div>
-                            <div class="legend-row"><span class="dot" style="background:var(--accent-purple)"></span>
-                                B2+ Bands <strong>34%</strong></div>
-                        </div>
-                    </div>
-                    <div class="kpi-card-bottom">
-                        <span><i class="fas fa-globe"></i> Global Operations</span>
-                        <span>Cost-to-Serve Optimized</span>
-                    </div>
-                </div>
-
-                <!-- CRM Platform Revenue with Vertical Bars -->
-                <div class="kpi-card glass-panel">
-                    <div class="kpi-card-top">
-                        <span class="kpi-label">CRM Platform Revenue Governed</span>
-                    </div>
-                    <div class="kpi-card-center">
-                        <div class="kpi-hero-value text-emerald">₹2,286 <span class="kpi-hero-unit">Cr</span></div>
-                        <div class="h-bar-stack">
-                            <div class="h-bar-segment" style="flex:1720; background: var(--accent-cyan);"
-                                title="Banking ₹1,720 Cr"></div>
-                            <div class="h-bar-segment" style="flex:312; background: var(--accent-purple);"
-                                title="Insurance ₹312 Cr"></div>
-                            <div class="h-bar-segment" style="flex:141; background: var(--accent-emerald);"
-                                title="NBFC ₹141 Cr"></div>
-                            <div class="h-bar-segment" style="flex:113; background: rgba(15,23,42,0.15);"
-                                title="Others ₹113 Cr"></div>
-                        </div>
-                        <div class="bar-legend-row">
-                            <span><span class="dot" style="background:var(--accent-cyan)"></span>Banking</span>
-                            <span><span class="dot" style="background:var(--accent-purple)"></span>Insurance</span>
-                            <span><span class="dot" style="background:var(--accent-emerald)"></span>NBFC</span>
-                        </div>
-                    </div>
-                    <div class="kpi-card-bottom">
-                        <span><i class="fas fa-building"></i> 116 Accounts</span>
-                        <span>BFSI Portfolio</span>
-                    </div>
-                </div>
-
-                <!-- SLA Posture with Progress Ring -->
-                <div class="kpi-card glass-panel">
-                    <div class="kpi-card-top">
-                        <span class="kpi-label">SLA Posture — Q1 FY26</span>
-                        <span class="kpi-trend positive"><i class="fas fa-shield-alt"></i> Zero Breach</span>
-                    </div>
-                    <div class="kpi-card-center">
-                        <div class="donut-chart" style="--pct:100; --clr:var(--accent-emerald);">
-                            <div class="donut-inner">
-                                <span class="donut-val-sm">100%</span>
-                                <span class="donut-label">Uptime</span>
-                            </div>
-                        </div>
-                        <div class="donut-legend">
-                            <div class="legend-row"><span class="dot" style="background:var(--accent-emerald)"></span>
-                                8/11 Accounts <strong>100%</strong></div>
-                            <div class="legend-row"><span class="dot" style="background:var(--accent-cyan)"></span>
-                                Remaining <strong>≥99.95%</strong></div>
-                            <div class="legend-row"><span class="dot" style="background:var(--accent-purple)"></span>
-                                SLA Breaches <strong>0</strong></div>
-                        </div>
-                    </div>
-                    <div class="kpi-card-bottom">
-                        <span><i class="fas fa-check-circle"></i> OS Patching Frameworks</span>
-                    </div>
-                </div>
-
-                <!-- Revenue Impact Compound -->
-                <div class="kpi-card glass-panel">
-                    <div class="kpi-card-top">
-                        <span class="kpi-label">Revenue Impact</span>
-                        <span class="kpi-trend positive"><i class="fas fa-arrow-up"></i> Multi-Year</span>
-                    </div>
-                    <div class="kpi-card-center stack-metrics">
-                        <div class="stack-metric-item">
-                            <span class="sm-val text-emerald">+200%</span>
-                            <span class="sm-label">Collection Uplift (100+ cities)</span>
-                        </div>
-                        <div class="stack-metric-item">
-                            <span class="sm-val text-cyan">₹26.43 Cr</span>
-                            <span class="sm-label">Revenue Unlocked (FY22)</span>
-                        </div>
-                        <div class="stack-metric-item">
-                            <span class="sm-val text-purple">₹275.98 Cr</span>
-                            <span class="sm-label">Loan Disbursement Managed</span>
-                        </div>
-                        <div class="stack-metric-item">
-                            <span class="sm-val text-cyan">₹3.8 Cr</span>
-                            <span class="sm-label">OLI Variances Corrected (FY25)</span>
-                        </div>
-                    </div>
-                    <div class="kpi-card-bottom">
-                        <span><i class="fas fa-university"></i> Banking & Insurance</span>
-                    </div>
-                </div>
+            <!-- Tab Toggle -->
+            <div class="dash-tabs">
+                <button class="dash-tab active" data-tab="revops-tab"><i class="fas fa-chart-line"></i> Rev-Ops</button>
+                <button class="dash-tab" data-tab="bizops-tab"><i class="fas fa-cogs"></i> Biz-Ops</button>
             </div>
 
-            <!-- ROW 2: Operational Analytics (3 wider) -->
-            <div class="dash-row dash-row-3">
+            <!-- REV-OPS TAB -->
+            <div class="tab-pane active" id="revops-tab">
 
-                <!-- RevOps Pipeline -->
-                <div class="kpi-card glass-panel">
-                    <div class="kpi-card-top">
-                        <span class="kpi-label">RevOps Pipeline — Systems Built</span>
-                        <span class="kpi-trend neutral">12 Modules</span>
+                <!-- ROW 1: Headline KPIs -->
+                <div class="dash-row dash-row-4">
+
+                    <!-- FTEs Governed with Donut -->
+                    <div class="kpi-card glass-panel">
+                        <div class="kpi-card-top">
+                            <span class="kpi-label">Global Delivery Scale</span>
+                            <span class="kpi-trend positive"><i class="fas fa-arrow-up"></i> FY26</span>
+                        </div>
+                        <div class="kpi-card-center">
+                            <div class="donut-chart" style="--pct:66; --clr:var(--accent-cyan);">
+                                <div class="donut-inner">
+                                    <span class="donut-val" data-count="1518">0</span>
+                                    <span class="donut-label">FTEs</span>
+                                </div>
+                            </div>
+                            <div class="donut-legend">
+                                <div class="legend-row"><span class="dot" style="background:var(--accent-cyan)"></span>
+                                    B1
+                                    Band <strong>66%</strong></div>
+                                <div class="legend-row"><span class="dot"
+                                        style="background:var(--accent-purple)"></span>
+                                    B2+ Bands <strong>34%</strong></div>
+                            </div>
+                        </div>
+                        <div class="kpi-card-bottom">
+                            <span><i class="fas fa-globe"></i> Global Operations</span>
+                            <span>Cost-to-Serve Optimized</span>
+                        </div>
                     </div>
-                    <div class="kpi-card-center">
-                        <div class="pipeline-bars">
-                            <div class="pipe-item"><span class="pipe-name">SDR & Demand Gen</span>
-                                <div class="pipe-bar">
-                                    <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);"></div>
-                                </div><span class="pipe-status done">Live</span>
+
+                    <!-- CRM Platform Revenue with Vertical Bars -->
+                    <div class="kpi-card glass-panel">
+                        <div class="kpi-card-top">
+                            <span class="kpi-label">CRM Platform Revenue Governed</span>
+                        </div>
+                        <div class="kpi-card-center">
+                            <div class="kpi-hero-value text-emerald">₹2,286 <span class="kpi-hero-unit">Cr</span></div>
+                            <div class="h-bar-stack">
+                                <div class="h-bar-segment" style="flex:1720; background: var(--accent-cyan);"
+                                    title="Banking ₹1,720 Cr"></div>
+                                <div class="h-bar-segment" style="flex:312; background: var(--accent-purple);"
+                                    title="Insurance ₹312 Cr"></div>
+                                <div class="h-bar-segment" style="flex:141; background: var(--accent-emerald);"
+                                    title="NBFC ₹141 Cr"></div>
+                                <div class="h-bar-segment" style="flex:113; background: rgba(15,23,42,0.15);"
+                                    title="Others ₹113 Cr"></div>
                             </div>
-                            <div class="pipe-item"><span class="pipe-name">MEDDICC Scoring</span>
-                                <div class="pipe-bar">
-                                    <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);"></div>
-                                </div><span class="pipe-status done">Live</span>
+                            <div class="bar-legend-row">
+                                <span><span class="dot" style="background:var(--accent-cyan)"></span>Banking</span>
+                                <span><span class="dot" style="background:var(--accent-purple)"></span>Insurance</span>
+                                <span><span class="dot" style="background:var(--accent-emerald)"></span>NBFC</span>
                             </div>
-                            <div class="pipe-item"><span class="pipe-name">ARR Automation</span>
-                                <div class="pipe-bar">
-                                    <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);"></div>
-                                </div><span class="pipe-status done">Live</span>
+                        </div>
+                        <div class="kpi-card-bottom">
+                            <span><i class="fas fa-building"></i> 116 Accounts</span>
+                            <span>BFSI Portfolio</span>
+                        </div>
+                    </div>
+
+                    <!-- SLA Posture with Progress Ring -->
+                    <div class="kpi-card glass-panel">
+                        <div class="kpi-card-top">
+                            <span class="kpi-label">SLA Posture — Q1 FY26</span>
+                            <span class="kpi-trend positive"><i class="fas fa-shield-alt"></i> Zero Breach</span>
+                        </div>
+                        <div class="kpi-card-center">
+                            <div class="donut-chart" style="--pct:100; --clr:var(--accent-emerald);">
+                                <div class="donut-inner">
+                                    <span class="donut-val-sm">100%</span>
+                                    <span class="donut-label">Uptime</span>
+                                </div>
                             </div>
-                            <div class="pipe-item"><span class="pipe-name">Account 360</span>
-                                <div class="pipe-bar">
-                                    <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);"></div>
-                                </div><span class="pipe-status done">Live</span>
+                            <div class="donut-legend">
+                                <div class="legend-row"><span class="dot"
+                                        style="background:var(--accent-emerald)"></span>
+                                    8/11 Accounts <strong>100%</strong></div>
+                                <div class="legend-row"><span class="dot" style="background:var(--accent-cyan)"></span>
+                                    Remaining <strong>≥99.95%</strong></div>
+                                <div class="legend-row"><span class="dot"
+                                        style="background:var(--accent-purple)"></span>
+                                    SLA Breaches <strong>0</strong></div>
                             </div>
-                            <div class="pipe-item"><span class="pipe-name">Account Planning</span>
-                                <div class="pipe-bar">
-                                    <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);"></div>
-                                </div><span class="pipe-status done">Live</span>
+                        </div>
+                        <div class="kpi-card-bottom">
+                            <span><i class="fas fa-check-circle"></i> OS Patching Frameworks</span>
+                        </div>
+                    </div>
+
+                    <!-- Revenue Impact Compound -->
+                    <div class="kpi-card glass-panel">
+                        <div class="kpi-card-top">
+                            <span class="kpi-label">Revenue Impact</span>
+                            <span class="kpi-trend positive"><i class="fas fa-arrow-up"></i> Multi-Year</span>
+                        </div>
+                        <div class="kpi-card-center stack-metrics">
+                            <div class="stack-metric-item">
+                                <span class="sm-val text-emerald">+200%</span>
+                                <span class="sm-label">Collection Uplift (100+ cities)</span>
                             </div>
-                            <div class="pipe-item"><span class="pipe-name">Revenue Scorecard</span>
-                                <div class="pipe-bar">
-                                    <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);"></div>
-                                </div><span class="pipe-status done">Live</span>
+                            <div class="stack-metric-item">
+                                <span class="sm-val text-cyan">₹26.43 Cr</span>
+                                <span class="sm-label">Revenue Unlocked (FY22)</span>
                             </div>
-                            <div class="pipe-item"><span class="pipe-name">CLM (Contract Mgmt)</span>
-                                <div class="pipe-bar">
-                                    <div class="pipe-fill" style="width:60%; background:var(--accent-cyan);"></div>
-                                </div><span class="pipe-status prog">Phase 1</span>
+                            <div class="stack-metric-item">
+                                <span class="sm-val text-purple">₹275.98 Cr</span>
+                                <span class="sm-label">Loan Disbursement Managed</span>
                             </div>
-                            <div class="pipe-item"><span class="pipe-name">CPQ / Pricing Desk</span>
-                                <div class="pipe-bar">
-                                    <div class="pipe-fill" style="width:40%; background:var(--accent-cyan);"></div>
-                                </div><span class="pipe-status prog">Building</span>
+                            <div class="stack-metric-item">
+                                <span class="sm-val text-cyan">₹3.8 Cr</span>
+                                <span class="sm-label">OLI Variances Corrected (FY25)</span>
                             </div>
-                            <div class="pipe-item"><span class="pipe-name">Data Mart</span>
-                                <div class="pipe-bar">
-                                    <div class="pipe-fill" style="width:70%; background:var(--accent-cyan);"></div>
-                                </div><span class="pipe-status prog">Scaling</span>
+                        </div>
+                        <div class="kpi-card-bottom">
+                            <span><i class="fas fa-university"></i> Banking & Insurance</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ROW 2: Operational Analytics (3 wider) -->
+                <div class="dash-row dash-row-3">
+
+                    <!-- RevOps Pipeline -->
+                    <div class="kpi-card glass-panel">
+                        <div class="kpi-card-top">
+                            <span class="kpi-label">RevOps Pipeline — Systems Built</span>
+                            <span class="kpi-trend neutral">12 Modules</span>
+                        </div>
+                        <div class="kpi-card-center">
+                            <div class="pipeline-bars">
+                                <div class="pipe-item"><span class="pipe-name">SDR & Demand Gen</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div><span class="pipe-status done">Live</span>
+                                </div>
+                                <div class="pipe-item"><span class="pipe-name">MEDDICC Scoring</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div><span class="pipe-status done">Live</span>
+                                </div>
+                                <div class="pipe-item"><span class="pipe-name">ARR Automation</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div><span class="pipe-status done">Live</span>
+                                </div>
+                                <div class="pipe-item"><span class="pipe-name">Account 360</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div><span class="pipe-status done">Live</span>
+                                </div>
+                                <div class="pipe-item"><span class="pipe-name">Account Planning</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div><span class="pipe-status done">Live</span>
+                                </div>
+                                <div class="pipe-item"><span class="pipe-name">Revenue Scorecard</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div><span class="pipe-status done">Live</span>
+                                </div>
+                                <div class="pipe-item"><span class="pipe-name">CLM (Contract Mgmt)</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:60%; background:var(--accent-cyan);"></div>
+                                    </div><span class="pipe-status prog">Phase 1</span>
+                                </div>
+                                <div class="pipe-item"><span class="pipe-name">CPQ / Pricing Desk</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:40%; background:var(--accent-cyan);"></div>
+                                    </div><span class="pipe-status prog">Building</span>
+                                </div>
+                                <div class="pipe-item"><span class="pipe-name">Data Mart</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:70%; background:var(--accent-cyan);"></div>
+                                    </div><span class="pipe-status prog">Scaling</span>
+                                </div>
+                                <div class="pipe-item"><span class="pipe-name">Incentive Automation</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:30%; background:var(--accent-purple);">
+                                        </div>
+                                    </div><span class="pipe-status plan">Planned</span>
+                                </div>
                             </div>
-                            <div class="pipe-item"><span class="pipe-name">Incentive Automation</span>
-                                <div class="pipe-bar">
-                                    <div class="pipe-fill" style="width:30%; background:var(--accent-purple);"></div>
-                                </div><span class="pipe-status plan">Planned</span>
+                        </div>
+                    </div>
+
+                    <!-- Automation Score with Radial Gauge -->
+                    <div class="kpi-card glass-panel">
+                        <div class="kpi-card-top">
+                            <span class="kpi-label">Automation Delivery Score</span>
+                            <span class="kpi-trend positive"><i class="fas fa-robot"></i> FY26</span>
+                        </div>
+                        <div class="kpi-card-center" style="align-items:center;">
+                            <div class="radial-gauge">
+                                <div class="gauge-track">
+                                    <div class="gauge-fill" style="--gauge-pct:100;"></div>
+                                </div>
+                                <div class="gauge-center">
+                                    <span class="gauge-val">32/32</span>
+                                    <span class="gauge-label">On-Time</span>
+                                </div>
+                            </div>
+                            <div class="gauge-stats">
+                                <div class="gs-item"><span class="gs-num text-emerald">0</span><span
+                                        class="gs-lbl">Slippage</span></div>
+                                <div class="gs-item"><span class="gs-num text-cyan">94%</span><span
+                                        class="gs-lbl">Sprint
+                                        Burn</span></div>
+                                <div class="gs-item"><span class="gs-num text-purple">100%</span><span
+                                        class="gs-lbl">Cases
+                                        via Web</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Enterprise Accounts Stacked Bar -->
+                    <div class="kpi-card glass-panel">
+                        <div class="kpi-card-top">
+                            <span class="kpi-label">Enterprise Account Distribution</span>
+                            <span class="kpi-trend neutral">116 Accounts</span>
+                        </div>
+                        <div class="kpi-card-center">
+                            <div class="acct-breakdown">
+                                <div class="acct-row">
+                                    <span class="acct-label">Banking</span>
+                                    <div class="acct-bar">
+                                        <div class="acct-fill" style="width:75%; background:var(--accent-cyan);"></div>
+                                    </div>
+                                    <span class="acct-pct">₹1,720 Cr</span>
+                                </div>
+                                <div class="acct-row">
+                                    <span class="acct-label">Insurance</span>
+                                    <div class="acct-bar">
+                                        <div class="acct-fill" style="width:14%; background:var(--accent-purple);">
+                                        </div>
+                                    </div>
+                                    <span class="acct-pct">₹312 Cr</span>
+                                </div>
+                                <div class="acct-row">
+                                    <span class="acct-label">NBFC</span>
+                                    <div class="acct-bar">
+                                        <div class="acct-fill" style="width:6%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div>
+                                    <span class="acct-pct">₹141 Cr</span>
+                                </div>
+                                <div class="acct-row">
+                                    <span class="acct-label">Fin. Services</span>
+                                    <div class="acct-bar">
+                                        <div class="acct-fill" style="width:3%; background:rgba(37,99,235,0.4);"></div>
+                                    </div>
+                                    <span class="acct-pct">₹58 Cr</span>
+                                </div>
+                                <div class="acct-row">
+                                    <span class="acct-label">AMC / Neobank</span>
+                                    <div class="acct-bar">
+                                        <div class="acct-fill" style="width:1.5%; background:rgba(124,58,237,0.4);">
+                                        </div>
+                                    </div>
+                                    <span class="acct-pct">₹30 Cr</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kpi-card-bottom">
+                            <span><i class="fas fa-map-marker-alt"></i> SAARC + Global</span>
+                            <span>4,319 POs Tracked</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ROW 3: Technical & Risk KPIs -->
+                <div class="dash-row dash-row-4">
+
+                    <!-- O2C Automation -->
+                    <div class="kpi-card glass-panel">
+                        <div class="kpi-card-top">
+                            <span class="kpi-label">O2C Automation</span>
+                            <span class="kpi-trend positive"><i class="fas fa-cog"></i> Live</span>
+                        </div>
+                        <div class="kpi-card-center stack-metrics">
+                            <div class="stack-metric-item">
+                                <span class="sm-val text-cyan" data-count="4319">0</span>
+                                <span class="sm-label">POs Auto-Tracked</span>
+                            </div>
+                            <div class="stack-metric-item">
+                                <span class="sm-val text-emerald">Auto</span>
+                                <span class="sm-label">Revenue Grid Distribution</span>
+                            </div>
+                            <div class="stack-metric-item">
+                                <span class="sm-val text-purple">7-Day</span>
+                                <span class="sm-label">Hardened Timesheet Cutoff</span>
+                            </div>
+                        </div>
+                        <div class="kpi-card-bottom">
+                            <span>NetSuite O2C</span>
+                        </div>
+                    </div>
+
+                    <!-- Data Architecture -->
+                    <div class="kpi-card glass-panel">
+                        <div class="kpi-card-top">
+                            <span class="kpi-label">Data Architecture</span>
+                        </div>
+                        <div class="kpi-card-center stack-metrics">
+                            <div class="stack-metric-item">
+                                <span class="sm-val text-purple">20+</span>
+                                <span class="sm-label">DataMart Tables</span>
+                            </div>
+                            <div class="stack-metric-item">
+                                <span class="sm-val text-emerald">87%</span>
+                                <span class="sm-label">Data Compression (CSV→Parquet)</span>
+                            </div>
+                            <div class="stack-metric-item">
+                                <span class="sm-val text-cyan">49</span>
+                                <span class="sm-label">Postgres Migration Items (0 defects)</span>
+                            </div>
+                        </div>
+                        <div class="kpi-card-bottom">
+                            <span>ClickHouse + PostgreSQL</span>
+                        </div>
+                    </div>
+
+                    <!-- Workflows Deployed -->
+                    <div class="kpi-card glass-panel">
+                        <div class="kpi-card-top">
+                            <span class="kpi-label">Workflows Deployed</span>
+                            <span class="kpi-trend neutral">Live</span>
+                        </div>
+                        <div class="kpi-card-center">
+                            <div class="kpi-hero-value text-cyan">50+</div>
+                            <div class="workflow-tags">
+                                <span class="wf-tag">NetSuite O2C</span>
+                                <span class="wf-tag">SDR & MEDDICC</span>
+                                <span class="wf-tag">Helpdesk Ops</span>
+                                <span class="wf-tag">ARR Automation</span>
+                                <span class="wf-tag">Account Plan</span>
+                                <span class="wf-tag">PostgreSQL Mig.</span>
+                            </div>
+                        </div>
+                        <div class="kpi-card-bottom">
+                            <span>Ops, Sales, Finance, IT</span>
+                        </div>
+                    </div>
+
+                    <!-- Risk Reduction Compound -->
+                    <div class="kpi-card glass-panel">
+                        <div class="kpi-card-top">
+                            <span class="kpi-label">Risk & Efficiency Gains</span>
+                        </div>
+                        <div class="kpi-card-center">
+                            <div class="risk-bars">
+                                <div class="risk-item">
+                                    <div class="risk-header"><span>Leakage Detection</span><span
+                                            class="text-emerald">+35%</span></div>
+                                    <div class="risk-bar">
+                                        <div class="risk-fill" style="width:85%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="risk-item">
+                                    <div class="risk-header"><span>Delay Reduction</span><span
+                                            class="text-cyan">-25%</span>
+                                    </div>
+                                    <div class="risk-bar">
+                                        <div class="risk-fill" style="width:75%; background:var(--accent-cyan);"></div>
+                                    </div>
+                                </div>
+                                <div class="risk-item">
+                                    <div class="risk-header"><span>Inefficiency Cut</span><span
+                                            class="text-purple">-44%</span></div>
+                                    <div class="risk-bar">
+                                        <div class="risk-fill" style="width:90%; background:var(--accent-purple);">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="risk-item">
+                                    <div class="risk-header"><span>Utilization Visibility</span><span
+                                            class="text-emerald">35→60%</span></div>
+                                    <div class="risk-bar">
+                                        <div class="risk-fill" style="width:60%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Automation Score with Radial Gauge -->
-                <div class="kpi-card glass-panel">
-                    <div class="kpi-card-top">
-                        <span class="kpi-label">Automation Delivery Score</span>
-                        <span class="kpi-trend positive"><i class="fas fa-robot"></i> FY26</span>
-                    </div>
-                    <div class="kpi-card-center" style="align-items:center;">
-                        <div class="radial-gauge">
-                            <div class="gauge-track">
-                                <div class="gauge-fill" style="--gauge-pct:100;"></div>
+            </div><!-- /revops-tab -->
+
+            <!-- BIZ-OPS TAB -->
+            <div class="tab-pane" id="bizops-tab">
+
+                <!-- ROW 1: Scale & People -->
+                <div class="dash-row dash-row-4">
+
+                    <!-- OKR Scale -->
+                    <div class="kpi-card glass-panel">
+                        <div class="kpi-card-top">
+                            <span class="kpi-label">OKR Revenue Target</span>
+                            <span class="kpi-trend positive"><i class="fas fa-bullseye"></i> FY26</span>
+                        </div>
+                        <div class="kpi-card-center">
+                            <div class="donut-chart" style="--pct:40; --clr:var(--accent-emerald);">
+                                <div class="donut-inner">
+                                    <span class="donut-val-sm">40%</span>
+                                    <span class="donut-label">Growth</span>
+                                </div>
                             </div>
-                            <div class="gauge-center">
-                                <span class="gauge-val">32/32</span>
-                                <span class="gauge-label">On-Time</span>
+                            <div class="donut-legend">
+                                <div class="legend-row"><span class="dot"
+                                        style="background:var(--accent-emerald)"></span> Target <strong>₹842 Cr</strong>
+                                </div>
+                                <div class="legend-row"><span class="dot" style="background:var(--accent-cyan)"></span>
+                                    Pillar Owner <strong>GTM</strong></div>
+                                <div class="legend-row"><span class="dot"
+                                        style="background:var(--accent-purple)"></span> 2nd Pillar <strong>Agentic
+                                        AI</strong></div>
                             </div>
                         </div>
-                        <div class="gauge-stats">
-                            <div class="gs-item"><span class="gs-num text-emerald">0</span><span
-                                    class="gs-lbl">Slippage</span></div>
-                            <div class="gs-item"><span class="gs-num text-cyan">94%</span><span class="gs-lbl">Sprint
-                                    Burn</span></div>
-                            <div class="gs-item"><span class="gs-num text-purple">100%</span><span class="gs-lbl">Cases
-                                    via Web</span></div>
+                        <div class="kpi-card-bottom">
+                            <span><i class="fas fa-flag"></i> Profitable Growth</span>
+                            <span>OKR Pillar Owner</span>
+                        </div>
+                    </div>
+
+                    <!-- Enterprise Workforce -->
+                    <div class="kpi-card glass-panel">
+                        <div class="kpi-card-top">
+                            <span class="kpi-label">Enterprise Workforce</span>
+                        </div>
+                        <div class="kpi-card-center">
+                            <div class="kpi-hero-value text-cyan" style="margin-bottom:0.3rem;">4,950</div>
+                            <div class="acct-breakdown" style="gap:0.3rem;">
+                                <div class="acct-row">
+                                    <span class="acct-label">Engineers</span>
+                                    <div class="acct-bar">
+                                        <div class="acct-fill" style="width:58%; background:var(--accent-cyan);"></div>
+                                    </div>
+                                    <span class="acct-pct">1,693</span>
+                                </div>
+                                <div class="acct-row">
+                                    <span class="acct-label">Consultants</span>
+                                    <div class="acct-bar">
+                                        <div class="acct-fill" style="width:25%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div>
+                                    <span class="acct-pct">809</span>
+                                </div>
+                                <div class="acct-row">
+                                    <span class="acct-label">Leads+Mgrs</span>
+                                    <div class="acct-bar">
+                                        <div class="acct-fill" style="width:10%; background:var(--accent-purple);">
+                                        </div>
+                                    </div>
+                                    <span class="acct-pct">356</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kpi-card-bottom">
+                            <span><i class="fas fa-users"></i> 10+ Bands</span>
+                            <span>PeopleStrong Synced</span>
+                        </div>
+                    </div>
+
+                    <!-- MY Portal Users -->
+                    <div class="kpi-card glass-panel">
+                        <div class="kpi-card-top">
+                            <span class="kpi-label">MY Portal Active Users</span>
+                            <span class="kpi-trend positive"><i class="fas fa-user-check"></i> Audited</span>
+                        </div>
+                        <div class="kpi-card-center stack-metrics">
+                            <div class="stack-metric-item">
+                                <span class="sm-val text-cyan" data-count="1722">0</span>
+                                <span class="sm-label">Total User Objects</span>
+                            </div>
+                            <div class="stack-metric-item">
+                                <span class="sm-val text-emerald">1,400+</span>
+                                <span class="sm-label">Discrepancies Resolved vs Master</span>
+                            </div>
+                            <div class="stack-metric-item">
+                                <span class="sm-val text-purple">Automated</span>
+                                <span class="sm-label">Inactive User Leakage Audit</span>
+                            </div>
+                        </div>
+                        <div class="kpi-card-bottom">
+                            <span>Identity Governance</span>
+                        </div>
+                    </div>
+
+                    <!-- SLA Performance -->
+                    <div class="kpi-card glass-panel">
+                        <div class="kpi-card-top">
+                            <span class="kpi-label">SLA Performance Analytics</span>
+                            <span class="kpi-trend positive"><i class="fas fa-chart-bar"></i> Deployed</span>
+                        </div>
+                        <div class="kpi-card-center">
+                            <div class="risk-bars">
+                                <div class="risk-item">
+                                    <div class="risk-header"><span>P1 Within SLA</span><span
+                                            class="text-emerald">95%</span></div>
+                                    <div class="risk-bar">
+                                        <div class="risk-fill" style="width:95%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="risk-item">
+                                    <div class="risk-header"><span>P2 Within SLA</span><span
+                                            class="text-cyan">96%</span></div>
+                                    <div class="risk-bar">
+                                        <div class="risk-fill" style="width:96%; background:var(--accent-cyan);"></div>
+                                    </div>
+                                </div>
+                                <div class="risk-item">
+                                    <div class="risk-header"><span>P3 Within SLA</span><span
+                                            class="text-purple">92%</span></div>
+                                    <div class="risk-bar">
+                                        <div class="risk-fill" style="width:92%; background:var(--accent-purple);">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kpi-card-bottom">
+                            <span><i class="fas fa-crosshairs"></i> Drill-down by Dept Time</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Enterprise Accounts Stacked Bar -->
-                <div class="kpi-card glass-panel">
-                    <div class="kpi-card-top">
-                        <span class="kpi-label">Enterprise Account Distribution</span>
-                        <span class="kpi-trend neutral">116 Accounts</span>
-                    </div>
-                    <div class="kpi-card-center">
-                        <div class="acct-breakdown">
-                            <div class="acct-row">
-                                <span class="acct-label">Banking</span>
-                                <div class="acct-bar">
-                                    <div class="acct-fill" style="width:75%; background:var(--accent-cyan);"></div>
-                                </div>
-                                <span class="acct-pct">₹1,720 Cr</span>
-                            </div>
-                            <div class="acct-row">
-                                <span class="acct-label">Insurance</span>
-                                <div class="acct-bar">
-                                    <div class="acct-fill" style="width:14%; background:var(--accent-purple);"></div>
-                                </div>
-                                <span class="acct-pct">₹312 Cr</span>
-                            </div>
-                            <div class="acct-row">
-                                <span class="acct-label">NBFC</span>
-                                <div class="acct-bar">
-                                    <div class="acct-fill" style="width:6%; background:var(--accent-emerald);"></div>
-                                </div>
-                                <span class="acct-pct">₹141 Cr</span>
-                            </div>
-                            <div class="acct-row">
-                                <span class="acct-label">Fin. Services</span>
-                                <div class="acct-bar">
-                                    <div class="acct-fill" style="width:3%; background:rgba(37,99,235,0.4);"></div>
-                                </div>
-                                <span class="acct-pct">₹58 Cr</span>
-                            </div>
-                            <div class="acct-row">
-                                <span class="acct-label">AMC / Neobank</span>
-                                <div class="acct-bar">
-                                    <div class="acct-fill" style="width:1.5%; background:rgba(124,58,237,0.4);"></div>
-                                </div>
-                                <span class="acct-pct">₹30 Cr</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="kpi-card-bottom">
-                        <span><i class="fas fa-map-marker-alt"></i> SAARC + Global</span>
-                        <span>4,319 POs Tracked</span>
-                    </div>
-                </div>
-            </div>
+                <!-- ROW 2: Governance & Integration -->
+                <div class="dash-row dash-row-3">
 
-            <!-- ROW 3: Technical & Risk KPIs -->
-            <div class="dash-row dash-row-4">
-
-                <!-- O2C Automation -->
-                <div class="kpi-card glass-panel">
-                    <div class="kpi-card-top">
-                        <span class="kpi-label">O2C Automation</span>
-                        <span class="kpi-trend positive"><i class="fas fa-cog"></i> Live</span>
-                    </div>
-                    <div class="kpi-card-center stack-metrics">
-                        <div class="stack-metric-item">
-                            <span class="sm-val text-cyan" data-count="4319">0</span>
-                            <span class="sm-label">POs Auto-Tracked</span>
+                    <!-- Support Governance -->
+                    <div class="kpi-card glass-panel">
+                        <div class="kpi-card-top">
+                            <span class="kpi-label">Support Governance Framework</span>
+                            <span class="kpi-trend neutral">Structured</span>
                         </div>
-                        <div class="stack-metric-item">
-                            <span class="sm-val text-emerald">Auto</span>
-                            <span class="sm-label">Revenue Grid Distribution</span>
-                        </div>
-                        <div class="stack-metric-item">
-                            <span class="sm-val text-purple">7-Day</span>
-                            <span class="sm-label">Hardened Timesheet Cutoff</span>
-                        </div>
-                    </div>
-                    <div class="kpi-card-bottom">
-                        <span>NetSuite O2C</span>
-                    </div>
-                </div>
-
-                <!-- Data Architecture -->
-                <div class="kpi-card glass-panel">
-                    <div class="kpi-card-top">
-                        <span class="kpi-label">Data Architecture</span>
-                    </div>
-                    <div class="kpi-card-center stack-metrics">
-                        <div class="stack-metric-item">
-                            <span class="sm-val text-purple">20+</span>
-                            <span class="sm-label">DataMart Tables</span>
-                        </div>
-                        <div class="stack-metric-item">
-                            <span class="sm-val text-emerald">87%</span>
-                            <span class="sm-label">Data Compression (CSV→Parquet)</span>
-                        </div>
-                        <div class="stack-metric-item">
-                            <span class="sm-val text-cyan">49</span>
-                            <span class="sm-label">Postgres Migration Items (0 defects)</span>
-                        </div>
-                    </div>
-                    <div class="kpi-card-bottom">
-                        <span>ClickHouse + PostgreSQL</span>
-                    </div>
-                </div>
-
-                <!-- Workflows Deployed -->
-                <div class="kpi-card glass-panel">
-                    <div class="kpi-card-top">
-                        <span class="kpi-label">Workflows Deployed</span>
-                        <span class="kpi-trend neutral">Live</span>
-                    </div>
-                    <div class="kpi-card-center">
-                        <div class="kpi-hero-value text-cyan">50+</div>
-                        <div class="workflow-tags">
-                            <span class="wf-tag">NetSuite O2C</span>
-                            <span class="wf-tag">SDR & MEDDICC</span>
-                            <span class="wf-tag">Helpdesk Ops</span>
-                            <span class="wf-tag">ARR Automation</span>
-                            <span class="wf-tag">Account Plan</span>
-                            <span class="wf-tag">PostgreSQL Mig.</span>
-                        </div>
-                    </div>
-                    <div class="kpi-card-bottom">
-                        <span>Ops, Sales, Finance, IT</span>
-                    </div>
-                </div>
-
-                <!-- Risk Reduction Compound -->
-                <div class="kpi-card glass-panel">
-                    <div class="kpi-card-top">
-                        <span class="kpi-label">Risk & Efficiency Gains</span>
-                    </div>
-                    <div class="kpi-card-center">
-                        <div class="risk-bars">
-                            <div class="risk-item">
-                                <div class="risk-header"><span>Leakage Detection</span><span
-                                        class="text-emerald">+35%</span></div>
-                                <div class="risk-bar">
-                                    <div class="risk-fill" style="width:85%; background:var(--accent-emerald);"></div>
+                        <div class="kpi-card-center">
+                            <div class="pipeline-bars">
+                                <div class="pipe-item"><span class="pipe-name">RACI Matrix</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div><span class="pipe-status done">Live</span>
+                                </div>
+                                <div class="pipe-item"><span class="pipe-name">Severity Framework</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div><span class="pipe-status done">Live</span>
+                                </div>
+                                <div class="pipe-item"><span class="pipe-name">Escalation Matrix</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div><span class="pipe-status done">Live</span>
+                                </div>
+                                <div class="pipe-item"><span class="pipe-name">RCA Process</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div><span class="pipe-status done">Live</span>
+                                </div>
+                                <div class="pipe-item"><span class="pipe-name">SOP Document</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div><span class="pipe-status done">Live</span>
+                                </div>
+                                <div class="pipe-item"><span class="pipe-name">Steering Committee</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div><span class="pipe-status done">Active</span>
+                                </div>
+                                <div class="pipe-item"><span class="pipe-name">Password Policy</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div><span class="pipe-status done">Enforced</span>
                                 </div>
                             </div>
-                            <div class="risk-item">
-                                <div class="risk-header"><span>Delay Reduction</span><span class="text-cyan">-25%</span>
+                        </div>
+                    </div>
+
+                    <!-- NetSuite ERP Integration -->
+                    <div class="kpi-card glass-panel">
+                        <div class="kpi-card-top">
+                            <span class="kpi-label">NetSuite ERP Integration</span>
+                            <span class="kpi-trend positive"><i class="fas fa-link"></i> Multi-MVP</span>
+                        </div>
+                        <div class="kpi-card-center">
+                            <div class="pipeline-bars">
+                                <div class="pipe-item"><span class="pipe-name">MVP 0.5 (O2C)</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div><span class="pipe-status done">Live</span>
                                 </div>
-                                <div class="risk-bar">
-                                    <div class="risk-fill" style="width:75%; background:var(--accent-cyan);"></div>
+                                <div class="pipe-item"><span class="pipe-name">MVP 1 (Billing)</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div><span class="pipe-status done">Live</span>
+                                </div>
+                                <div class="pipe-item"><span class="pipe-name">Malaysia Territory</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div><span class="pipe-status done">Live</span>
+                                </div>
+                                <div class="pipe-item"><span class="pipe-name">Timesheet Approval</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div><span class="pipe-status done">Live</span>
+                                </div>
+                                <div class="pipe-item"><span class="pipe-name">Project Budgeting</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:80%; background:var(--accent-cyan);"></div>
+                                    </div><span class="pipe-status prog">Ongoing</span>
+                                </div>
+                                <div class="pipe-item"><span class="pipe-name">Token Rotation</span>
+                                    <div class="pipe-bar">
+                                        <div class="pipe-fill" style="width:100%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div><span class="pipe-status done">Fixed</span>
                                 </div>
                             </div>
-                            <div class="risk-item">
-                                <div class="risk-header"><span>Inefficiency Cut</span><span
-                                        class="text-purple">-44%</span></div>
-                                <div class="risk-bar">
-                                    <div class="risk-fill" style="width:90%; background:var(--accent-purple);"></div>
+                        </div>
+                    </div>
+
+                    <!-- Finance CR Tracker -->
+                    <div class="kpi-card glass-panel">
+                        <div class="kpi-card-top">
+                            <span class="kpi-label">Finance CR Execution</span>
+                            <span class="kpi-trend neutral">219 Items</span>
+                        </div>
+                        <div class="kpi-card-center">
+                            <div class="donut-chart" style="--pct:85; --clr:var(--accent-emerald);">
+                                <div class="donut-inner">
+                                    <span class="donut-val-sm">85%</span>
+                                    <span class="donut-label">Done</span>
                                 </div>
                             </div>
-                            <div class="risk-item">
-                                <div class="risk-header"><span>Utilization Visibility</span><span
-                                        class="text-emerald">35→60%</span></div>
-                                <div class="risk-bar">
-                                    <div class="risk-fill" style="width:60%; background:var(--accent-emerald);"></div>
-                                </div>
+                            <div class="donut-legend">
+                                <div class="legend-row"><span class="dot"
+                                        style="background:var(--accent-emerald)"></span> P0 Completed
+                                    <strong>11</strong></div>
+                                <div class="legend-row"><span class="dot" style="background:var(--accent-cyan)"></span>
+                                    P1 Completed <strong>19</strong></div>
+                                <div class="legend-row"><span class="dot"
+                                        style="background:var(--accent-purple)"></span> PGSQL Reports
+                                    <strong>12+</strong></div>
                             </div>
+                        </div>
+                        <div class="kpi-card-bottom">
+                            <span><i class="fas fa-file-invoice"></i> MPR Governed</span>
+                            <span>Finance + CloudOps</span>
                         </div>
                     </div>
                 </div>
-            </div>
+
+                <!-- ROW 3: Technical Infrastructure -->
+                <div class="dash-row dash-row-4">
+
+                    <!-- Postgres Migration -->
+                    <div class="kpi-card glass-panel">
+                        <div class="kpi-card-top">
+                            <span class="kpi-label">Postgres Migration</span>
+                            <span class="kpi-trend positive"><i class="fas fa-database"></i></span>
+                        </div>
+                        <div class="kpi-card-center stack-metrics">
+                            <div class="stack-metric-item">
+                                <span class="sm-val text-cyan">49</span>
+                                <span class="sm-label">Line Items Validated</span>
+                            </div>
+                            <div class="stack-metric-item">
+                                <span class="sm-val text-emerald">0</span>
+                                <span class="sm-label">Defects on Handoff</span>
+                            </div>
+                            <div class="stack-metric-item">
+                                <span class="sm-val text-purple">Gold 8</span>
+                                <span class="sm-label">Build Certified</span>
+                            </div>
+                        </div>
+                        <div class="kpi-card-bottom">
+                            <span>MSSQL → PostgreSQL</span>
+                        </div>
+                    </div>
+
+                    <!-- MPR Governance -->
+                    <div class="kpi-card glass-panel">
+                        <div class="kpi-card-top">
+                            <span class="kpi-label">MPR 2.0 Governance</span>
+                            <span class="kpi-trend positive"><i class="fas fa-tasks"></i> Live</span>
+                        </div>
+                        <div class="kpi-card-center stack-metrics">
+                            <div class="stack-metric-item">
+                                <span class="sm-val text-emerald">156</span>
+                                <span class="sm-label">RMG Projects Tracked</span>
+                            </div>
+                            <div class="stack-metric-item">
+                                <span class="sm-val text-cyan">19</span>
+                                <span class="sm-label">System Changes Delivered</span>
+                            </div>
+                            <div class="stack-metric-item">
+                                <span class="sm-val text-purple">Bi-Weekly</span>
+                                <span class="sm-label">Steering Committee Cadence</span>
+                            </div>
+                        </div>
+                        <div class="kpi-card-bottom">
+                            <span>Dashboard + Analytics</span>
+                        </div>
+                    </div>
+
+                    <!-- Visitor Management -->
+                    <div class="kpi-card glass-panel">
+                        <div class="kpi-card-top">
+                            <span class="kpi-label">Enterprise Systems Built</span>
+                            <span class="kpi-trend neutral">Delivered</span>
+                        </div>
+                        <div class="kpi-card-center">
+                            <div class="workflow-tags">
+                                <span class="wf-tag">Visitor Mgmt System</span>
+                                <span class="wf-tag">Travel Desk</span>
+                                <span class="wf-tag">SharePoint LMS</span>
+                                <span class="wf-tag">SSO / OIDC</span>
+                                <span class="wf-tag">Forex Billing</span>
+                                <span class="wf-tag">OCP Updates</span>
+                                <span class="wf-tag">NPS Surveys</span>
+                                <span class="wf-tag">IT Change Mgmt</span>
+                            </div>
+                        </div>
+                        <div class="kpi-card-bottom">
+                            <span>5-Week VMS UAT Sprint</span>
+                        </div>
+                    </div>
+
+                    <!-- Security & SSO -->
+                    <div class="kpi-card glass-panel">
+                        <div class="kpi-card-top">
+                            <span class="kpi-label">Security & Compliance</span>
+                        </div>
+                        <div class="kpi-card-center">
+                            <div class="risk-bars">
+                                <div class="risk-item">
+                                    <div class="risk-header"><span>Vulnerability Mgmt</span><span
+                                            class="text-emerald">Active</span></div>
+                                    <div class="risk-bar">
+                                        <div class="risk-fill" style="width:100%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="risk-item">
+                                    <div class="risk-header"><span>SSO Integration</span><span
+                                            class="text-cyan">Deployed</span></div>
+                                    <div class="risk-bar">
+                                        <div class="risk-fill" style="width:100%; background:var(--accent-cyan);"></div>
+                                    </div>
+                                </div>
+                                <div class="risk-item">
+                                    <div class="risk-header"><span>Scope RBAC</span><span
+                                            class="text-purple">Analyzed</span></div>
+                                    <div class="risk-bar">
+                                        <div class="risk-fill" style="width:80%; background:var(--accent-purple);">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="risk-item">
+                                    <div class="risk-header"><span>Password Policy</span><span
+                                            class="text-emerald">Enforced</span></div>
+                                    <div class="risk-bar">
+                                        <div class="risk-fill" style="width:100%; background:var(--accent-emerald);">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /bizops-tab -->
 
         </section>
 

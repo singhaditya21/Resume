@@ -44,6 +44,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.querySelectorAll('[data-count]').forEach(el => counterObserver.observe(el));
 
+    // Dashboard Tab Toggle (Rev-Ops / Biz-Ops)
+    document.querySelectorAll('.dash-tab').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const targetId = btn.dataset.tab;
+            // Toggle buttons
+            document.querySelectorAll('.dash-tab').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            // Toggle panes
+            document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+            const pane = document.getElementById(targetId);
+            if (pane) {
+                pane.classList.add('active');
+                // Re-observe data-count elements in the new pane
+                pane.querySelectorAll('[data-count]').forEach(el => {
+                    if (el.textContent === '0') counterObserver.observe(el);
+                });
+            }
+        });
+    });
+
     // Navbar scroll effect
     const nav = document.querySelector('nav');
     window.addEventListener('scroll', () => {
