@@ -1,19 +1,25 @@
 # macOS metadata
 .DS_Store
 **/.DS_Store
+__pycache__/
+*.py[cod]
 
 # Confidential working corpus. These folders contain client material, credentials,
 # internal financials, source archives, recordings, and files above GitHub's limit.
-ADIB/
-C Presentations/
-Code/
-P & L/
-Resume/
-SAD/
-US/
-Aditya_Singh_Resume_Accenture_Enterprise_AI_Value_Strategy_v25.docx
+/ADIB/
+/C Presentations/
+/Code/
+/P & L/
+/Resume/
+/SAD/
+/US/
+/Aditya_Singh_Resume_Accenture_Enterprise_AI_Value_Strategy_v25.docx
 
 # Publish only the sanitized PDF evidence library from the presentation workspace.
-P Presentations/*
-!P Presentations/decksPdf/
-!P Presentations/decksPdf/*.pdf
+/P Presentations/*
+!/P Presentations/decksPdf/
+!/P Presentations/decksPdf/*.pdf
+
+# Local inspection data emitted while validating public presentation samples.
+samples/presentations/**/*.layout.json
+samples/presentations/**/*.pptx.inspect.ndjson

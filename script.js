@@ -155,6 +155,44 @@ function renderPortfolio(query = "") {
 portfolioSearch?.addEventListener("input", (event) => renderPortfolio(event.target.value));
 renderPortfolio();
 
+document.querySelectorAll("[data-deck-sampler]").forEach((sampler) => {
+    const slideCount = Number(sampler.dataset.slideCount);
+    const slideBase = sampler.dataset.slideBase;
+    const image = sampler.querySelector("[data-slide-image]");
+    const position = sampler.querySelector("[data-slide-position]");
+    const previous = sampler.querySelector("[data-slide-prev]");
+    const next = sampler.querySelector("[data-slide-next]");
+    const stage = sampler.querySelector(".deck-stage");
+    const title = sampler.querySelector("h3")?.textContent?.trim() || "Presentation";
+    let currentSlide = 1;
+
+    if (!slideCount || !slideBase || !image || !position || !previous || !next) return;
+
+    function showSlide(requestedSlide) {
+        currentSlide = ((requestedSlide - 1 + slideCount) % slideCount) + 1;
+        image.src = `${slideBase}${currentSlide}.png`;
+        image.alt = `${title} presentation, slide ${currentSlide}`;
+        position.textContent = `${currentSlide} / ${slideCount}`;
+
+        const followingSlide = (currentSlide % slideCount) + 1;
+        const preload = new Image();
+        preload.src = `${slideBase}${followingSlide}.png`;
+    }
+
+    previous.addEventListener("click", () => showSlide(currentSlide - 1));
+    next.addEventListener("click", () => showSlide(currentSlide + 1));
+    stage?.addEventListener("keydown", (event) => {
+        if (event.key === "ArrowLeft") {
+            event.preventDefault();
+            showSlide(currentSlide - 1);
+        }
+        if (event.key === "ArrowRight") {
+            event.preventDefault();
+            showSlide(currentSlide + 1);
+        }
+    });
+});
+
 document.querySelectorAll("[data-year]").forEach((node) => {
     node.textContent = String(new Date().getFullYear());
 });
