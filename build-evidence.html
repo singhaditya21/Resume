@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Build Evidence — Aditya Singh</title>
-    <meta name="description" content="Presentation samples, a complete 2,256-slide thematic archive, detailed architecture walkthroughs and runnable reference implementations from Aditya Singh.">
+    <meta name="description" content="Customer-neutral presentations, a complete 2,256-slide thematic archive, foundational architecture walkthroughs, runnable reference patterns and 38 source-reviewed technical project briefs from Aditya Singh.">
     <meta name="theme-color" content="#10233f">
     <link rel="canonical" href="https://singhaditya21.github.io/Resume/build-evidence.html">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -23,6 +23,7 @@
             <span></span><span></span><span></span><span class="sr-only">Toggle navigation</span>
         </button>
         <nav id="site-nav" class="site-nav" aria-label="Evidence navigation">
+            <a href="technical-projects.html">Technical projects</a>
             <a href="#presentations">Presentations</a>
             <a href="#full-library">Full library</a>
             <a href="#architectures">Architectures</a>
@@ -37,19 +38,20 @@
             <div>
                 <p class="eyebrow light"><span></span> Public build evidence</p>
                 <h1>See the thinking.<br><em>Inspect the system.</em></h1>
-                <p>Three ways to assess the work: presentation craft, architecture depth and executable reference code. Start with the customer-neutral samples, or inspect the authorized full presentation archive.</p>
-                <div class="hero-actions"><a class="button button-accent" href="#presentations">Start with the decks ↓</a><a class="button button-light" href="index.html">Return to portfolio ↗</a></div>
+                <p>Four ways to assess the work: presentation craft, foundational architecture patterns, executable micro-samples and source-reviewed technical project packages. Start customer-neutral, then inspect the depth you need.</p>
+                <div class="hero-actions"><a class="button button-accent" href="technical-projects.html">Explore 38 projects ↗</a><a class="button button-light" href="#presentations">Start with the decks ↓</a><a class="button button-light" href="index.html">Return to portfolio ↗</a></div>
             </div>
             <div class="lab-proof" aria-label="Build evidence summary">
-                <div><strong>20</strong><span>downloadable decks</span></div>
+                <div><strong>38</strong><span>technical project briefs</span></div>
                 <div><strong>2,256</strong><span>unique archive slides</span></div>
-                <div><strong>03</strong><span>architecture walkthroughs</span></div>
-                <div><strong>15</strong><span>passing code tests</span></div>
+                <div><strong>342</strong><span>project architecture views</span></div>
+                <div><strong>15</strong><span>passing micro-sample tests</span></div>
             </div>
         </section>
 
         <section class="sample-boundary" id="boundary">
             <strong>Curated samples</strong><p>Customer-neutral reference implementations that expose design decisions, trust boundaries and failure handling.</p>
+            <strong>Technical project packages</strong><p>Source-reviewed briefs and architecture packs with curated code snapshots; credentials, sensitive datasets and deployment state are excluded.</p>
             <strong>Full presentation archive</strong><p>An authorized publication of the source-derived slide library. Historical slides may retain customer, project and proprietary delivery context.</p>
             <strong>How to read the work</strong><p>The curated samples explain reusable patterns; the full archive preserves the broader evidence base, original formats and historical context.</p>
         </section>
@@ -101,7 +103,7 @@
         </section>
 
         <section class="architecture-lab section" id="architectures">
-            <div class="section-heading split-heading"><div><p class="eyebrow"><span></span> Architecture library</p><h2>Design decisions made visible.</h2></div><p>Each walkthrough separates the execution path, the control path and the evidence path—then names the trade-offs and failure modes that matter in production.</p></div>
+            <div class="section-heading split-heading"><div><p class="eyebrow"><span></span> Foundational architecture patterns</p><h2>Three reusable control patterns, made visible.</h2></div><p>These focused walkthroughs establish the execution, control and evidence patterns used across the portfolio. The technical project library adds nine source-specific architecture views for each of 38 systems.</p></div>
 
             <article class="architecture-detail" id="governed-agent-runtime">
                 <div class="architecture-title"><span>Architecture 01</span><h3>Governed agent runtime</h3><p>A planner may propose work; only deterministic policy can authorize tool execution.</p></div>
@@ -138,7 +140,7 @@
         </section>
 
         <section class="code-lab section" id="code">
-            <div class="section-heading split-heading"><div><p class="eyebrow light"><span></span> Code laboratory</p><h2>Small enough to review. Complete enough to run.</h2></div><p>All three samples use only the Python standard library. Together they include 15 tests covering allow, escalate and deny paths; ACL isolation; confidence modes; metric lineage; materiality and stale evidence.</p></div>
+            <div class="section-heading split-heading"><div><p class="eyebrow light"><span></span> Code laboratory</p><h2>Three focused patterns, complete enough to run.</h2></div><p>These intentionally small Python micro-samples include 15 tests covering policy paths, ACL isolation, confidence modes, metric lineage and stale evidence. They complement—not replace—the <a href="technical-projects.html">38-project technical library</a>.</p></div>
             <div class="code-sample-grid">
                 <article><div class="code-card-head"><span>01</span><strong>Governed runtime</strong><em>5 tests</em></div><pre><code>decision, reason = runtime.evaluate(plan, context)
 runtime.audit_log.append(evidence(decision))
@@ -165,7 +167,7 @@ return operating_readout(variance, owner, action)</code></pre><p>Deterministic h
 
         <section class="contact section"><p class="eyebrow light"><span></span> Discuss the architecture</p><h2>The public samples show the pattern. The conversation can go deeper.</h2><p>Enterprise AI strategy, regulated-system architecture, technical discovery and transformation delivery.</p><div class="contact-actions"><a class="button button-accent" href="mailto:singhaditya21@gmail.com">singhaditya21@gmail.com ↗</a><a href="index.html">Portfolio</a><a href="Aditya_Singh_Resume.pdf">Résumé</a></div></section>
     </main>
-    <footer class="site-footer"><span>© <span data-year></span> Aditya Singh</span><span>Original public reference artifacts · no client source code</span><a href="#top">Back to top ↑</a></footer>
+    <footer class="site-footer"><span>© <span data-year></span> Aditya Singh</span><span>Curated public evidence · sanitized source packages · no credentials or customer datasets</span><a href="#top">Back to top ↑</a></footer>
     <script src="script.js"></script>
 </body>
 </html>

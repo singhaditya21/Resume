@@ -27,4 +27,7 @@ samples/presentations/**/*.pptx.inspect.ndjson
 # Generated local-only presentation corpus and QA workspace. The source material
 # contains customer-confidential slides and must not be published through Pages.
 /.tmp-master-split.*/
+/.tmp-ai-projects.*/
+/.tmp-technical-projects-public/
+/.tmp-technical-projects-previous/
 /internal/

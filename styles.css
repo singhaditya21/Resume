@@ -386,7 +386,7 @@ main, .site-footer { width: min(100%, var(--max)); margin-inline: auto; }
 .library-deck-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
 .library-deck-card { min-height: 250px; display: flex; flex-direction: column; padding: clamp(1.5rem, 3vw, 2.5rem); color: var(--ink); background: white; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); transition: background .2s ease, color .2s ease, transform .2s ease; }
 .library-deck-card:hover { color: white; background: var(--ink); transform: translateY(-2px); }
-.library-deck-card span { color: var(--teal); font-size: .66rem; font-weight: 900; letter-spacing: .09em; text-transform: uppercase; }
+.library-deck-card span { color: var(--aqua); font-size: .66rem; font-weight: 900; letter-spacing: .09em; text-transform: uppercase; }
 .library-deck-card h3 { margin: 1.2rem 0 .8rem; font-size: clamp(1.25rem, 2vw, 1.7rem); line-height: 1.08; letter-spacing: -.035em; }
 .library-deck-card p { margin: 0 0 2rem; color: var(--muted); font-size: .74rem; }
 .library-deck-card:hover p { color: rgba(255,255,255,.64); }

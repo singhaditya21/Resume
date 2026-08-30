@@ -1,0 +1,2693 @@
+{
+  "profitability": {
+    "source_archive": "Profitability.zip",
+    "source_archive_sha256": "a3f603c2c35bfbbda776b3b5cd3726a232d18b711d3e18d1affb66586b18e98d",
+    "included_files": [
+      "source/sample-01.txt",
+      "source/sample-02.conf",
+      "source/sample-03.js",
+      "source/sample-04.txt",
+      "source/sample-05.yml",
+      "source/sample-06.html",
+      "source/sample-07.js",
+      "source/sample-08.css"
+    ],
+    "included_file_count": 8,
+    "included_bytes": 71189,
+    "source_types": {
+      ".conf": 1,
+      ".css": 1,
+      ".html": 1,
+      ".js": 2,
+      ".yml": 1,
+      "no-extension": 2
+    },
+    "redacted_files": {
+      "source/sample-01.txt": [
+        "local filesystem path",
+        "network address",
+        "non-public service URL"
+      ],
+      "source/sample-04.txt": [
+        "non-public service URL"
+      ],
+      "source/sample-05.yml": [
+        "network address"
+      ],
+      "source/sample-06.html": [
+        "non-public service URL"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 10,
+      "generated or minified text": 1
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "profitability-portfolio-source.zip",
+    "package_bytes": 39086,
+    "package_sha256": "8b23171ba44a92a810867acc7557d8e8840ccab03a414190c813153cc2008ca5"
+  },
+  "zeno-injector": {
+    "source_archive": "Prod_Data_Injection.zip",
+    "source_archive_sha256": "2502c5886901315b9074c531d4ce163085aacda92914d2903c7ef21db685359b",
+    "included_files": [
+      "source/sample-01.py",
+      "source/sample-02.py",
+      "source/sample-03.py",
+      "source/sample-04.py",
+      "source/sample-05.txt",
+      "source/sample-06.txt",
+      "source/sample-07.toml",
+      "source/sample-08.txt",
+      "source/sample-09.txt",
+      "source/sample-10.py",
+      "source/sample-11.py",
+      "source/sample-12.py",
+      "source/sample-13.py",
+      "source/sample-14.py",
+      "source/sample-15.py",
+      "source/sample-16.py",
+      "source/sample-17.py",
+      "source/sample-18.py",
+      "source/sample-19.yaml",
+      "source/sample-20.yaml",
+      "source/sample-21.py",
+      "source/sample-22.yaml",
+      "source/sample-23.py",
+      "source/sample-24.yml"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 96283,
+    "source_types": {
+      ".py": 15,
+      ".toml": 1,
+      ".txt": 1,
+      ".yaml": 3,
+      ".yml": 1,
+      "no-extension": 3
+    },
+    "redacted_files": {
+      "source/sample-03.py": [
+        "hard-coded environment secret"
+      ],
+      "source/sample-07.toml": [
+        "non-public service URL"
+      ],
+      "source/sample-09.txt": [
+        "hard-coded environment secret",
+        "local filesystem path",
+        "network address",
+        "non-public service URL"
+      ],
+      "source/sample-20.yaml": [
+        "network address"
+      ],
+      "source/sample-22.yaml": [
+        "hard-coded secret assignment",
+        "network address",
+        "non-public service URL"
+      ],
+      "source/sample-24.yml": [
+        "non-public service URL"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 11,
+      "portfolio size cap": 44
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "zeno-injector-portfolio-source.zip",
+    "package_bytes": 53146,
+    "package_sha256": "8d8a91e5e9a119228370e17bcf0fef6ab07ece50bbe6bf3c6cf915a7d58e8ac1"
+  },
+  "paperclip-ai": {
+    "source_archive": "Paperclip AI.zip",
+    "source_archive_sha256": "5754649bd8587e2cc8d25d17e89c3c8e7568b71309108497757d7568ec055e4d",
+    "included_files": [],
+    "included_file_count": 0,
+    "included_bytes": 0,
+    "source_types": {},
+    "redacted_files": {},
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 1
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "paperclip-ai-portfolio-source.zip",
+    "package_bytes": 16611,
+    "package_sha256": "863320f2e07212ef58c0a6efac0e2d534d9281e4aa5e0d9e4bcc5856910a97a2"
+  },
+  "oneview": {
+    "source_archive": "Oneview.zip",
+    "source_archive_sha256": "5a481181ba90b359462bd9fa63e348007dea142f92a205502e347cbf17e97b5e",
+    "included_files": [
+      "source/sample-01.py",
+      "source/sample-02.py",
+      "source/sample-03.py",
+      "source/sample-04.py",
+      "source/sample-05.py",
+      "source/sample-06.py",
+      "source/sample-07.txt",
+      "source/sample-08.txt",
+      "source/sample-09.txt",
+      "source/sample-10.json",
+      "source/sample-11.txt",
+      "source/sample-12.txt",
+      "source/sample-13.txt",
+      "source/sample-14.txt",
+      "source/sample-15.py",
+      "source/sample-16.py",
+      "source/sample-17.jsx",
+      "source/sample-18.jsx",
+      "source/sample-19.jsx",
+      "source/sample-20.jsx",
+      "source/sample-21.html",
+      "source/sample-22.jsx",
+      "source/sample-23.js",
+      "source/sample-24.js"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 278720,
+    "source_types": {
+      ".html": 1,
+      ".js": 2,
+      ".json": 1,
+      ".jsx": 5,
+      ".py": 8,
+      ".txt": 2,
+      "no-extension": 5
+    },
+    "redacted_files": {
+      "source/sample-01.py": [
+        "customer or identity literal",
+        "network address",
+        "non-public service URL"
+      ],
+      "source/sample-04.py": [
+        "customer name",
+        "customer or identity literal",
+        "local filesystem path",
+        "network address",
+        "non-public service URL",
+        "opaque high-entropy literal",
+        "query-string credential"
+      ],
+      "source/sample-05.py": [
+        "customer name",
+        "non-public service URL",
+        "opaque high-entropy literal"
+      ],
+      "source/sample-21.html": [
+        "non-public service URL"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 19,
+      "unresolved sensitive content": 1,
+      "portfolio size cap": 125
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "oneview-portfolio-source.zip",
+    "package_bytes": 102141,
+    "package_sha256": "27eb14c0d4f4106e98127c57e2a359a469b98b06a2ddc78afe022e327167e221"
+  },
+  "okr-dashboard": {
+    "source_archive": "OKRDashboard.zip",
+    "source_archive_sha256": "38052387ff3b0a189877b86fb1c45eed1cbde868f273cda2e29cf89e562ea9e9",
+    "included_files": [
+      "source/sample-01.jsx",
+      "source/sample-02.jsx",
+      "source/sample-03.py",
+      "source/sample-04.txt",
+      "source/sample-05.json",
+      "source/sample-06.txt",
+      "source/sample-07.txt",
+      "source/sample-08.json",
+      "source/sample-09.jsx",
+      "source/sample-10.css",
+      "source/sample-11.css",
+      "source/sample-12.js",
+      "source/sample-13.py",
+      "source/sample-14.py",
+      "source/sample-15.html",
+      "source/sample-16.py",
+      "source/sample-17.py",
+      "source/sample-18.py",
+      "source/sample-19.py",
+      "source/sample-20.py",
+      "source/sample-21.js",
+      "source/sample-22.cjs",
+      "source/sample-23.py",
+      "source/sample-24.py"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 438357,
+    "source_types": {
+      ".cjs": 1,
+      ".css": 2,
+      ".html": 1,
+      ".js": 2,
+      ".json": 2,
+      ".jsx": 3,
+      ".py": 10,
+      ".txt": 1,
+      "no-extension": 2
+    },
+    "redacted_files": {
+      "source/sample-01.jsx": [
+        "customer or identity literal",
+        "network address",
+        "non-public service URL"
+      ],
+      "source/sample-02.jsx": [
+        "customer name",
+        "network address",
+        "non-public service URL",
+        "opaque high-entropy literal"
+      ],
+      "source/sample-03.py": [
+        "credential token",
+        "customer or identity literal",
+        "hard-coded environment secret",
+        "hard-coded secret assignment",
+        "network address",
+        "non-public service URL",
+        "opaque high-entropy literal"
+      ],
+      "source/sample-12.js": [
+        "non-public service URL"
+      ],
+      "source/sample-13.py": [
+        "customer or identity literal",
+        "hard-coded secret assignment",
+        "network address"
+      ],
+      "source/sample-14.py": [
+        "customer or identity literal",
+        "hard-coded secret assignment",
+        "network address"
+      ],
+      "source/sample-16.py": [
+        "customer or identity literal",
+        "hard-coded secret assignment",
+        "network address"
+      ],
+      "source/sample-17.py": [
+        "customer or identity literal",
+        "hard-coded secret assignment",
+        "network address"
+      ],
+      "source/sample-18.py": [
+        "customer or identity literal",
+        "hard-coded secret assignment",
+        "network address"
+      ],
+      "source/sample-19.py": [
+        "customer or identity literal",
+        "hard-coded environment secret",
+        "hard-coded secret assignment",
+        "network address"
+      ],
+      "source/sample-20.py": [
+        "customer or identity literal",
+        "network address"
+      ],
+      "source/sample-22.cjs": [
+        "network address",
+        "non-public service URL"
+      ],
+      "source/sample-23.py": [
+        "customer or identity literal",
+        "network address"
+      ],
+      "source/sample-24.py": [
+        "customer or identity literal",
+        "hard-coded environment secret",
+        "hard-coded secret assignment",
+        "network address"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 22,
+      "portfolio size cap": 7
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "okr-dashboard-portfolio-source.zip",
+    "package_bytes": 92533,
+    "package_sha256": "4e8ae735b4b72838864569763155897ef73130cef6f34c8dddb406f0e7ff61d7"
+  },
+  "obsidian-llm-wiki": {
+    "source_archive": "Obsidian_LLM_Wiki.zip",
+    "source_archive_sha256": "9b272771e9e65074a2b229bee0a251e02c0741663d01ab99219f229321a6c3e0",
+    "included_files": [
+      "source/sample-01.ts",
+      "source/sample-02.ts",
+      "source/sample-03.ts",
+      "source/sample-04.ts",
+      "source/sample-05.ts",
+      "source/sample-06.json",
+      "source/sample-07.json",
+      "source/sample-08.txt",
+      "source/sample-09.json",
+      "source/sample-10.json",
+      "source/sample-11.json",
+      "source/sample-12.json",
+      "source/sample-13.json",
+      "source/sample-14.json",
+      "source/sample-15.json",
+      "source/sample-16.json",
+      "source/sample-17.json",
+      "source/sample-18.txt",
+      "source/sample-19.json",
+      "source/sample-20.tsx",
+      "source/sample-21.ts",
+      "source/sample-22.ts",
+      "source/sample-23.ts",
+      "source/sample-24.tsx"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 64879,
+    "source_types": {
+      ".json": 12,
+      ".ts": 8,
+      ".tsx": 2,
+      "no-extension": 2
+    },
+    "redacted_files": {
+      "source/sample-01.ts": [
+        "local filesystem path"
+      ],
+      "source/sample-02.ts": [
+        "non-public service URL"
+      ],
+      "source/sample-04.ts": [
+        "opaque high-entropy literal"
+      ],
+      "source/sample-19.json": [
+        "customer or identity literal"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 30,
+      "portfolio size cap": 215
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "obsidian-llm-wiki-portfolio-source.zip",
+    "package_bytes": 41967,
+    "package_sha256": "8798b88c8de540929792bac1b8e67ad0da35bc4b8f1481374f99e3faf0384ca6"
+  },
+  "wsr-automate": {
+    "source_archive": "WSR-Automate.zip",
+    "source_archive_sha256": "fcc056a143375d4b81784bb7d8caa5cccdae3d59585fa3f18fcb70c92f4d5f76",
+    "included_files": [
+      "source/sample-01.js",
+      "source/sample-02.js",
+      "source/sample-03.js",
+      "source/sample-04.js",
+      "source/sample-05.js",
+      "source/sample-06.txt",
+      "source/sample-07.json",
+      "source/sample-08.txt",
+      "source/sample-09.json",
+      "source/sample-10.js",
+      "source/sample-11.jsx",
+      "source/sample-12.html",
+      "source/sample-13.js",
+      "source/sample-14.js",
+      "source/sample-15.js",
+      "source/sample-16.yaml",
+      "source/sample-17.js",
+      "source/sample-18.js",
+      "source/sample-19.js",
+      "source/sample-20.js",
+      "source/sample-21.js",
+      "source/sample-22.js",
+      "source/sample-23.css",
+      "source/sample-24.jsx"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 659159,
+    "source_types": {
+      ".css": 1,
+      ".html": 1,
+      ".js": 15,
+      ".json": 2,
+      ".jsx": 2,
+      ".yaml": 1,
+      "no-extension": 2
+    },
+    "redacted_files": {
+      "source/sample-01.js": [
+        "local filesystem path"
+      ],
+      "source/sample-02.js": [
+        "local filesystem path"
+      ],
+      "source/sample-03.js": [
+        "customer or identity literal"
+      ],
+      "source/sample-04.js": [
+        "customer or identity literal"
+      ],
+      "source/sample-05.js": [
+        "customer name",
+        "non-public service URL"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 24,
+      "portfolio size cap": 76
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "wsr-automate-portfolio-source.zip",
+    "package_bytes": 181270,
+    "package_sha256": "28a7617dad18e932f2531fb6a99b4c26beee70277482e09dbf7675058ece4a84"
+  },
+  "world-monitor": {
+    "source_archive": "WorldMonitor.zip",
+    "source_archive_sha256": "da77912927c8d1b8adb270fc9d1fe3b4fda94ee72952858d91a80978e4944ed7",
+    "included_files": [],
+    "included_file_count": 0,
+    "included_bytes": 0,
+    "source_types": {},
+    "redacted_files": {},
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 2
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "world-monitor-portfolio-source.zip",
+    "package_bytes": 16733,
+    "package_sha256": "f0882cd8d46d226a9bfb9d00acdd9dd9ac26000b73e0d7ca4239bee0a1390a71"
+  },
+  "whatsapp-bot-monitoring": {
+    "source_archive": "Whatsapp_BOT_Monitoring.zip",
+    "source_archive_sha256": "886e6ff4665251d5137501198f9fbb8eca7f57e460a7b85c7417a56c72384e14",
+    "included_files": [
+      "source/sample-01.py",
+      "source/sample-02.py",
+      "source/sample-03.py",
+      "source/sample-04.py",
+      "source/sample-05.txt",
+      "source/sample-06.txt",
+      "source/sample-07.txt",
+      "source/sample-08.py",
+      "source/sample-09.sh",
+      "source/sample-10.sh",
+      "source/sample-11.py",
+      "source/sample-12.py",
+      "source/sample-13.py",
+      "source/sample-14.py",
+      "source/sample-15.py",
+      "source/sample-16.py",
+      "source/sample-17.py",
+      "source/sample-18.py",
+      "source/sample-19.py",
+      "source/sample-20.py",
+      "source/sample-21.py",
+      "source/sample-22.py",
+      "source/sample-23.py",
+      "source/sample-24.py"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 106902,
+    "source_types": {
+      ".py": 19,
+      ".sh": 2,
+      ".txt": 1,
+      "no-extension": 2
+    },
+    "redacted_files": {
+      "source/sample-01.py": [
+        "hard-coded environment secret"
+      ],
+      "source/sample-02.py": [
+        "opaque high-entropy literal"
+      ],
+      "source/sample-04.py": [
+        "customer or identity literal",
+        "local filesystem path",
+        "network address",
+        "non-public service URL",
+        "phone number"
+      ],
+      "source/sample-10.sh": [
+        "network address"
+      ],
+      "source/sample-20.py": [
+        "hard-coded environment secret",
+        "opaque high-entropy literal"
+      ],
+      "source/sample-22.py": [
+        "customer or identity literal",
+        "hard-coded environment secret",
+        "hard-coded secret assignment",
+        "non-public service URL"
+      ],
+      "source/sample-23.py": [
+        "hard-coded environment secret",
+        "hard-coded secret assignment",
+        "network address",
+        "non-public service URL"
+      ],
+      "source/sample-24.py": [
+        "customer or identity literal",
+        "local filesystem path",
+        "non-public service URL"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 102,
+      "portfolio size cap": 4
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "whatsapp-bot-monitoring-portfolio-source.zip",
+    "package_bytes": 49969,
+    "package_sha256": "477bb66ec754d242bbc0b4c6cbdb32ffd86f2348a15c664a8e30b855cd249fb8"
+  },
+  "us-project-health": {
+    "source_archive": "USProjecthealth.zip",
+    "source_archive_sha256": "6308cb02f12ab4fd92411719f2b266ca4a986630169852bcf99cabb03df5faa5",
+    "included_files": [
+      "source/sample-01.py",
+      "source/sample-02.py",
+      "source/sample-03.py",
+      "source/sample-04.py",
+      "source/sample-05.py",
+      "source/sample-06.txt",
+      "source/sample-07.txt",
+      "source/sample-08.py",
+      "source/sample-09.py",
+      "source/sample-10.html",
+      "source/sample-11.py",
+      "source/sample-12.py",
+      "source/sample-13.html",
+      "source/sample-14.html"
+    ],
+    "included_file_count": 14,
+    "included_bytes": 192755,
+    "source_types": {
+      ".html": 3,
+      ".py": 9,
+      ".txt": 1,
+      "no-extension": 1
+    },
+    "redacted_files": {
+      "source/sample-03.py": [
+        "hard-coded environment secret",
+        "non-public service URL"
+      ],
+      "source/sample-04.py": [
+        "non-public service URL"
+      ],
+      "source/sample-05.py": [
+        "opaque high-entropy literal"
+      ],
+      "source/sample-09.py": [
+        "network address"
+      ],
+      "source/sample-10.html": [
+        "non-public service URL"
+      ],
+      "source/sample-11.py": [
+        "customer name",
+        "non-public service URL",
+        "opaque high-entropy literal"
+      ],
+      "source/sample-13.html": [
+        "non-public service URL"
+      ],
+      "source/sample-14.html": [
+        "customer or identity literal",
+        "non-public service URL"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 6
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "us-project-health-portfolio-source.zip",
+    "package_bytes": 69974,
+    "package_sha256": "4436ff86e70ecd71833939c82b7793f2a9781d75f80ac439fe9ea4b168cc5657"
+  },
+  "skill-management": {
+    "source_archive": "Skillmanagement.zip",
+    "source_archive_sha256": "711f971c2de5505d507b470be544654fca16496636b67cadce7656e3032b9a32",
+    "included_files": [],
+    "included_file_count": 0,
+    "included_bytes": 0,
+    "source_types": {},
+    "redacted_files": {},
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 1
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "skill-management-portfolio-source.zip",
+    "package_bytes": 16641,
+    "package_sha256": "2db77788ce64e3a81487d098040a5660c5b05dbacb6f0cfedbf35ec508ea12cb"
+  },
+  "rmg-bot": {
+    "source_archive": "RMGBOT.zip",
+    "source_archive_sha256": "8d9962eda294c282c0b6c4d2c82ece0675763e0b0fa4a3f8d0b0374fde3fcdf5",
+    "included_files": [
+      "source/sample-01.py",
+      "source/sample-02.py",
+      "source/sample-03.py",
+      "source/sample-04.py",
+      "source/sample-05.js",
+      "source/sample-06.txt",
+      "source/sample-07.ps1",
+      "source/sample-08.py",
+      "source/sample-09.ps1",
+      "source/sample-10.py",
+      "source/sample-11.ps1",
+      "source/sample-12.html",
+      "source/sample-13.css"
+    ],
+    "included_file_count": 13,
+    "included_bytes": 176328,
+    "source_types": {
+      ".css": 1,
+      ".html": 1,
+      ".js": 1,
+      ".ps1": 3,
+      ".py": 6,
+      "no-extension": 1
+    },
+    "redacted_files": {
+      "source/sample-01.py": [
+        "local filesystem path"
+      ],
+      "source/sample-02.py": [
+        "local filesystem path",
+        "non-public service URL"
+      ],
+      "source/sample-03.py": [
+        "hard-coded environment secret",
+        "local filesystem path"
+      ],
+      "source/sample-05.js": [
+        "customer or identity literal"
+      ],
+      "source/sample-11.ps1": [
+        "local filesystem path",
+        "non-public service URL"
+      ],
+      "source/sample-13.css": [
+        "non-public service URL"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 6,
+      "unresolved sensitive content": 1
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "rmg-bot-portfolio-source.zip",
+    "package_bytes": 66248,
+    "package_sha256": "c6f5c858543696ebe9f11edc8dedce3be73736d4f841e3afdfb0715b5b6856ab"
+  },
+  "rmg-budgeting": {
+    "source_archive": "RMG_Budgeting.zip",
+    "source_archive_sha256": "794ed9c41ddbf2d2d7a74bcfd5bbb0f58618f936608347269ac72a0c8fc1c5e9",
+    "included_files": [
+      "source/sample-01.ts",
+      "source/sample-02.py",
+      "source/sample-03.ts",
+      "source/sample-04.ts",
+      "source/sample-05.sql",
+      "source/sample-06.txt",
+      "source/sample-07.json",
+      "source/sample-08.json",
+      "source/sample-09.json",
+      "source/sample-10.json",
+      "source/sample-11.json",
+      "source/sample-12.json",
+      "source/sample-13.txt",
+      "source/sample-14.json",
+      "source/sample-15.json",
+      "source/sample-16.json",
+      "source/sample-17.py",
+      "source/sample-18.ts",
+      "source/sample-19.ts",
+      "source/sample-20.ts",
+      "source/sample-21.ts",
+      "source/sample-22.ts",
+      "source/sample-23.ts",
+      "source/sample-24.py"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 62956,
+    "source_types": {
+      ".json": 9,
+      ".py": 3,
+      ".sql": 1,
+      ".ts": 9,
+      ".txt": 1,
+      "no-extension": 1
+    },
+    "redacted_files": {
+      "source/sample-07.json": [
+        "opaque high-entropy literal"
+      ],
+      "source/sample-09.json": [
+        "opaque high-entropy literal"
+      ],
+      "source/sample-21.ts": [
+        "customer name"
+      ],
+      "source/sample-24.py": [
+        "hard-coded environment secret",
+        "hard-coded secret assignment"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 30,
+      "portfolio size cap": 265
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "rmg-budgeting-portfolio-source.zip",
+    "package_bytes": 43581,
+    "package_sha256": "de468bc17816fd5827ed6ef3f8a799a90764cf01d13eda94bcb17bb1c5b4ab19"
+  },
+  "rmg-project360": {
+    "source_archive": "RMG.zip",
+    "source_archive_sha256": "de0cdaa5e1460eecb049cb91ba2e856ab9f917e4c87b3a64131ab0d7feee1ec3",
+    "included_files": [
+      "source/sample-01.py",
+      "source/sample-02.py",
+      "source/sample-03.ts",
+      "source/sample-04.py",
+      "source/sample-05.sql",
+      "source/sample-06.txt",
+      "source/sample-07.txt",
+      "source/sample-08.txt",
+      "source/sample-09.json",
+      "source/sample-10.json",
+      "source/sample-11.json",
+      "source/sample-12.json",
+      "source/sample-13.json",
+      "source/sample-14.json",
+      "source/sample-15.txt",
+      "source/sample-16.json",
+      "source/sample-17.json",
+      "source/sample-18.json",
+      "source/sample-19.py",
+      "source/sample-20.ts",
+      "source/sample-21.ts",
+      "source/sample-22.ts",
+      "source/sample-23.ts",
+      "source/sample-24.ts"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 90031,
+    "source_types": {
+      ".json": 9,
+      ".py": 4,
+      ".sql": 1,
+      ".ts": 6,
+      ".txt": 1,
+      "no-extension": 3
+    },
+    "redacted_files": {
+      "source/sample-01.py": [
+        "hard-coded environment secret",
+        "hard-coded secret assignment",
+        "non-public service URL"
+      ],
+      "source/sample-04.py": [
+        "hard-coded environment secret"
+      ],
+      "source/sample-09.json": [
+        "opaque high-entropy literal"
+      ],
+      "source/sample-11.json": [
+        "opaque high-entropy literal"
+      ],
+      "source/sample-23.ts": [
+        "customer name"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 57,
+      "portfolio size cap": 310
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "rmg-project360-portfolio-source.zip",
+    "package_bytes": 49141,
+    "package_sha256": "d80455c470ec086ba8c41e603b0a0638bb74ba155426d8bcc7e08f7392040456"
+  },
+  "nps-survey-engine": {
+    "source_archive": "NPS.zip",
+    "source_archive_sha256": "118096d663c776aa58e148a72ed01513655d931f7f0ae75e91495c09ea3b50d2",
+    "included_files": [
+      "source/sample-01.ts",
+      "source/sample-02.ts",
+      "source/sample-03.ts",
+      "source/sample-04.ts",
+      "source/sample-05.txt",
+      "source/sample-06.json",
+      "source/sample-07.txt",
+      "source/sample-08.txt",
+      "source/sample-09.json",
+      "source/sample-10.tsx",
+      "source/sample-11.tsx",
+      "source/sample-12.ts",
+      "source/sample-13.tsx",
+      "source/sample-14.ts",
+      "source/sample-15.tsx",
+      "source/sample-16.ts",
+      "source/sample-17.tsx",
+      "source/sample-18.ts",
+      "source/sample-19.tsx",
+      "source/sample-20.ts",
+      "source/sample-21.ts",
+      "source/sample-22.ts",
+      "source/sample-23.tsx",
+      "source/sample-24.ts"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 81630,
+    "source_types": {
+      ".json": 2,
+      ".ts": 12,
+      ".tsx": 7,
+      "no-extension": 3
+    },
+    "redacted_files": {
+      "source/sample-07.txt": [
+        "network address",
+        "non-public service URL"
+      ],
+      "source/sample-16.ts": [
+        "opaque high-entropy literal"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 29,
+      "unresolved sensitive content": 1,
+      "portfolio size cap": 258
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "nps-survey-engine-portfolio-source.zip",
+    "package_bytes": 45775,
+    "package_sha256": "676869013e4d95960e25346aff2d9391e6f187e4c1c18d91786ed4919062ebed"
+  },
+  "newsnext": {
+    "source_archive": "Newsnext.zip",
+    "source_archive_sha256": "72ad7bbdb94a5d1d5b94dc90552ef2b0d55b9c46b179a7bd7ef063e5222ca2f5",
+    "included_files": [
+      "source/sample-01.js",
+      "source/sample-02.js",
+      "source/sample-03.js",
+      "source/sample-04.js",
+      "source/sample-05.js",
+      "source/sample-06.txt",
+      "source/sample-07.txt",
+      "source/sample-08.json",
+      "source/sample-09.txt",
+      "source/sample-10.txt",
+      "source/sample-11.mjs",
+      "source/sample-12.mjs",
+      "source/sample-13.mjs",
+      "source/sample-14.mjs",
+      "source/sample-15.js",
+      "source/sample-16.yml",
+      "source/sample-17.mjs",
+      "source/sample-18.mjs",
+      "source/sample-19.js",
+      "source/sample-20.js",
+      "source/sample-21.js",
+      "source/sample-22.js",
+      "source/sample-23.js",
+      "source/sample-24.js"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 155417,
+    "source_types": {
+      ".js": 12,
+      ".json": 1,
+      ".mjs": 6,
+      ".yml": 1,
+      "no-extension": 4
+    },
+    "redacted_files": {
+      "source/sample-03.js": [
+        "customer name"
+      ],
+      "source/sample-04.js": [
+        "customer or identity literal"
+      ],
+      "source/sample-05.js": [
+        "customer or identity literal"
+      ],
+      "source/sample-10.txt": [
+        "local filesystem path",
+        "network address",
+        "non-public service URL"
+      ],
+      "source/sample-11.mjs": [
+        "non-public service URL"
+      ],
+      "source/sample-12.mjs": [
+        "customer name"
+      ],
+      "source/sample-16.yml": [
+        "network address",
+        "non-public service URL"
+      ],
+      "source/sample-17.mjs": [
+        "customer or identity literal"
+      ],
+      "source/sample-18.mjs": [
+        "network address",
+        "non-public service URL"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 646,
+      "portfolio size cap": 27
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "newsnext-portfolio-source.zip",
+    "package_bytes": 85625,
+    "package_sha256": "b66ea911cb4657a4cd00368ccdcdfa24220ebb6a58c48eab5cdbff172b53fdf0"
+  },
+  "netsuite-token-service": {
+    "source_archive": "NetSuiteToken.zip",
+    "source_archive_sha256": "88d51c2bbf4a59dee19b3108d7a3f8455f0bf8f219e03e75ad3fad81ae353760",
+    "included_files": [
+      "source/sample-01.cs",
+      "source/sample-02.cs",
+      "source/sample-03.cs",
+      "source/sample-04.cs",
+      "source/sample-05.txt",
+      "source/sample-06.txt",
+      "source/sample-07.cs",
+      "source/sample-08.cs"
+    ],
+    "included_file_count": 8,
+    "included_bytes": 13121,
+    "source_types": {
+      ".cs": 6,
+      "no-extension": 2
+    },
+    "redacted_files": {
+      "source/sample-01.cs": [
+        "hard-coded environment secret"
+      ],
+      "source/sample-06.txt": [
+        "local filesystem path",
+        "network address"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 16
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "netsuite-token-service-portfolio-source.zip",
+    "package_bytes": 23742,
+    "package_sha256": "e81f5a1bad3182cb9d80ba4dfe8596362e0ac76fd249e0014c0c928a3aabdd09"
+  },
+  "nemoclaw-revops": {
+    "source_archive": "NEMOCLAWFORMY.zip",
+    "source_archive_sha256": "551b2fc5260bba37c4c2cae38f25866a59c8f60aaca3183f42fd811edab3ec77",
+    "included_files": [
+      "source/sample-01.py",
+      "source/sample-02.py",
+      "source/sample-03.py",
+      "source/sample-04.py",
+      "source/sample-05.py",
+      "source/sample-06.txt",
+      "source/sample-07.txt",
+      "source/sample-08.json",
+      "source/sample-09.py",
+      "source/sample-10.py",
+      "source/sample-11.js",
+      "source/sample-12.jsx",
+      "source/sample-13.html",
+      "source/sample-14.py",
+      "source/sample-15.js",
+      "source/sample-16.py",
+      "source/sample-17.py",
+      "source/sample-18.css",
+      "source/sample-19.py",
+      "source/sample-20.py",
+      "source/sample-21.py",
+      "source/sample-22.py",
+      "source/sample-23.py",
+      "source/sample-24.py"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 75868,
+    "source_types": {
+      ".css": 1,
+      ".html": 1,
+      ".js": 2,
+      ".json": 1,
+      ".jsx": 1,
+      ".py": 16,
+      "no-extension": 2
+    },
+    "redacted_files": {
+      "source/sample-01.py": [
+        "customer name",
+        "local filesystem path"
+      ],
+      "source/sample-02.py": [
+        "customer name",
+        "local filesystem path",
+        "non-public service URL",
+        "opaque high-entropy literal"
+      ],
+      "source/sample-03.py": [
+        "hard-coded environment secret",
+        "local filesystem path",
+        "non-public service URL",
+        "opaque high-entropy literal"
+      ],
+      "source/sample-05.py": [
+        "local filesystem path",
+        "opaque high-entropy literal"
+      ],
+      "source/sample-11.js": [
+        "non-public service URL"
+      ],
+      "source/sample-17.py": [
+        "non-public service URL"
+      ],
+      "source/sample-19.py": [
+        "local filesystem path"
+      ],
+      "source/sample-22.py": [
+        "local filesystem path"
+      ],
+      "source/sample-23.py": [
+        "local filesystem path"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 10,
+      "portfolio size cap": 33
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "nemoclaw-revops-portfolio-source.zip",
+    "package_bytes": 47716,
+    "package_sha256": "b658cc93eee9e324b05f49eacec58c36027c73dc34bbd3a22a17ac609f34837b"
+  },
+  "mprbot": {
+    "source_archive": "MPRBOT-1.zip",
+    "source_archive_sha256": "03f1ed6a0f497ac3165d8816889cd319a109ea6d58ed3e7a74ea24621d0cbc8a",
+    "included_files": [
+      "source/sample-01.py",
+      "source/sample-02.py",
+      "source/sample-03.py",
+      "source/sample-04.py",
+      "source/sample-05.py",
+      "source/sample-06.py",
+      "source/sample-07.txt",
+      "source/sample-08.txt",
+      "source/sample-09.txt",
+      "source/sample-10.txt",
+      "source/sample-11.json",
+      "source/sample-12.py",
+      "source/sample-13.py",
+      "source/sample-14.py",
+      "source/sample-15.py",
+      "source/sample-16.py",
+      "source/sample-17.py",
+      "source/sample-18.py",
+      "source/sample-19.py",
+      "source/sample-20.py",
+      "source/sample-21.py",
+      "source/sample-22.py",
+      "source/sample-23.py",
+      "source/sample-24.mjs"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 59393,
+    "source_types": {
+      ".json": 1,
+      ".mjs": 1,
+      ".py": 18,
+      ".txt": 1,
+      "no-extension": 3
+    },
+    "redacted_files": {
+      "source/sample-01.py": [
+        "opaque high-entropy literal"
+      ],
+      "source/sample-02.py": [
+        "customer or identity literal",
+        "local filesystem path"
+      ],
+      "source/sample-03.py": [
+        "hard-coded environment secret",
+        "non-public service URL"
+      ],
+      "source/sample-06.py": [
+        "hard-coded environment secret",
+        "local filesystem path"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 52,
+      "non-text content": 1,
+      "portfolio size cap": 61
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "mprbot-portfolio-source.zip",
+    "package_bytes": 39857,
+    "package_sha256": "7f27859867882f38340c4ec4f1fa4a4a1afb0d8f9c759c0f5a3d2342f026ba6d"
+  },
+  "kb-preproduction": {
+    "source_archive": "KB_Preproduction.zip",
+    "source_archive_sha256": "793a81b6434c571569140ae592c3b0c9c75e628623c749eb59267226343331b0",
+    "included_files": [
+      "source/sample-01.py",
+      "source/sample-02.py",
+      "source/sample-03.py",
+      "source/sample-04.py",
+      "source/sample-05.py",
+      "source/sample-06.txt",
+      "source/sample-07.txt",
+      "source/sample-08.txt",
+      "source/sample-09.py",
+      "source/sample-10.py",
+      "source/sample-11.py",
+      "source/sample-12.py",
+      "source/sample-13.py",
+      "source/sample-14.py",
+      "source/sample-15.py",
+      "source/sample-16.py",
+      "source/sample-17.py",
+      "source/sample-18.py",
+      "source/sample-19.py",
+      "source/sample-20.py",
+      "source/sample-21.py",
+      "source/sample-22.sh",
+      "source/sample-23.ps1",
+      "source/sample-24.py"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 18111,
+    "source_types": {
+      ".ps1": 1,
+      ".py": 19,
+      ".sh": 1,
+      ".txt": 1,
+      "no-extension": 2
+    },
+    "redacted_files": {
+      "source/sample-04.py": [
+        "hard-coded environment secret",
+        "non-public service URL"
+      ],
+      "source/sample-08.txt": [
+        "opaque high-entropy literal"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 5,
+      "portfolio size cap": 27
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "kb-preproduction-portfolio-source.zip",
+    "package_bytes": 28612,
+    "package_sha256": "1d17db4590764cbdd1af98c41fd1e4940d184a11cc3e9d0a8fa98cbc0417bc84"
+  },
+  "kb-prod": {
+    "source_archive": "KB PROD.zip",
+    "source_archive_sha256": "5bc38266576c98983884710fdaf5023a7e71ca70b4f0b8935ae1d8190a29c4ec",
+    "included_files": [
+      "source/sample-01.py",
+      "source/sample-02.py",
+      "source/sample-03.py",
+      "source/sample-04.txt",
+      "source/sample-05.txt",
+      "source/sample-06.txt",
+      "source/sample-07.txt",
+      "source/sample-08.py",
+      "source/sample-09.py",
+      "source/sample-10.py",
+      "source/sample-11.py",
+      "source/sample-12.py",
+      "source/sample-13.py",
+      "source/sample-14.py",
+      "source/sample-15.py",
+      "source/sample-16.py",
+      "source/sample-17.py",
+      "source/sample-18.py",
+      "source/sample-19.py",
+      "source/sample-20.py",
+      "source/sample-21.py",
+      "source/sample-22.py",
+      "source/sample-23.py",
+      "source/sample-24.py"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 11629,
+    "source_types": {
+      ".py": 20,
+      ".txt": 2,
+      "no-extension": 2
+    },
+    "redacted_files": {},
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 6,
+      "portfolio size cap": 42
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "kb-prod-portfolio-source.zip",
+    "package_bytes": 25709,
+    "package_sha256": "ff58f0b09face40a0701d2b5270dccc551c2ae6ab600449ae7380f09d50bf0ea"
+  },
+  "btkb": {
+    "source_archive": "KB.zip",
+    "source_archive_sha256": "58ab28a2d8114290a6c5b7669f7350ba93988dc3f1fa7056b9b7ff1354257f11",
+    "included_files": [
+      "source/sample-01.py",
+      "source/sample-02.py",
+      "source/sample-03.py",
+      "source/sample-04.py",
+      "source/sample-05.py",
+      "source/sample-06.txt",
+      "source/sample-07.json",
+      "source/sample-08.txt",
+      "source/sample-09.txt",
+      "source/sample-10.txt",
+      "source/sample-11.py",
+      "source/sample-12.py",
+      "source/sample-13.py",
+      "source/sample-14.py",
+      "source/sample-15.yaml",
+      "source/sample-16.js",
+      "source/sample-17.yaml",
+      "source/sample-18.js",
+      "source/sample-19.js",
+      "source/sample-20.yaml",
+      "source/sample-21.js",
+      "source/sample-22.js",
+      "source/sample-23.yaml",
+      "source/sample-24.yaml"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 172370,
+    "source_types": {
+      ".js": 5,
+      ".json": 1,
+      ".py": 9,
+      ".txt": 1,
+      ".yaml": 5,
+      "no-extension": 3
+    },
+    "redacted_files": {
+      "source/sample-02.py": [
+        "hard-coded environment secret",
+        "local filesystem path"
+      ],
+      "source/sample-03.py": [
+        "hard-coded environment secret",
+        "non-public service URL"
+      ],
+      "source/sample-04.py": [
+        "local filesystem path"
+      ],
+      "source/sample-05.py": [
+        "hard-coded environment secret",
+        "hard-coded secret assignment"
+      ],
+      "source/sample-09.txt": [
+        "non-public service URL"
+      ],
+      "source/sample-20.yaml": [
+        "network address"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 48,
+      "unresolved sensitive content": 2,
+      "portfolio size cap": 68
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "btkb-portfolio-source.zip",
+    "package_bytes": 78943,
+    "package_sha256": "31ebe1826a20350a425f18c690b2d3bebdbc66e04458ef49bd106a5ebaee1340"
+  },
+  "it-initiative": {
+    "source_archive": "IT Initiative.zip",
+    "source_archive_sha256": "028474d7fa145fa2ac20178745a815362dd0381f7fa64c91124543a363b113b2",
+    "included_files": [],
+    "included_file_count": 0,
+    "included_bytes": 0,
+    "source_types": {},
+    "redacted_files": {},
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 1
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "it-initiative-portfolio-source.zip",
+    "package_bytes": 16574,
+    "package_sha256": "f046cb0ed59a44f5ba7651122318a250a20a2fbe4bac88c354bb2ef55450a69c"
+  },
+  "ideastorm": {
+    "source_archive": "Ideastorm.zip",
+    "source_archive_sha256": "ba738092784c586741f7d54dc97a75cf59dcb76305a1061c7881d96f3647b5b6",
+    "included_files": [
+      "source/sample-01.ts",
+      "source/sample-02.ts",
+      "source/sample-03.ts",
+      "source/sample-04.ts",
+      "source/sample-05.ts",
+      "source/sample-06.json",
+      "source/sample-07.json",
+      "source/sample-08.json",
+      "source/sample-09.txt",
+      "source/sample-10.txt",
+      "source/sample-11.txt",
+      "source/sample-12.json",
+      "source/sample-13.py",
+      "source/sample-14.ts",
+      "source/sample-15.ts",
+      "source/sample-16.ts",
+      "source/sample-17.ts",
+      "source/sample-18.ts",
+      "source/sample-19.ts",
+      "source/sample-20.ts",
+      "source/sample-21.ts",
+      "source/sample-22.ts",
+      "source/sample-23.ts",
+      "source/sample-24.ts"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 112769,
+    "source_types": {
+      ".json": 4,
+      ".py": 1,
+      ".ts": 16,
+      "no-extension": 3
+    },
+    "redacted_files": {
+      "source/sample-04.ts": [
+        "customer name"
+      ],
+      "source/sample-08.json": [
+        "opaque high-entropy literal"
+      ],
+      "source/sample-12.json": [
+        "customer or identity literal",
+        "hard-coded secret assignment"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 168,
+      "unresolved sensitive content": 1,
+      "portfolio size cap": 197
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg",
+      "reference-pack/01-IdeaStorm-Executive-Architecture-Overview.png",
+      "reference-pack/02-IdeaStorm-Runtime-and-Request-Architecture.png",
+      "reference-pack/03-IdeaStorm-System-Context-and-Deployment.png",
+      "reference-pack/04-IdeaStorm-Authenticated-Request-Lifecycle.png",
+      "reference-pack/05-IdeaStorm-Data-Architecture.png",
+      "reference-pack/06-IdeaStorm-Dual-Workflow-Architecture.png",
+      "reference-pack/07-IdeaStorm-AI-Agent-Control-Plane.png",
+      "reference-pack/08-IdeaStorm-Trust-Boundaries-and-Risk-Paths.png",
+      "reference-pack/09-IdeaStorm-Target-Architecture-and-Roadmap.png"
+    ],
+    "package_file": "ideastorm-portfolio-source.zip",
+    "package_bytes": 14194687,
+    "package_sha256": "d9a6193d346924947604fe0ed222cc208d2b50b3d88310ac48b28a65cfc7cb94"
+  },
+  "hr-agent": {
+    "source_archive": "HRAGENT.zip",
+    "source_archive_sha256": "3b2ef83415dd05e74e490fb11a9219f97f90a72a9833d1e4bcfbe429ca0eb1b3",
+    "included_files": [],
+    "included_file_count": 0,
+    "included_bytes": 0,
+    "source_types": {},
+    "redacted_files": {},
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 2
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "hr-agent-portfolio-source.zip",
+    "package_bytes": 16638,
+    "package_sha256": "1a7c62bd0cbf6bae618402d384e83995343530b8e6e513dd65011130c50bd6b3"
+  },
+  "delivery-command-center": {
+    "source_archive": "Delivery Command Center.zip",
+    "source_archive_sha256": "6ffc14ad698ff4d5baf4b87f956edc28d017cc651caf12e7ed9450911d83b0a2",
+    "included_files": [
+      "source/sample-01.py",
+      "source/sample-02.py",
+      "source/sample-03.py",
+      "source/sample-04.txt",
+      "source/sample-05.txt",
+      "source/sample-06.txt",
+      "source/sample-07.txt",
+      "source/sample-08.py",
+      "source/sample-09.py",
+      "source/sample-10.py",
+      "source/sample-11.py",
+      "source/sample-12.ts",
+      "source/sample-13.tsx",
+      "source/sample-14.tsx",
+      "source/sample-15.tsx",
+      "source/sample-16.py",
+      "source/sample-17.ts",
+      "source/sample-18.tsx",
+      "source/sample-19.py",
+      "source/sample-20.tsx",
+      "source/sample-21.py",
+      "source/sample-22.tsx",
+      "source/sample-23.py",
+      "source/sample-24.tsx"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 107043,
+    "source_types": {
+      ".py": 11,
+      ".ts": 2,
+      ".tsx": 7,
+      ".txt": 1,
+      "no-extension": 3
+    },
+    "redacted_files": {
+      "source/sample-03.py": [
+        "customer or identity literal"
+      ],
+      "source/sample-06.txt": [
+        "non-public service URL"
+      ],
+      "source/sample-07.txt": [
+        "network address",
+        "non-public service URL",
+        "opaque high-entropy literal"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 6,
+      "portfolio size cap": 6
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "delivery-command-center-portfolio-source.zip",
+    "package_bytes": 55195,
+    "package_sha256": "6b4c2543187d5b9be70b4e19c2af747fd77df05352734f5a14c36baef04ca5eb"
+  },
+  "deal-intelligence": {
+    "source_archive": "Dealintelligence.zip",
+    "source_archive_sha256": "18927751651518ff82f8d4caa5f25bd84035e198bac482d0d2d3ef651f9d116b",
+    "included_files": [],
+    "included_file_count": 0,
+    "included_bytes": 0,
+    "source_types": {},
+    "redacted_files": {},
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 1
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "deal-intelligence-portfolio-source.zip",
+    "package_bytes": 16786,
+    "package_sha256": "e54a169bcd7728bd67c82b4d616769035898bb354627bc7318123e74b22aacc6"
+  },
+  "dbprod": {
+    "source_archive": "DBProd.zip",
+    "source_archive_sha256": "a1b0df24e0dcd10716c661db425b41a41c88bc704fe3546b6dffba0bb9a3d733",
+    "included_files": [
+      "source/sample-01.py",
+      "source/sample-02.py",
+      "source/sample-03.py",
+      "source/sample-04.py",
+      "source/sample-05.py",
+      "source/sample-06.txt",
+      "source/sample-07.txt",
+      "source/sample-08.json",
+      "source/sample-09.toml",
+      "source/sample-10.txt",
+      "source/sample-11.txt",
+      "source/sample-12.txt",
+      "source/sample-13.sh",
+      "source/sample-14.py",
+      "source/sample-15.mjs",
+      "source/sample-16.py",
+      "source/sample-17.py",
+      "source/sample-18.sh",
+      "source/sample-19.py",
+      "source/sample-20.py",
+      "source/sample-21.py",
+      "source/sample-22.py",
+      "source/sample-23.py",
+      "source/sample-24.py"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 477116,
+    "source_types": {
+      ".json": 1,
+      ".mjs": 1,
+      ".py": 14,
+      ".sh": 2,
+      ".toml": 1,
+      ".txt": 1,
+      "no-extension": 4
+    },
+    "redacted_files": {
+      "source/sample-01.py": [
+        "customer or identity literal",
+        "opaque high-entropy literal"
+      ],
+      "source/sample-02.py": [
+        "opaque high-entropy literal"
+      ],
+      "source/sample-03.py": [
+        "hard-coded environment secret",
+        "opaque high-entropy literal"
+      ],
+      "source/sample-04.py": [
+        "non-public service URL",
+        "opaque high-entropy literal"
+      ],
+      "source/sample-05.py": [
+        "customer or identity literal",
+        "opaque high-entropy literal"
+      ],
+      "source/sample-08.json": [
+        "customer or identity literal"
+      ],
+      "source/sample-09.toml": [
+        "opaque high-entropy literal"
+      ],
+      "source/sample-11.txt": [
+        "customer or identity literal",
+        "network address"
+      ],
+      "source/sample-12.txt": [
+        "opaque high-entropy literal"
+      ],
+      "source/sample-16.py": [
+        "opaque high-entropy literal"
+      ],
+      "source/sample-17.py": [
+        "opaque high-entropy literal"
+      ],
+      "source/sample-19.py": [
+        "opaque high-entropy literal"
+      ],
+      "source/sample-20.py": [
+        "opaque high-entropy literal"
+      ],
+      "source/sample-22.py": [
+        "hard-coded environment secret",
+        "opaque high-entropy literal"
+      ],
+      "source/sample-23.py": [
+        "hard-coded environment secret",
+        "non-public service URL",
+        "opaque high-entropy literal"
+      ],
+      "source/sample-24.py": [
+        "hard-coded environment secret"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 71,
+      "unresolved sensitive content": 1,
+      "portfolio size cap": 124
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "dbprod-portfolio-source.zip",
+    "package_bytes": 128259,
+    "package_sha256": "2f896441054444956aa50438e13979cd040772be691b37b87161177f1cf06bbb"
+  },
+  "dbbot": {
+    "source_archive": "DBBOT.zip",
+    "source_archive_sha256": "d55e9e1c22f683325043e70508b77ba3d40d688549ac4f81532454eec6b45118",
+    "included_files": [
+      "source/sample-01.js",
+      "source/sample-02.js",
+      "source/sample-03.js",
+      "source/sample-04.js",
+      "source/sample-05.js",
+      "source/sample-06.js",
+      "source/sample-07.txt",
+      "source/sample-08.json",
+      "source/sample-09.json",
+      "source/sample-10.txt",
+      "source/sample-11.jsx",
+      "source/sample-12.js",
+      "source/sample-13.html",
+      "source/sample-14.js",
+      "source/sample-15.js",
+      "source/sample-16.js",
+      "source/sample-17.js",
+      "source/sample-18.js",
+      "source/sample-19.js",
+      "source/sample-20.js",
+      "source/sample-21.js",
+      "source/sample-22.js",
+      "source/sample-23.js",
+      "source/sample-24.js"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 71541,
+    "source_types": {
+      ".html": 1,
+      ".js": 18,
+      ".json": 2,
+      ".jsx": 1,
+      "no-extension": 2
+    },
+    "redacted_files": {
+      "source/sample-01.js": [
+        "customer or identity literal"
+      ],
+      "source/sample-02.js": [
+        "customer name"
+      ],
+      "source/sample-04.js": [
+        "local filesystem path"
+      ],
+      "source/sample-05.js": [
+        "hard-coded secret assignment",
+        "local filesystem path",
+        "non-public service URL",
+        "opaque high-entropy literal"
+      ],
+      "source/sample-10.txt": [
+        "non-public service URL"
+      ],
+      "source/sample-12.js": [
+        "non-public service URL"
+      ],
+      "source/sample-17.js": [
+        "customer or identity literal",
+        "hard-coded secret assignment",
+        "network address"
+      ],
+      "source/sample-20.js": [
+        "network address"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 1366,
+      "portfolio size cap": 65
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "dbbot-portfolio-source.zip",
+    "package_bytes": 47060,
+    "package_sha256": "df620799377700342519cb1af074100b1c9f5aabe6ccfda37e13b024722398b2"
+  },
+  "datamart-dwh": {
+    "source_archive": "DATAMART-DWH.zip",
+    "source_archive_sha256": "a8fc571ce7d16cfba60a8d14539e4680e135e74d881497d52f1f90194747914a",
+    "included_files": [
+      "source/sample-01.py",
+      "source/sample-02.py",
+      "source/sample-03.py",
+      "source/sample-04.py",
+      "source/sample-05.py",
+      "source/sample-06.py",
+      "source/sample-07.py",
+      "source/sample-08.py",
+      "source/sample-09.py",
+      "source/sample-10.py",
+      "source/sample-11.py",
+      "source/sample-12.py",
+      "source/sample-13.py",
+      "source/sample-14.py",
+      "source/sample-15.py",
+      "source/sample-16.py",
+      "source/sample-17.py",
+      "source/sample-18.py"
+    ],
+    "included_file_count": 18,
+    "included_bytes": 29348,
+    "source_types": {
+      ".py": 18
+    },
+    "redacted_files": {
+      "source/sample-01.py": [
+        "customer or identity literal",
+        "hard-coded secret assignment",
+        "network address"
+      ],
+      "source/sample-02.py": [
+        "customer or identity literal",
+        "hard-coded secret assignment",
+        "network address"
+      ],
+      "source/sample-03.py": [
+        "customer or identity literal",
+        "hard-coded secret assignment",
+        "network address"
+      ],
+      "source/sample-04.py": [
+        "hard-coded environment secret",
+        "network address"
+      ],
+      "source/sample-05.py": [
+        "customer or identity literal",
+        "hard-coded secret assignment",
+        "network address"
+      ],
+      "source/sample-06.py": [
+        "local filesystem path"
+      ],
+      "source/sample-07.py": [
+        "local filesystem path"
+      ],
+      "source/sample-08.py": [
+        "customer or identity literal",
+        "hard-coded secret assignment",
+        "network address"
+      ],
+      "source/sample-09.py": [
+        "customer or identity literal",
+        "hard-coded secret assignment",
+        "network address"
+      ],
+      "source/sample-10.py": [
+        "customer or identity literal",
+        "hard-coded secret assignment",
+        "network address"
+      ],
+      "source/sample-11.py": [
+        "customer or identity literal",
+        "hard-coded secret assignment",
+        "network address"
+      ],
+      "source/sample-12.py": [
+        "customer or identity literal",
+        "hard-coded secret assignment",
+        "network address"
+      ],
+      "source/sample-13.py": [
+        "customer or identity literal",
+        "hard-coded secret assignment",
+        "network address"
+      ],
+      "source/sample-14.py": [
+        "customer or identity literal",
+        "hard-coded secret assignment",
+        "network address"
+      ],
+      "source/sample-15.py": [
+        "customer or identity literal",
+        "hard-coded secret assignment",
+        "network address"
+      ],
+      "source/sample-16.py": [
+        "customer or identity literal",
+        "hard-coded secret assignment",
+        "network address"
+      ],
+      "source/sample-17.py": [
+        "customer or identity literal",
+        "hard-coded secret assignment",
+        "network address"
+      ],
+      "source/sample-18.py": [
+        "local filesystem path"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 18
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "datamart-dwh-portfolio-source.zip",
+    "package_bytes": 31793,
+    "package_sha256": "f40a43a5d60874f98f8655827a05216f8a97d32d9be977e260193b25647ec7a0"
+  },
+  "crm-data-audit": {
+    "source_archive": "Data Audit Framework.zip",
+    "source_archive_sha256": "6957ab93eab6caa4251db07687e5bae7b9be678f5c693f4cdec49e3f03d951a9",
+    "included_files": [
+      "source/sample-01.js",
+      "source/sample-02.tsx",
+      "source/sample-03.js",
+      "source/sample-04.js",
+      "source/sample-05.js",
+      "source/sample-06.txt",
+      "source/sample-07.json",
+      "source/sample-08.json",
+      "source/sample-09.tsx",
+      "source/sample-10.js",
+      "source/sample-11.js",
+      "source/sample-12.ts",
+      "source/sample-13.js",
+      "source/sample-14.js",
+      "source/sample-15.ts",
+      "source/sample-16.tsx",
+      "source/sample-17.js",
+      "source/sample-18.css",
+      "source/sample-19.js",
+      "source/sample-20.tsx",
+      "source/sample-21.tsx",
+      "source/sample-22.tsx",
+      "source/sample-23.tsx",
+      "source/sample-24.tsx"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 68614,
+    "source_types": {
+      ".css": 1,
+      ".js": 10,
+      ".json": 2,
+      ".ts": 2,
+      ".tsx": 8,
+      "no-extension": 1
+    },
+    "redacted_files": {
+      "source/sample-04.js": [
+        "non-public service URL"
+      ],
+      "source/sample-05.js": [
+        "customer name"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 9,
+      "portfolio size cap": 7
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "crm-data-audit-portfolio-source.zip",
+    "package_bytes": 45080,
+    "package_sha256": "a6bc763ef4705e786f4ae3501650997facecccf4f76d6f62010d1c202434a2f7"
+  },
+  "consentnext": {
+    "source_archive": "Consent Management.zip",
+    "source_archive_sha256": "e1417a877358c173ee2372cb04b86e7ae51dbb5f5d7e07c26b129b950e1aa0ac",
+    "included_files": [
+      "source/sample-01.py",
+      "source/sample-02.txt",
+      "source/sample-03.txt",
+      "source/sample-04.txt",
+      "source/sample-05.txt",
+      "source/sample-06.txt",
+      "source/sample-07.txt",
+      "source/sample-08.txt",
+      "source/sample-09.json",
+      "source/sample-10.json",
+      "source/sample-11.ini",
+      "source/sample-12.txt",
+      "source/sample-13.py",
+      "source/sample-14.py",
+      "source/sample-15.py",
+      "source/sample-16.py",
+      "source/sample-17.py",
+      "source/sample-18.py",
+      "source/sample-19.py",
+      "source/sample-20.py",
+      "source/sample-21.py",
+      "source/sample-22.py",
+      "source/sample-23.py",
+      "source/sample-24.py"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 12511,
+    "source_types": {
+      ".ini": 1,
+      ".json": 2,
+      ".py": 13,
+      ".txt": 2,
+      "no-extension": 6
+    },
+    "redacted_files": {
+      "source/sample-12.txt": [
+        "local filesystem path",
+        "network address",
+        "non-public service URL"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 364,
+      "portfolio size cap": 323
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "consentnext-portfolio-source.zip",
+    "package_bytes": 26435,
+    "package_sha256": "a79ca5163fea9a5c336bc149fc4bb8ec6a08d5751476cb298916b30ad619caee"
+  },
+  "clm-ocr-rag": {
+    "source_archive": "CLMOCR.zip",
+    "source_archive_sha256": "28a9671415ed6a420fa7953e87eab605c6460d753db8b47261a89b8866e28364",
+    "included_files": [
+      "source/sample-01.py",
+      "source/sample-02.py",
+      "source/sample-03.py",
+      "source/sample-04.py",
+      "source/sample-05.py",
+      "source/sample-06.py",
+      "source/sample-07.txt",
+      "source/sample-08.txt",
+      "source/sample-09.py",
+      "source/sample-10.py",
+      "source/sample-11.py",
+      "source/sample-12.py",
+      "source/sample-13.py",
+      "source/sample-14.py",
+      "source/sample-15.ps1",
+      "source/sample-16.py",
+      "source/sample-17.py",
+      "source/sample-18.py",
+      "source/sample-19.py",
+      "source/sample-20.py",
+      "source/sample-21.py",
+      "source/sample-22.py",
+      "source/sample-23.ps1",
+      "source/sample-24.py"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 64702,
+    "source_types": {
+      ".ps1": 2,
+      ".py": 20,
+      ".txt": 1,
+      "no-extension": 1
+    },
+    "redacted_files": {
+      "source/sample-06.py": [
+        "local filesystem path"
+      ],
+      "source/sample-18.py": [
+        "customer name"
+      ],
+      "source/sample-24.py": [
+        "opaque high-entropy literal"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 295,
+      "portfolio size cap": 29
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "clm-ocr-rag-portfolio-source.zip",
+    "package_bytes": 42122,
+    "package_sha256": "b9e657d3b17f894c13b9977fa6cdc5625314fe975acb81aafb90a70cb45df5f0"
+  },
+  "biztech-command-center": {
+    "source_archive": "Biztech_Command_center.zip",
+    "source_archive_sha256": "2b791dffad7c37966c36a68733518b54f6d2651909c268b178014daa56a419ea",
+    "included_files": [
+      "source/sample-01.js",
+      "source/sample-02.tsx",
+      "source/sample-03.js",
+      "source/sample-04.py",
+      "source/sample-05.txt",
+      "source/sample-06.json",
+      "source/sample-07.txt",
+      "source/sample-08.json",
+      "source/sample-09.json",
+      "source/sample-10.txt",
+      "source/sample-11.jsx",
+      "source/sample-12.js",
+      "source/sample-13.jsx",
+      "source/sample-14.js",
+      "source/sample-15.jsx",
+      "source/sample-16.jsx",
+      "source/sample-17.jsx",
+      "source/sample-18.tsx",
+      "source/sample-19.js",
+      "source/sample-20.jsx",
+      "source/sample-21.jsx",
+      "source/sample-22.ts",
+      "source/sample-23.jsx",
+      "source/sample-24.js"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 129361,
+    "source_types": {
+      ".js": 6,
+      ".json": 3,
+      ".jsx": 8,
+      ".py": 1,
+      ".ts": 1,
+      ".tsx": 2,
+      "no-extension": 3
+    },
+    "redacted_files": {
+      "source/sample-02.tsx": [
+        "non-public service URL"
+      ],
+      "source/sample-03.js": [
+        "local filesystem path"
+      ],
+      "source/sample-04.py": [
+        "customer or identity literal",
+        "non-public service URL",
+        "opaque high-entropy literal"
+      ],
+      "source/sample-10.txt": [
+        "local filesystem path",
+        "network address",
+        "non-public service URL"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 62,
+      "portfolio size cap": 181
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "biztech-command-center-portfolio-source.zip",
+    "package_bytes": 59318,
+    "package_sha256": "d4b20935ffd29b56ef4cd22e6a5a85388f5ddfa4612d1c3f07ee93d237d02f3e"
+  },
+  "biztech-enterprise": {
+    "source_archive": "BizTech.zip",
+    "source_archive_sha256": "a4c991546af19564c43618582cc871ab044f2422cf8880bc9b5a21137207a44b",
+    "included_files": [
+      "source/sample-01.txt",
+      "source/sample-02.json",
+      "source/sample-03.json",
+      "source/sample-04.txt",
+      "source/sample-05.json",
+      "source/sample-06.jsx",
+      "source/sample-07.js",
+      "source/sample-08.jsx",
+      "source/sample-09.js",
+      "source/sample-10.jsx",
+      "source/sample-11.jsx",
+      "source/sample-12.jsx",
+      "source/sample-13.tsx",
+      "source/sample-14.js",
+      "source/sample-15.jsx",
+      "source/sample-16.jsx",
+      "source/sample-17.py",
+      "source/sample-18.sh",
+      "source/sample-19.ts",
+      "source/sample-20.jsx",
+      "source/sample-21.js",
+      "source/sample-22.jsx",
+      "source/sample-23.py",
+      "source/sample-24.py"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 15413,
+    "source_types": {
+      ".js": 4,
+      ".json": 3,
+      ".jsx": 9,
+      ".py": 3,
+      ".sh": 1,
+      ".ts": 1,
+      ".tsx": 1,
+      "no-extension": 2
+    },
+    "redacted_files": {
+      "source/sample-17.py": [
+        "local filesystem path",
+        "unique identifier"
+      ],
+      "source/sample-23.py": [
+        "hard-coded secret assignment",
+        "local filesystem path",
+        "non-public service URL",
+        "opaque high-entropy literal"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 4447,
+      "portfolio size cap": 3679
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "biztech-enterprise-portfolio-source.zip",
+    "package_bytes": 29207,
+    "package_sha256": "ad276fd91d5c6d11b87e61bdc9e9614dc1848a051e474a4df558cdf8e6bca7d2"
+  },
+  "alerting-framework": {
+    "source_archive": "alertingframework.zip",
+    "source_archive_sha256": "7c9c833e7eb958095ca4057071adb9dc897a500dba0c1423b34fa76a7abf515d",
+    "included_files": [],
+    "included_file_count": 0,
+    "included_bytes": 0,
+    "source_types": {},
+    "redacted_files": {},
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 1
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "alerting-framework-portfolio-source.zip",
+    "package_bytes": 16706,
+    "package_sha256": "6fa69a132476eaae4c0e68a061488a727cadc45e248f8ac0b95d06036f9d1d2c"
+  },
+  "ai-testing-bizvalidate": {
+    "source_archive": "AITESTING.zip",
+    "source_archive_sha256": "a540040ce6004c6a700ac941e625186ba40c0cde467ccaecbf21f41c63c9a433",
+    "included_files": [
+      "source/sample-01.py",
+      "source/sample-02.py",
+      "source/sample-03.py",
+      "source/sample-04.py",
+      "source/sample-05.py",
+      "source/sample-06.txt",
+      "source/sample-07.txt",
+      "source/sample-08.json",
+      "source/sample-09.txt",
+      "source/sample-10.py",
+      "source/sample-11.py",
+      "source/sample-12.py",
+      "source/sample-13.py",
+      "source/sample-14.py",
+      "source/sample-15.py",
+      "source/sample-16.mjs",
+      "source/sample-17.mjs",
+      "source/sample-18.js",
+      "source/sample-19.py",
+      "source/sample-20.py",
+      "source/sample-21.py",
+      "source/sample-22.js",
+      "source/sample-23.py",
+      "source/sample-24.py"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 159481,
+    "source_types": {
+      ".js": 2,
+      ".json": 1,
+      ".mjs": 2,
+      ".py": 16,
+      ".txt": 1,
+      "no-extension": 2
+    },
+    "redacted_files": {
+      "source/sample-02.py": [
+        "credential token",
+        "hard-coded environment secret",
+        "non-public service URL"
+      ],
+      "source/sample-04.py": [
+        "hard-coded environment secret"
+      ],
+      "source/sample-05.py": [
+        "hard-coded environment secret"
+      ],
+      "source/sample-17.mjs": [
+        "opaque high-entropy literal"
+      ],
+      "source/sample-20.py": [
+        "opaque high-entropy literal"
+      ],
+      "source/sample-23.py": [
+        "customer or identity literal"
+      ],
+      "source/sample-24.py": [
+        "customer or identity literal",
+        "hard-coded environment secret",
+        "hard-coded secret assignment"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 21,
+      "portfolio size cap": 56
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "ai-testing-bizvalidate-portfolio-source.zip",
+    "package_bytes": 62229,
+    "package_sha256": "fb82e5060eafe660bc8434de4b9fb5bd61753766e76dfda52f3aaa1c485975d4"
+  },
+  "agentic-harness": {
+    "source_archive": "Agentic Harness.zip",
+    "source_archive_sha256": "a99ee8294dee440e87005da6e95217258e1ba38c886ec6d3819a3478d5537643",
+    "included_files": [
+      "source/sample-01.js",
+      "source/sample-02.py",
+      "source/sample-03.py",
+      "source/sample-04.py",
+      "source/sample-05.py",
+      "source/sample-06.txt",
+      "source/sample-07.txt",
+      "source/sample-08.json",
+      "source/sample-09.txt",
+      "source/sample-10.txt",
+      "source/sample-11.toml",
+      "source/sample-12.json",
+      "source/sample-13.txt",
+      "source/sample-14.txt",
+      "source/sample-15.py",
+      "source/sample-16.py",
+      "source/sample-17.py",
+      "source/sample-18.py",
+      "source/sample-19.py",
+      "source/sample-20.py",
+      "source/sample-21.py",
+      "source/sample-22.py",
+      "source/sample-23.py",
+      "source/sample-24.py"
+    ],
+    "included_file_count": 24,
+    "included_bytes": 246278,
+    "source_types": {
+      ".js": 1,
+      ".json": 2,
+      ".py": 14,
+      ".toml": 1,
+      ".txt": 3,
+      "no-extension": 3
+    },
+    "redacted_files": {
+      "source/sample-01.js": [
+        "non-public service URL"
+      ],
+      "source/sample-02.py": [
+        "hard-coded environment secret",
+        "opaque high-entropy literal"
+      ],
+      "source/sample-03.py": [
+        "hard-coded environment secret",
+        "non-public service URL"
+      ],
+      "source/sample-05.py": [
+        "customer or identity literal",
+        "hard-coded environment secret",
+        "opaque high-entropy literal"
+      ],
+      "source/sample-14.txt": [
+        "customer or identity literal",
+        "local filesystem path",
+        "non-public service URL",
+        "opaque high-entropy literal"
+      ],
+      "source/sample-16.py": [
+        "opaque high-entropy literal"
+      ],
+      "source/sample-17.py": [
+        "JWT credential",
+        "hard-coded environment secret"
+      ],
+      "source/sample-18.py": [
+        "JWT credential",
+        "hard-coded environment secret"
+      ],
+      "source/sample-19.py": [
+        "customer or identity literal",
+        "hard-coded environment secret",
+        "opaque high-entropy literal"
+      ],
+      "source/sample-20.py": [
+        "JWT credential",
+        "credential token",
+        "customer or identity literal",
+        "hard-coded environment secret",
+        "local filesystem path",
+        "non-public service URL",
+        "opaque high-entropy literal"
+      ],
+      "source/sample-21.py": [
+        "non-public service URL"
+      ],
+      "source/sample-22.py": [
+        "non-public service URL",
+        "opaque high-entropy literal"
+      ],
+      "source/sample-23.py": [
+        "hard-coded environment secret",
+        "local filesystem path",
+        "non-public service URL"
+      ]
+    },
+    "excluded_counts": {
+      "not allow-listed, generated, binary, data, secret file or oversized": 37,
+      "portfolio size cap": 56
+    },
+    "architecture_files": [
+      "01-executive-architecture.svg",
+      "02-runtime-data-flow.svg",
+      "03-system-context-deployment.svg",
+      "04-authenticated-lifecycle.svg",
+      "05-data-architecture.svg",
+      "06-workflow-orchestration.svg",
+      "07-ai-control-plane.svg",
+      "08-trust-boundaries.svg",
+      "09-target-architecture-roadmap.svg"
+    ],
+    "package_file": "agentic-harness-portfolio-source.zip",
+    "package_bytes": 85686,
+    "package_sha256": "e6d9afd6cdcc89a02d839eb056f97a26f2f2af8c206bde787e840ae30b58f7f3"
+  }
+}
