@@ -97,7 +97,10 @@ def render_sitemap(urls: list[str]) -> str:
         entry = ElementTree.SubElement(root, f"{{{namespace}}}url")
         ElementTree.SubElement(entry, f"{{{namespace}}}loc").text = url
     ElementTree.indent(root, space="  ")
-    return ElementTree.tostring(root, encoding="unicode", xml_declaration=True) + "\n"
+    # ElementTree's XML declaration casing differs between supported Python
+    # versions. Emit it ourselves so --check is deterministic locally and in CI.
+    body = ElementTree.tostring(root, encoding="unicode", xml_declaration=False)
+    return '<?xml version="1.0" encoding="UTF-8"?>\n' + body + "\n"
 
 
 def main() -> int:
