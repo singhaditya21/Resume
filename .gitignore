@@ -23,3 +23,8 @@ __pycache__/
 # Local inspection data emitted while validating public presentation samples.
 samples/presentations/**/*.layout.json
 samples/presentations/**/*.pptx.inspect.ndjson
+
+# Generated local-only presentation corpus and QA workspace. The source material
+# contains customer-confidential slides and must not be published through Pages.
+/.tmp-master-split.*/
+/internal/
