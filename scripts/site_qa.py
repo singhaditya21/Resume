@@ -14,6 +14,7 @@ import re
 import struct
 import subprocess
 import sys
+import unicodedata
 from collections import Counter
 from dataclasses import dataclass, field
 from html.parser import HTMLParser
@@ -31,6 +32,17 @@ MAX_GITHUB_BYTES = 100_000_000
 LARGE_ASSET_BYTES = 20_000_000
 LARGE_IMAGE_BYTES = 3_000_000
 IMAGE_SUFFIXES = {".avif", ".gif", ".jpeg", ".jpg", ".png", ".svg", ".webp"}
+NAV_DESTINATIONS = (
+    ("Approach", "index.html", "approach"),
+    ("Impact", "index.html", "impact"),
+    ("Work", "index.html", "work"),
+    ("Technical", "technical-projects.html", ""),
+    ("Evidence", "build-evidence.html", ""),
+    ("Cases", "case-study-library.html", ""),
+    ("Slides", "presentation-archive.html", ""),
+    ("Experience", "index.html", "experience"),
+    ("Contact", "index.html", "contact"),
+)
 
 
 @dataclass
@@ -38,6 +50,20 @@ class Issue:
     level: str
     page: str
     message: str
+
+
+@dataclass
+class ElementData:
+    tag: str
+    attrs: dict[str, str]
+
+
+@dataclass
+class AnchorData:
+    href: str
+    classes: tuple[str, ...]
+    site_nav_index: int | None
+    text: str = ""
 
 
 @dataclass
@@ -54,6 +80,9 @@ class PageData:
     canonicals: list[str] = field(default_factory=list)
     metas: dict[tuple[str, str], list[str]] = field(default_factory=dict)
     json_ld: list[str] = field(default_factory=list)
+    site_navs: list[ElementData] = field(default_factory=list)
+    menu_toggles: list[ElementData] = field(default_factory=list)
+    anchors: list[AnchorData] = field(default_factory=list)
     lang: str = ""
     noindex: bool = False
 
@@ -67,10 +96,21 @@ class PageParser(HTMLParser):
         self._json_script = False
         self._json_parts: list[str] = []
         self._anchor_depth = 0
+        self._active_anchor: AnchorData | None = None
+        self._site_nav_index: int | None = None
+        self._site_nav_end_tag = ""
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         tag = tag.lower()
         values = {name.lower(): value for name, value in attrs}
+        classes = tuple((values.get("class") or "").split())
+        normalized_values = {name: value or "" for name, value in values.items()}
+        if "site-nav" in classes:
+            self.data.site_navs.append(ElementData(tag=tag, attrs=normalized_values))
+            self._site_nav_index = len(self.data.site_navs) - 1
+            self._site_nav_end_tag = tag
+        if "menu-toggle" in classes:
+            self.data.menu_toggles.append(ElementData(tag=tag, attrs=normalized_values))
         if tag == "html":
             self.data.lang = (values.get("lang") or "").strip()
         identifier = values.get("id")
@@ -87,7 +127,12 @@ class PageParser(HTMLParser):
             self._anchor_depth += 1
             href = (values.get("href") or "").strip()
             self.data.links.append(("a", "href", href))
-            classes = (values.get("class") or "").split()
+            self._active_anchor = AnchorData(
+                href=href,
+                classes=classes,
+                site_nav_index=self._site_nav_index,
+            )
+            self.data.anchors.append(self._active_anchor)
             if "skip-link" in classes:
                 self.data.skip_links.append(href)
             if (values.get("target") or "").lower() == "_blank":
@@ -135,12 +180,18 @@ class PageParser(HTMLParser):
             self._json_script = False
         if tag == "a" and self._anchor_depth:
             self._anchor_depth -= 1
+            self._active_anchor = None
+        if self._site_nav_index is not None and tag == self._site_nav_end_tag:
+            self._site_nav_index = None
+            self._site_nav_end_tag = ""
 
     def handle_data(self, data: str) -> None:
         if self._in_title:
             self._title_parts.append(data)
         if self._json_script:
             self._json_parts.append(data)
+        if self._active_anchor is not None:
+            self._active_anchor.text += data
 
 
 def is_excluded(path: Path) -> bool:
@@ -317,6 +368,89 @@ def local_target(page: Path, raw_url: str) -> tuple[Path | None, str]:
     return resolved, fragment
 
 
+def normalized_text(value: str) -> str:
+    return re.sub(r"\s+", " ", value).strip()
+
+
+def normalized_words(value: str) -> list[str]:
+    decomposed = unicodedata.normalize("NFKD", value)
+    ascii_text = "".join(character for character in decomposed if not unicodedata.combining(character))
+    return re.findall(r"[a-z0-9]+", ascii_text.casefold())
+
+
+def validate_navigation(data: PageData, issues: list[Issue]) -> None:
+    path = data.path
+    if len(data.site_navs) != 1:
+        issue(issues, "error", path, f"expected one .site-nav, found {len(data.site_navs)}")
+    if data.ids.get("site-nav", 0) != 1:
+        issue(issues, "error", path, f"expected one #site-nav element, found {data.ids.get('site-nav', 0)}")
+
+    if len(data.site_navs) == 1:
+        nav = data.site_navs[0]
+        if nav.tag != "nav":
+            issue(issues, "error", path, f".site-nav must be a nav element, found {nav.tag}")
+        if nav.attrs.get("id") != "site-nav":
+            issue(issues, "error", path, ".site-nav must also be #site-nav")
+
+        nav_links = [anchor for anchor in data.anchors if anchor.site_nav_index == 0]
+        expected_labels = [label for label, _, _ in NAV_DESTINATIONS]
+        actual_labels = [normalized_text(anchor.text) for anchor in nav_links]
+        if actual_labels != expected_labels:
+            issue(
+                issues,
+                "error",
+                path,
+                f"navigation labels/order must be {expected_labels!r}; found {actual_labels!r}",
+            )
+
+        for position, (label, target_name, expected_fragment) in enumerate(NAV_DESTINATIONS):
+            if position >= len(nav_links):
+                break
+            anchor = nav_links[position]
+            target, fragment = local_target(path, anchor.href)
+            expected_target = (ROOT / target_name).resolve()
+            parsed = urlsplit(anchor.href)
+            if parsed.query or target != expected_target or fragment != expected_fragment:
+                expected_href = target_name + (f"#{expected_fragment}" if expected_fragment else "")
+                issue(
+                    issues,
+                    "error",
+                    path,
+                    f"{label} navigation target must resolve to {expected_href}; found {anchor.href!r}",
+                )
+
+    if len(data.menu_toggles) != 1:
+        issue(issues, "error", path, f"expected one .menu-toggle, found {len(data.menu_toggles)}")
+    else:
+        toggle = data.menu_toggles[0]
+        if toggle.tag != "button" or toggle.attrs.get("type", "").casefold() != "button":
+            issue(issues, "error", path, ".menu-toggle must be a button with type=button")
+        if toggle.attrs.get("aria-controls") != "site-nav":
+            issue(issues, "error", path, '.menu-toggle must declare aria-controls="site-nav"')
+        if toggle.attrs.get("aria-expanded", "").casefold() not in {"true", "false"}:
+            issue(issues, "error", path, ".menu-toggle must declare a valid aria-expanded boolean")
+
+    resume_ctas = [anchor for anchor in data.anchors if "header-cta" in anchor.classes]
+    if len(resume_ctas) != 1:
+        issue(issues, "error", path, f"expected one .header-cta Resume link, found {len(resume_ctas)}")
+    else:
+        cta = resume_ctas[0]
+        if "resume" not in normalized_words(cta.text):
+            issue(issues, "error", path, f"header CTA must be labelled Resume; found {normalized_text(cta.text)!r}")
+        target, fragment = local_target(path, cta.href)
+        if (
+            urlsplit(cta.href).query
+            or target != (ROOT / "Aditya_Singh_Resume.pdf").resolve()
+            or fragment
+        ):
+            issue(
+                issues,
+                "error",
+                path,
+                f"Resume CTA must resolve to Aditya_Singh_Resume.pdf; found {cta.href!r}",
+            )
+
+
 def validate_links(pages: dict[Path, PageData], issues: list[Issue]) -> None:
     parsed_cache = dict(pages)
     for page, data in pages.items():
@@ -439,6 +573,7 @@ def main() -> int:
     for data in pages.values():
         validate_structure(data, issues)
         validate_metadata(data, issues)
+        validate_navigation(data, issues)
     validate_links(pages, issues)
     validate_social_asset(issues)
     validate_discovery(pages, issues)

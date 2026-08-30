@@ -24,6 +24,8 @@
         .error-page .brand-copy small, .error-page .site-nav a { color: rgba(255, 255, 255, .72); }
         .error-page .brand-mark { background: #c8f33d; color: #10233f; }
         .error-page .header-cta { background: #c8f33d; color: #10233f; }
+        .error-page .menu-toggle { border-color: rgba(255, 255, 255, .3); }
+        .error-page .menu-toggle > span:not(.sr-only) { background: #fffdf8; }
         .error-main { width: min(100%, 1440px); min-height: calc(100vh - 76px); display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(300px, .75fr); align-items: stretch; }
         .error-copy { display: flex; flex-direction: column; justify-content: center; padding: clamp(5rem, 9vw, 9rem) clamp(1.25rem, 4vw, 4.5rem); }
         .error-code { margin: 0 0 1.4rem; color: #5ed5c7; font-size: .72rem; font-weight: 900; letter-spacing: .16em; text-transform: uppercase; }
@@ -38,8 +40,11 @@
         .error-map a strong { font-size: 1rem; }
         .error-map a span { color: rgba(255, 255, 255, .58); font-size: .75rem; }
         .error-map a:hover strong, .error-map a:focus-visible strong { color: #c8f33d; }
+        @media (max-width: 1240px) {
+            .error-page .site-nav { background: #203653; border-color: rgba(255, 255, 255, .16); }
+            .error-page .site-nav a { color: #fffdf8; border-color: rgba(255, 255, 255, .16); }
+        }
         @media (max-width: 820px) {
-            .error-page .site-nav { display: none; }
             .error-main { grid-template-columns: 1fr; }
             .error-map { border-top: 1px solid rgba(255, 255, 255, .16); border-left: 0; }
         }
@@ -47,17 +52,26 @@
 </head>
 <body class="error-page">
     <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header">
+    <header class="site-header" data-header>
         <a class="brand" href="/Resume/" aria-label="Aditya Singh, portfolio home">
             <span class="brand-mark">AS</span>
             <span class="brand-copy"><strong>Aditya Singh</strong><small>Enterprise AI &amp; BFSI</small></span>
         </a>
-        <nav class="site-nav" aria-label="Recovery navigation">
-            <a href="/Resume/">Portfolio</a>
-            <a href="/Resume/technical-projects.html">Technical projects</a>
-            <a href="/Resume/build-evidence.html">Build evidence</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+            <span></span><span></span><span></span><span class="sr-only">Toggle navigation</span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+            <a href="/Resume/#approach">Approach</a>
+            <a href="/Resume/#impact">Impact</a>
+            <a href="/Resume/#work">Work</a>
+            <a href="/Resume/technical-projects.html">Technical</a>
+            <a href="/Resume/build-evidence.html">Evidence</a>
+            <a href="/Resume/case-study-library.html">Cases</a>
+            <a href="/Resume/presentation-archive.html">Slides</a>
+            <a href="/Resume/#experience">Experience</a>
+            <a href="/Resume/#contact">Contact</a>
         </nav>
-        <a class="header-cta" href="/Resume/Aditya_Singh_Resume.pdf">Résumé ↗</a>
+        <a class="header-cta" href="/Resume/Aditya_Singh_Resume.pdf" target="_blank" rel="noopener">Resume <span aria-hidden="true">↗</span></a>
     </header>
     <main id="main" class="error-main">
         <section class="error-copy" aria-labelledby="error-title">
@@ -76,5 +90,6 @@
             <a href="/Resume/Aditya_Singh_Resume.pdf"><strong>Résumé</strong><span>Experience, scope and operating credentials</span></a>
         </aside>
     </main>
+    <script src="/Resume/script.js"></script>
 </body>
 </html>

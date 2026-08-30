@@ -78,10 +78,15 @@ function updateScrollState() {
     if (progressBar) progressBar.style.width = `${progress * 100}%`;
 
     let activeId = "";
+    let activeTop = Number.NEGATIVE_INFINITY;
     for (const link of navLinks) {
         const id = link.getAttribute("href")?.slice(1);
         const section = id ? document.getElementById(id) : null;
-        if (section && section.getBoundingClientRect().top <= 160) activeId = id;
+        const top = section?.getBoundingClientRect().top;
+        if (typeof top === "number" && top <= 160 && top > activeTop) {
+            activeId = id;
+            activeTop = top;
+        }
     }
     navLinks.forEach((link) => {
         const isActive = link.getAttribute("href") === `#${activeId}`;
