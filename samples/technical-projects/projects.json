@@ -89,7 +89,19 @@
         "Grounded prompting",
         "Provider abstraction",
         "Graph OAuth"
-      ]
+      ],
+      "flagship": false,
+      "family": "BizTech decision systems",
+      "capability": "Data & decision intelligence",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Prototype archive",
+        "intelligence": "AI-assisted intelligence"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "zeno-injector",
@@ -183,6 +195,21 @@
         "Multimodal OCR",
         "Vector schema governance",
         "ACL propagation"
+      ],
+      "flagship": true,
+      "family": "Zeno & enterprise knowledge",
+      "capability": "Knowledge, RAG & document AI",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Implementation archive",
+        "intelligence": "RAG / document AI"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": [
+        "ACL metadata is preserved through ingestion and vector persistence.",
+        "Embedding contracts, delete guards and a recovery ledger bound repeatable ingestion."
       ]
     },
     {
@@ -245,7 +272,19 @@
       ],
       "roadmap": [
         "No verifiable technical skills in supplied archive"
-      ]
+      ],
+      "flagship": false,
+      "family": "Independent system",
+      "capability": "Concept / target state",
+      "evidence_profile": {
+        "source": "Documentation-only archive",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Concept / evidence gap",
+        "intelligence": "Not established"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "oneview",
@@ -338,7 +377,19 @@
         "Grounded AI",
         "Multimodal analysis",
         "Prompt governance"
-      ]
+      ],
+      "flagship": false,
+      "family": "BizTech decision systems",
+      "capability": "Data & decision intelligence",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Implementation archive",
+        "intelligence": "AI-assisted intelligence"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "okr-dashboard",
@@ -428,7 +479,19 @@
         "Streaming AI UX",
         "Prompt grounding",
         "Dynamic chart generation"
-      ]
+      ],
+      "flagship": false,
+      "family": "BizTech decision systems",
+      "capability": "Data & decision intelligence",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Implementation archive",
+        "intelligence": "AI-assisted intelligence"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "obsidian-llm-wiki",
@@ -522,7 +585,19 @@
         "Agent planning",
         "Teach-and-replay automation",
         "HITL"
-      ]
+      ],
+      "flagship": false,
+      "family": "Independent system",
+      "capability": "Agentic AI & automation",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Implementation archive",
+        "intelligence": "Agentic AI"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "wsr-automate",
@@ -615,6 +690,21 @@
         "Executive narrative generation",
         "Presentation automation",
         "Forecasting"
+      ],
+      "flagship": true,
+      "family": "Independent system",
+      "capability": "Agentic AI & automation",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Implementation archive",
+        "intelligence": "Agentic AI"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": [
+        "Deterministic portfolio analysis is retained alongside structured model output repair.",
+        "Source lineage and human-controlled distribution remain explicit delivery boundaries."
       ]
     },
     {
@@ -678,7 +768,19 @@
       ],
       "roadmap": [
         "No verifiable implementation in supplied archive"
-      ]
+      ],
+      "flagship": false,
+      "family": "Quality & monitoring",
+      "capability": "Concept / target state",
+      "evidence_profile": {
+        "source": "Documentation-only archive",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Concept / evidence gap",
+        "intelligence": "Not established"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "whatsapp-bot-monitoring",
@@ -770,7 +872,19 @@
         "Browser automation",
         "Retry analysis",
         "Incident integration"
-      ]
+      ],
+      "flagship": false,
+      "family": "Quality & monitoring",
+      "capability": "AI testing & quality",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Implementation archive",
+        "intelligence": "AI-assisted quality"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "us-project-health",
@@ -859,7 +973,19 @@
         "Source reconciliation",
         "Data quality",
         "Weighted health scoring"
-      ]
+      ],
+      "flagship": false,
+      "family": "BizTech decision systems",
+      "capability": "Data & decision intelligence",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Deterministic implementation archive",
+        "intelligence": "Deterministic / AI-enabling"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "skill-management",
@@ -921,7 +1047,19 @@
       ],
       "roadmap": [
         "No verifiable technical skills in supplied archive"
-      ]
+      ],
+      "flagship": false,
+      "family": "RMG & workforce planning",
+      "capability": "Concept / target state",
+      "evidence_profile": {
+        "source": "Documentation-only archive",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Concept / evidence gap",
+        "intelligence": "Not established"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "rmg-bot",
@@ -1013,7 +1151,19 @@
         "RAG indexing",
         "Resource analytics",
         "Grounding"
-      ]
+      ],
+      "flagship": false,
+      "family": "RMG & workforce planning",
+      "capability": "Knowledge, RAG & document AI",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Prototype archive",
+        "intelligence": "RAG / document AI"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "rmg-budgeting",
@@ -1105,7 +1255,19 @@
         "Cross-language parity",
         "Immutable versioning",
         "Approval workflows"
-      ]
+      ],
+      "flagship": false,
+      "family": "RMG & workforce planning",
+      "capability": "Enterprise operations",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Deterministic implementation archive",
+        "intelligence": "Deterministic / AI-enabling"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "rmg-project360",
@@ -1197,7 +1359,19 @@
         "Financial modeling",
         "Calculation parity",
         "Immutable versioning"
-      ]
+      ],
+      "flagship": false,
+      "family": "RMG & workforce planning",
+      "capability": "Enterprise operations",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Deterministic implementation archive",
+        "intelligence": "Deterministic / AI-enabling"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "nps-survey-engine",
@@ -1289,7 +1463,19 @@
         "Graph workflows",
         "NPS analytics",
         "Email automation"
-      ]
+      ],
+      "flagship": false,
+      "family": "Independent system",
+      "capability": "Enterprise operations",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Deterministic implementation archive",
+        "intelligence": "Deterministic / AI-enabling"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "newsnext",
@@ -1382,7 +1568,19 @@
         "Feature hashing",
         "Feed ingestion",
         "Taxonomy design"
-      ]
+      ],
+      "flagship": false,
+      "family": "Independent system",
+      "capability": "Data & decision intelligence",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Deterministic implementation archive",
+        "intelligence": "Deterministic / AI-enabling"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "netsuite-token-service",
@@ -1470,7 +1668,19 @@
         "JWT signing",
         "Certificate handling",
         "API integration"
-      ]
+      ],
+      "flagship": false,
+      "family": "Independent system",
+      "capability": "Enterprise operations",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Deterministic implementation archive",
+        "intelligence": "Deterministic / AI-enabling"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "nemoclaw-revops",
@@ -1564,7 +1774,19 @@
         "NL-to-SQL",
         "Semantic caching",
         "Provider failover"
-      ]
+      ],
+      "flagship": false,
+      "family": "Independent system",
+      "capability": "Agentic AI & automation",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Prototype archive",
+        "intelligence": "Agentic AI"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "mprbot",
@@ -1658,7 +1880,19 @@
         "Cross-encoder reranking",
         "Case-pair extraction",
         "Provider failover"
-      ]
+      ],
+      "flagship": false,
+      "family": "Independent system",
+      "capability": "Knowledge, RAG & document AI",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Prototype archive",
+        "intelligence": "RAG / document AI"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "kb-preproduction",
@@ -1751,7 +1985,19 @@
         "Vector search",
         "Reranking",
         "Streaming APIs"
-      ]
+      ],
+      "flagship": false,
+      "family": "Zeno & enterprise knowledge",
+      "capability": "Knowledge, RAG & document AI",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Implementation archive",
+        "intelligence": "RAG / document AI"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "kb-prod",
@@ -1841,7 +2087,19 @@
         "Vector retrieval",
         "Provider abstraction",
         "Telemetry"
-      ]
+      ],
+      "flagship": false,
+      "family": "Zeno & enterprise knowledge",
+      "capability": "Knowledge, RAG & document AI",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Prototype archive",
+        "intelligence": "RAG / document AI"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "btkb",
@@ -1934,6 +2192,21 @@
         "ACL-aware retrieval",
         "Reciprocal-rank fusion",
         "Guardrails"
+      ],
+      "flagship": true,
+      "family": "Zeno & enterprise knowledge",
+      "capability": "Knowledge, RAG & document AI",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Implementation archive",
+        "intelligence": "RAG / document AI"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": [
+        "ACL checks occur before generation, with confidence-based refusal when evidence is insufficient.",
+        "Generated output passes through credential scrubbing before delivery."
       ]
     },
     {
@@ -1996,7 +2269,19 @@
       ],
       "roadmap": [
         "No verifiable technical skills in supplied archive"
-      ]
+      ],
+      "flagship": false,
+      "family": "Independent system",
+      "capability": "Concept / target state",
+      "evidence_profile": {
+        "source": "Documentation-only archive",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Concept / evidence gap",
+        "intelligence": "Not established"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "ideastorm",
@@ -2090,6 +2375,21 @@
         "Human-in-the-loop",
         "Policy and budget gates",
         "Run tracing"
+      ],
+      "flagship": true,
+      "family": "Independent system",
+      "capability": "Agentic AI & automation",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Implementation archive",
+        "intelligence": "Agentic AI"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": [
+        "Policy and budget preflight precede agent execution.",
+        "Consequential actions remain behind human approval, a kill switch and an incident path."
       ]
     },
     {
@@ -2153,7 +2453,19 @@
       ],
       "roadmap": [
         "No verifiable implementation in supplied archive"
-      ]
+      ],
+      "flagship": false,
+      "family": "RMG & workforce planning",
+      "capability": "Concept / target state",
+      "evidence_profile": {
+        "source": "Documentation-only archive",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Concept / evidence gap",
+        "intelligence": "Not established"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "delivery-command-center",
@@ -2244,7 +2556,19 @@
         "Data lineage",
         "Grounded insight generation",
         "Fallback rules"
-      ]
+      ],
+      "flagship": false,
+      "family": "BizTech decision systems",
+      "capability": "Data & decision intelligence",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Prototype archive",
+        "intelligence": "AI-assisted intelligence"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "deal-intelligence",
@@ -2306,7 +2630,19 @@
       ],
       "roadmap": [
         "No verifiable technical skills in supplied archive"
-      ]
+      ],
+      "flagship": false,
+      "family": "Independent system",
+      "capability": "Concept / target state",
+      "evidence_profile": {
+        "source": "Documentation-only archive",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Concept / evidence gap",
+        "intelligence": "Not established"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "dbprod",
@@ -2399,6 +2735,21 @@
         "Semantic layers",
         "Model authority boundaries",
         "Learning governance"
+      ],
+      "flagship": true,
+      "family": "Database & analytics copilots",
+      "capability": "Agentic AI & automation",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Implementation archive",
+        "intelligence": "Agentic AI"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": [
+        "A deterministic typed compiler remains authoritative over bounded model advice.",
+        "SQL is constrained by read-only, ownership, catalog and execution-boundary controls."
       ]
     },
     {
@@ -2493,7 +2844,19 @@
         "Text-to-SQL",
         "Schema retrieval",
         "MCP tooling"
-      ]
+      ],
+      "flagship": false,
+      "family": "Database & analytics copilots",
+      "capability": "Agentic AI & automation",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Prototype archive",
+        "intelligence": "Agentic AI"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "datamart-dwh",
@@ -2586,7 +2949,19 @@
         "ETL",
         "Dimensional modeling",
         "NL-to-SQL"
-      ]
+      ],
+      "flagship": false,
+      "family": "Database & analytics copilots",
+      "capability": "Data & decision intelligence",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Prototype archive",
+        "intelligence": "AI-assisted intelligence"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "crm-data-audit",
@@ -2677,7 +3052,19 @@
         "Modular audit architecture",
         "Custom database protocol",
         "Drilldown UX"
-      ]
+      ],
+      "flagship": false,
+      "family": "Database & analytics copilots",
+      "capability": "Data & decision intelligence",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Deterministic implementation archive",
+        "intelligence": "Deterministic / AI-enabling"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "consentnext",
@@ -2769,6 +3156,21 @@
         "Cryptographic ledgers",
         "Transactional outbox",
         "Tenant isolation"
+      ],
+      "flagship": true,
+      "family": "Independent system",
+      "capability": "Governance, risk & security",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Implementation archive",
+        "intelligence": "AI-assisted intelligence"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": [
+        "Consent evidence uses insert-only signed versions rather than mutable history.",
+        "Tenant/purpose isolation and maker-checker approval gate governed changes."
       ]
     },
     {
@@ -2863,6 +3265,21 @@
         "Hybrid RAG",
         "Cross-encoder reranking",
         "Citation grounding"
+      ],
+      "flagship": true,
+      "family": "Independent system",
+      "capability": "Knowledge, RAG & document AI",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Implementation archive",
+        "intelligence": "RAG / document AI"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": [
+        "The inference boundary stays local while dense and lexical retrieval are combined before reranking.",
+        "Answer citations remain tied to retrieved chunks rather than model-only assertions."
       ]
     },
     {
@@ -2956,7 +3373,19 @@
         "KPI engineering",
         "Recommendation validation",
         "RBAC"
-      ]
+      ],
+      "flagship": false,
+      "family": "BizTech decision systems",
+      "capability": "Data & decision intelligence",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Implementation archive",
+        "intelligence": "AI-assisted intelligence"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "biztech-enterprise",
@@ -3049,7 +3478,19 @@
         "Database migration",
         "Financial reporting",
         "RevOps analytics"
-      ]
+      ],
+      "flagship": false,
+      "family": "BizTech decision systems",
+      "capability": "Enterprise operations",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Deterministic implementation archive",
+        "intelligence": "Deterministic / AI-enabling"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "alerting-framework",
@@ -3111,7 +3552,19 @@
       ],
       "roadmap": [
         "No verifiable technical skills in supplied archive"
-      ]
+      ],
+      "flagship": false,
+      "family": "Quality & monitoring",
+      "capability": "Concept / target state",
+      "evidence_profile": {
+        "source": "Documentation-only archive",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Concept / evidence gap",
+        "intelligence": "Not established"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     },
     {
       "slug": "ai-testing-bizvalidate",
@@ -3205,6 +3658,21 @@
         "Browser automation",
         "Self-healing selectors",
         "HAR analysis"
+      ],
+      "flagship": true,
+      "family": "Quality & monitoring",
+      "capability": "AI testing & quality",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Implementation archive",
+        "intelligence": "AI-assisted quality"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": [
+        "Playwright and deterministic validators own execution; model proposals remain bounded inputs.",
+        "Default administrative access is disabled and test evidence is sanitized and encrypted."
       ]
     },
     {
@@ -3298,7 +3766,19 @@
         "Multimodal processing",
         "RAG",
         "Deal methodology scoring"
-      ]
+      ],
+      "flagship": false,
+      "family": "Independent system",
+      "capability": "Agentic AI & automation",
+      "evidence_profile": {
+        "source": "Sanitized source samples",
+        "verification": "Static review only \u00b7 code not executed",
+        "maturity": "Prototype archive",
+        "intelligence": "Agentic AI"
+      },
+      "ownership_evidence": null,
+      "outcome_evidence": null,
+      "decision_evidence": null
     }
   ]
 }

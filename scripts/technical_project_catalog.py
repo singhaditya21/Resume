@@ -588,3 +588,117 @@ PROJECTS = [
         controls=["Workflow credential token removed and rotated", "Contributor and customer artifacts excluded", "Proprietary media and documents excluded", "Human-owned deal decisions"],
     ),
 ]
+
+
+# Portfolio navigation metadata is deliberately separate from the source-review
+# classification above.  It changes how the public library is explored; it does
+# not change or inflate the evidence available for any project.
+FLAGSHIP_SLUGS = (
+    "ideastorm",
+    "zeno-injector",
+    "consentnext",
+    "ai-testing-bizvalidate",
+    "dbprod",
+    "btkb",
+    "wsr-automate",
+    "clm-ocr-rag",
+)
+
+FAMILY_BY_SLUG = {
+    "zeno-injector": "Zeno & enterprise knowledge",
+    "kb-preproduction": "Zeno & enterprise knowledge",
+    "kb-prod": "Zeno & enterprise knowledge",
+    "btkb": "Zeno & enterprise knowledge",
+    "rmg-bot": "RMG & workforce planning",
+    "rmg-budgeting": "RMG & workforce planning",
+    "rmg-project360": "RMG & workforce planning",
+    "skill-management": "RMG & workforce planning",
+    "hr-agent": "RMG & workforce planning",
+    "profitability": "BizTech decision systems",
+    "oneview": "BizTech decision systems",
+    "okr-dashboard": "BizTech decision systems",
+    "us-project-health": "BizTech decision systems",
+    "delivery-command-center": "BizTech decision systems",
+    "biztech-command-center": "BizTech decision systems",
+    "biztech-enterprise": "BizTech decision systems",
+    "dbprod": "Database & analytics copilots",
+    "dbbot": "Database & analytics copilots",
+    "datamart-dwh": "Database & analytics copilots",
+    "crm-data-audit": "Database & analytics copilots",
+    "whatsapp-bot-monitoring": "Quality & monitoring",
+    "world-monitor": "Quality & monitoring",
+    "alerting-framework": "Quality & monitoring",
+    "ai-testing-bizvalidate": "Quality & monitoring",
+}
+
+DECISION_EVIDENCE_BY_SLUG = {
+    "ideastorm": [
+        "Policy and budget preflight precede agent execution.",
+        "Consequential actions remain behind human approval, a kill switch and an incident path.",
+    ],
+    "zeno-injector": [
+        "ACL metadata is preserved through ingestion and vector persistence.",
+        "Embedding contracts, delete guards and a recovery ledger bound repeatable ingestion.",
+    ],
+    "consentnext": [
+        "Consent evidence uses insert-only signed versions rather than mutable history.",
+        "Tenant/purpose isolation and maker-checker approval gate governed changes.",
+    ],
+    "ai-testing-bizvalidate": [
+        "Playwright and deterministic validators own execution; model proposals remain bounded inputs.",
+        "Default administrative access is disabled and test evidence is sanitized and encrypted.",
+    ],
+    "dbprod": [
+        "A deterministic typed compiler remains authoritative over bounded model advice.",
+        "SQL is constrained by read-only, ownership, catalog and execution-boundary controls.",
+    ],
+    "btkb": [
+        "ACL checks occur before generation, with confidence-based refusal when evidence is insufficient.",
+        "Generated output passes through credential scrubbing before delivery.",
+    ],
+    "wsr-automate": [
+        "Deterministic portfolio analysis is retained alongside structured model output repair.",
+        "Source lineage and human-controlled distribution remain explicit delivery boundaries.",
+    ],
+    "clm-ocr-rag": [
+        "The inference boundary stays local while dense and lexical retrieval are combined before reranking.",
+        "Answer citations remain tied to retrieved chunks rather than model-only assertions.",
+    ],
+}
+
+
+def _intelligence_type(project: dict) -> str:
+    if project["evidence_level"] == "concept":
+        return "Not established"
+    if project["evidence_level"] == "deterministic":
+        return "Deterministic / AI-enabling"
+    if project["category"] == "Agentic AI & automation":
+        return "Agentic AI"
+    if project["category"] == "Knowledge, RAG & document AI":
+        return "RAG / document AI"
+    if project["category"] == "AI testing & quality":
+        return "AI-assisted quality"
+    return "AI-assisted intelligence"
+
+
+for _project in PROJECTS:
+    _level = _project["evidence_level"]
+    _project["flagship"] = _project["slug"] in FLAGSHIP_SLUGS
+    _project["family"] = FAMILY_BY_SLUG.get(_project["slug"], "Independent system")
+    _project["capability"] = (
+        "Concept / target state" if _level == "concept" else _project["category"]
+    )
+    _project["evidence_profile"] = {
+        "source": "Documentation-only archive" if _level == "concept" else "Sanitized source samples",
+        "verification": "Static review only · code not executed",
+        "maturity": {
+            "implemented": "Implementation archive",
+            "prototype": "Prototype archive",
+            "deterministic": "Deterministic implementation archive",
+            "concept": "Concept / evidence gap",
+        }[_level],
+        "intelligence": _intelligence_type(_project),
+    }
+    _project["ownership_evidence"] = None
+    _project["outcome_evidence"] = None
+    _project["decision_evidence"] = DECISION_EVIDENCE_BY_SLUG.get(_project["slug"])

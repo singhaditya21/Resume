@@ -1,7 +1,12 @@
 # BusinessNext Project360 & Resource Budgeting
 
 - **Evidence status:** Deterministic / AI-enabling
+- **Source evidence:** Sanitized source samples
+- **Verification:** Static review only · code not executed
+- **Delivery maturity:** Deterministic implementation archive
+- **Intelligence type:** Deterministic / AI-enabling
 - **Category:** Enterprise operations
+- **Project family:** RMG & workforce planning
 - **Source package:** `RMG.zip`
 
 Resource planning and project economics across allocation, burdened cost, P&L, margin gates, approvals and version history.
@@ -45,15 +50,20 @@ IdeaStorm additionally includes the nine supplied PNG reference diagrams under `
 
 ## Source evidence reviewed
 
-- `Budgeting/shared/src/engine.ts`
-- `Budgeting/backend/app/engine.py`
-- `Budgeting/backend/app/main.py`
-- `Budgeting/backend/app/schema.sql`
-- `Budgeting/backend/app/sso.py`
+See [`PUBLIC_EVIDENCE_MAP.md`](PUBLIC_EVIDENCE_MAP.md) for a claim-to-sample map and the complete anonymized sample inventory. Original archive-member paths are intentionally not published.
+
+## Attribution, outcomes and decisions
+
+- **Personal ownership:** Not established from the supplied archive.
+- **Measured outcomes:** Not established from the supplied archive.
+
+- **Technical decision rationale:** Not established from the supplied archive.
 
 ## Public-package boundary
 
 This is a curated, non-runnable portfolio snapshot rather than the original production archive. Credentials, environment files, customer datasets, contract documents, employee records, database backups, vector indexes, model weights, generated dependencies, media and live deployment state are excluded. Selected source text is anonymized, scanned and redacted for credential-like values, known customer names, identity literals, email addresses, phone numbers, identifiers, service URLs, network addresses and local filesystem paths.
 
-- Included source files: **24**
+- Meaningful anonymized source samples: **23**
+- Retained empty source placeholders: **1**
+- Total included source files: **24**
 - Included sanitized source bytes: **90,031**

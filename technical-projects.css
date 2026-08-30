@@ -98,24 +98,29 @@
 }
 
 .tech-tools {
-    display: flex;
+    display: grid;
+    grid-template-columns: minmax(260px, 2fr) repeat(4, minmax(135px, 1fr)) auto auto;
     align-items: center;
-    justify-content: space-between;
     gap: 1rem;
     margin-bottom: 1rem;
 }
 
 .tech-tools label {
-    flex: 1;
-    max-width: 760px;
+    min-width: 0;
 }
 
-.tech-tools .tech-sort {
-    flex: 0 0 170px;
-    max-width: 170px;
+.tech-tools label > span {
+    display: block;
+    margin-bottom: .4rem;
+    color: var(--blue-dark);
+    font-size: .58rem;
+    font-weight: 900;
+    letter-spacing: .07em;
+    text-transform: uppercase;
 }
 
-.tech-tools input {
+.tech-tools input,
+.tech-tools select {
     width: 100%;
     min-height: 52px;
     padding: .85rem 1rem;
@@ -124,6 +129,8 @@
     outline: 0;
     background: var(--paper-2);
     color: var(--ink);
+    font-size: .68rem;
+    font-weight: 760;
 }
 
 .tech-tools input::placeholder {
@@ -135,7 +142,6 @@
     box-shadow: inset 0 0 0 1px var(--blue);
 }
 
-.tech-tools select,
 .tech-tools button {
     min-height: 52px;
     padding: .75rem .85rem;
@@ -239,7 +245,7 @@
 }
 
 .tech-project-body {
-    min-height: 390px;
+    min-height: 560px;
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -296,7 +302,7 @@
     color: #554f46;
 }
 
-.tech-project-body h2 {
+.tech-project-body h3 {
     margin: 2.2rem 0 .8rem;
     font-size: clamp(1.45rem, 2.15vw, 2.1rem);
     line-height: 1.06;
@@ -613,6 +619,347 @@
     font: .68rem/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
 
+/* Recruiter-first routes and progressive disclosure */
+
+.technical-routes {
+    background: var(--paper);
+}
+
+.technical-route-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+}
+
+.technical-route-grid a {
+    min-height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: clamp(1.4rem, 3vw, 2.4rem);
+    background: var(--white);
+    color: var(--ink);
+    text-decoration: none;
+}
+
+.technical-route-grid a:hover,
+.technical-route-grid a:focus-visible {
+    background: var(--ink);
+    color: white;
+}
+
+.technical-route-grid strong {
+    font-size: clamp(1.45rem, 2vw, 2.1rem);
+    line-height: 1.05;
+    letter-spacing: -.04em;
+}
+
+.technical-route-grid span {
+    max-width: 34ch;
+    color: var(--muted);
+    font-size: .76rem;
+    line-height: 1.6;
+}
+
+.technical-route-grid a:hover span,
+.technical-route-grid a:focus-visible span {
+    color: rgba(255, 255, 255, .7);
+}
+
+.complete-library {
+    background: var(--paper);
+}
+
+.library-disclosure,
+.architecture-layer {
+    border: 1px solid var(--line);
+    background: var(--white);
+}
+
+.library-disclosure > summary,
+.architecture-layer > summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 1.3rem 1.5rem;
+    cursor: pointer;
+    color: var(--ink);
+    font-size: .72rem;
+    font-weight: 900;
+    letter-spacing: .05em;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.library-disclosure > summary::-webkit-details-marker,
+.architecture-layer > summary::-webkit-details-marker {
+    display: none;
+}
+
+.library-disclosure > summary::after,
+.architecture-layer > summary::after {
+    content: "+";
+    color: var(--blue);
+    font-size: 1.4rem;
+}
+
+.library-disclosure[open] > summary::after,
+.architecture-layer[open] > summary::after {
+    content: "−";
+}
+
+.library-disclosure > summary strong {
+    color: var(--muted);
+    font-size: .62rem;
+}
+
+.library-disclosure-body {
+    padding: 1.5rem;
+    border-top: 1px solid var(--line);
+}
+
+.evidence-dimensions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1px;
+    margin-top: 1.25rem;
+    background: var(--line);
+    border: 1px solid var(--line);
+}
+
+.evidence-dimensions > span {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    padding: .65rem .75rem;
+    background: white;
+    color: var(--ink-2);
+    font-size: .62rem;
+    font-weight: 760;
+    line-height: 1.35;
+}
+
+.evidence-dimensions small {
+    color: var(--blue-dark);
+    font-size: .5rem;
+    font-weight: 900;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+.project-evidence-strip {
+    padding: 1.2rem var(--gutter);
+    background: var(--paper);
+    border-bottom: 1px solid var(--line);
+}
+
+.project-evidence-strip .evidence-dimensions {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.project-evidence-strip .evidence-dimensions > span {
+    min-height: 88px;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.project-facts a {
+    color: var(--blue-dark);
+    font-weight: 800;
+}
+
+.project-claims {
+    background: var(--paper-2);
+}
+
+.project-claim-grid,
+.related-project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+}
+
+.project-claim-grid article,
+.related-project-grid article {
+    min-width: 0;
+    padding: clamp(1.4rem, 3vw, 2.4rem);
+    background: var(--white);
+}
+
+.project-claim-grid h3,
+.related-project-grid h3 {
+    margin: 0 0 1rem;
+    color: var(--ink);
+    font-size: clamp(1.35rem, 2vw, 2rem);
+    line-height: 1.08;
+    letter-spacing: -.035em;
+}
+
+.project-claim-grid p,
+.project-claim-grid ul,
+.related-project-grid p {
+    margin: 0;
+    color: var(--muted);
+    font-size: .76rem;
+    line-height: 1.7;
+}
+
+.project-claim-grid ul {
+    padding-left: 1rem;
+}
+
+.project-claim-grid li + li {
+    margin-top: .65rem;
+}
+
+.project-code {
+    background: var(--ink);
+    color: white;
+}
+
+.project-code .section-heading h2 {
+    color: white;
+}
+
+.project-code .section-heading > p,
+.project-code .section-heading > div + p {
+    color: rgba(255, 255, 255, .66);
+}
+
+.project-code .eyebrow {
+    color: var(--aqua);
+}
+
+.project-code .section-heading code {
+    overflow-wrap: anywhere;
+    color: var(--aqua);
+}
+
+.code-sample {
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, .2);
+    background: #071426;
+}
+
+.code-sample > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: .9rem 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, .15);
+    color: rgba(255, 255, 255, .68);
+    font-size: .62rem;
+}
+
+.code-sample > div strong {
+    overflow-wrap: anywhere;
+    color: var(--aqua);
+}
+
+.code-sample pre {
+    max-height: 560px;
+    margin: 0;
+    padding: 1.3rem;
+    overflow: auto;
+    color: #d9e7f7;
+    font: .72rem/1.65 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    tab-size: 4;
+}
+
+.architecture-primary {
+    max-width: 1120px;
+    margin: 0 auto 1.25rem;
+    border: 1px solid var(--line);
+}
+
+.architecture-primary > a {
+    display: flex;
+    flex-direction: column;
+    background: var(--paper-2);
+    color: var(--ink);
+    text-decoration: none;
+}
+
+.architecture-primary img {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: #eaf1f3;
+}
+
+.architecture-primary span {
+    padding: 1rem;
+    border-top: 1px solid var(--line);
+    color: var(--blue-dark);
+    font-size: .68rem;
+    font-weight: 900;
+}
+
+.architecture-layer .architecture-gallery,
+.architecture-layer .reference-gallery {
+    border: 0;
+    border-top: 1px solid var(--line);
+}
+
+.project-reference .architecture-layer {
+    background: transparent;
+}
+
+.sample-inventory li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: .3rem 1rem;
+}
+
+.sample-inventory li span {
+    color: rgba(255, 255, 255, .54);
+    font-size: .62rem;
+}
+
+.evidence-map-link a {
+    color: var(--lime);
+    font-size: .72rem;
+    font-weight: 850;
+}
+
+.project-related {
+    background: var(--paper);
+}
+
+.related-project-grid article > span {
+    display: block;
+    margin-bottom: 1.5rem;
+    color: var(--blue-dark);
+    font-size: .55rem;
+    font-weight: 900;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+}
+
+.related-project-grid a {
+    display: inline-block;
+    margin-top: 1.5rem;
+    color: var(--blue-dark);
+    font-size: .68rem;
+    font-weight: 900;
+}
+
+.site-footer > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1.5rem;
+}
+
 @media (max-width: 1180px) {
     .technical-page .site-nav a:nth-last-child(-n+2),
     .project-detail-page .site-nav a:nth-last-child(-n+2) {
@@ -621,6 +968,14 @@
 
     .tech-project-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .tech-tools {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .tech-tools .tech-search {
+        grid-column: span 2;
     }
 
     .project-hero {
@@ -695,6 +1050,25 @@
     .reference-gallery {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+
+    .technical-route-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .technical-route-grid a {
+        min-height: 145px;
+    }
+
+    .project-evidence-strip .evidence-dimensions,
+    .project-claim-grid,
+    .related-project-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .project-claim-grid article:last-child,
+    .related-project-grid article:last-child {
+        grid-column: 1 / -1;
+    }
 }
 
 @media (max-width: 680px) {
@@ -713,17 +1087,12 @@
     }
 
     .tech-tools {
+        grid-template-columns: 1fr;
         align-items: stretch;
-        flex-direction: column;
     }
 
-    .tech-tools label {
-        max-width: none;
-    }
-
-    .tech-tools .tech-sort {
-        flex-basis: auto;
-        max-width: none;
+    .tech-tools .tech-search {
+        grid-column: auto;
     }
 
     .tech-tools select,
@@ -748,6 +1117,28 @@
     .project-facts,
     .project-evidence {
         grid-template-columns: 1fr;
+    }
+
+    .project-evidence-strip .evidence-dimensions,
+    .project-claim-grid,
+    .related-project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-claim-grid article:last-child,
+    .related-project-grid article:last-child {
+        grid-column: auto;
+    }
+
+    .library-disclosure > summary,
+    .architecture-layer > summary,
+    .code-sample > div {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .library-disclosure-body {
+        padding: .75rem;
     }
 
     .project-facts > div,

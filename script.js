@@ -33,7 +33,9 @@ const portfolio = [
 
 const menuToggle = document.querySelector(".menu-toggle");
 const siteNav = document.querySelector(".site-nav");
-const navLinks = [...document.querySelectorAll('.site-nav a[href^="#"]')];
+const menuLinks = [...document.querySelectorAll(".site-nav a")];
+const navLinks = menuLinks.filter((link) => link.getAttribute("href")?.startsWith("#"));
+const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
 function closeMenu() {
     if (!menuToggle || !siteNav) return;
@@ -46,12 +48,15 @@ menuToggle?.addEventListener("click", () => {
     menuToggle.setAttribute("aria-expanded", String(isOpen));
 });
 
-navLinks.forEach((link) => link.addEventListener("click", closeMenu));
+menuLinks.forEach((link) => link.addEventListener("click", closeMenu));
 document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") closeMenu();
+    if (event.key === "Escape" && siteNav?.classList.contains("is-open")) {
+        closeMenu();
+        menuToggle?.focus();
+    }
 });
 window.addEventListener("resize", () => {
-    if (window.innerWidth > 820) closeMenu();
+    if (window.innerWidth > 1240) closeMenu();
 });
 
 document.addEventListener("click", (event) => {
@@ -62,7 +67,7 @@ document.addEventListener("click", (event) => {
     const target = document.getElementById(hash.slice(1));
     if (!target) return;
     event.preventDefault();
-    target.scrollIntoView({ behavior: "smooth", block: "start" });
+    target.scrollIntoView({ behavior: reducedMotion.matches ? "auto" : "smooth", block: "start" });
     history.replaceState(null, "", hash);
 });
 

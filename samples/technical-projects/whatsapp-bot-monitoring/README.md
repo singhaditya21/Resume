@@ -1,7 +1,12 @@
 # WhatsApp Bot Monitoring & AI Operations
 
 - **Evidence status:** Code-derived architecture
+- **Source evidence:** Sanitized source samples
+- **Verification:** Static review only · code not executed
+- **Delivery maturity:** Implementation archive
+- **Intelligence type:** AI-assisted quality
 - **Category:** AI testing & quality
+- **Project family:** Quality & monitoring
 - **Source package:** `Whatsapp_BOT_Monitoring.zip`
 
 Synthetic journey monitoring for WhatsApp automation with retries, evidence capture, incident routing and AI-assisted diagnosis.
@@ -45,14 +50,20 @@ IdeaStorm additionally includes the nine supplied PNG reference diagrams under `
 
 ## Source evidence reviewed
 
-- `Login WhatsApp/monitor.py`
-- `Login WhatsApp/api_server.py`
-- `New project/services/ai_service.py`
-- `New project/services/dashboard_service.py`
+See [`PUBLIC_EVIDENCE_MAP.md`](PUBLIC_EVIDENCE_MAP.md) for a claim-to-sample map and the complete anonymized sample inventory. Original archive-member paths are intentionally not published.
+
+## Attribution, outcomes and decisions
+
+- **Personal ownership:** Not established from the supplied archive.
+- **Measured outcomes:** Not established from the supplied archive.
+
+- **Technical decision rationale:** Not established from the supplied archive.
 
 ## Public-package boundary
 
 This is a curated, non-runnable portfolio snapshot rather than the original production archive. Credentials, environment files, customer datasets, contract documents, employee records, database backups, vector indexes, model weights, generated dependencies, media and live deployment state are excluded. Selected source text is anonymized, scanned and redacted for credential-like values, known customer names, identity literals, email addresses, phone numbers, identifiers, service URLs, network addresses and local filesystem paths.
 
-- Included source files: **24**
+- Meaningful anonymized source samples: **20**
+- Retained empty source placeholders: **4**
+- Total included source files: **24**
 - Included sanitized source bytes: **106,902**

@@ -1,7 +1,12 @@
 # Zeno Enterprise Knowledge Assistant
 
 - **Evidence status:** Code-derived architecture
+- **Source evidence:** Sanitized source samples
+- **Verification:** Static review only · code not executed
+- **Delivery maturity:** Implementation archive
+- **Intelligence type:** RAG / document AI
 - **Category:** Knowledge, RAG & document AI
+- **Project family:** Zeno & enterprise knowledge
 - **Source package:** `KB.zip`
 
 An enterprise knowledge assistant with ACL-aware hybrid retrieval, confidence refusal, streaming answers, OTP access and production observability.
@@ -45,15 +50,21 @@ IdeaStorm additionally includes the nine supplied PNG reference diagrams under `
 
 ## Source evidence reviewed
 
-- `backend/retrieval/retrieval.py`
-- `backend/retrieval/agentic_rag.py`
-- `backend/retrieval/self_reflection.py`
-- `backend/app/llm_client.py`
-- `backend/app/guardrails.py`
+See [`PUBLIC_EVIDENCE_MAP.md`](PUBLIC_EVIDENCE_MAP.md) for a claim-to-sample map and the complete anonymized sample inventory. Original archive-member paths are intentionally not published.
+
+## Attribution, outcomes and decisions
+
+- **Personal ownership:** Not established from the supplied archive.
+- **Measured outcomes:** Not established from the supplied archive.
+
+- ACL checks occur before generation, with confidence-based refusal when evidence is insufficient.
+- Generated output passes through credential scrubbing before delivery.
 
 ## Public-package boundary
 
 This is a curated, non-runnable portfolio snapshot rather than the original production archive. Credentials, environment files, customer datasets, contract documents, employee records, database backups, vector indexes, model weights, generated dependencies, media and live deployment state are excluded. Selected source text is anonymized, scanned and redacted for credential-like values, known customer names, identity literals, email addresses, phone numbers, identifiers, service URLs, network addresses and local filesystem paths.
 
-- Included source files: **24**
+- Meaningful anonymized source samples: **24**
+- Retained empty source placeholders: **0**
+- Total included source files: **24**
 - Included sanitized source bytes: **172,370**

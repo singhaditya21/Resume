@@ -24,6 +24,11 @@ __pycache__/
 samples/presentations/**/*.layout.json
 samples/presentations/**/*.pptx.inspect.ndjson
 
+# The complete 2,256-slide PowerPoint archive is preserved as versioned assets
+# in GitHub Release `slide-archive-2026-08-30`. Keep the lightweight manifest
+# in this folder, but do not copy the 602 MiB binary archive back into Pages.
+/samples/presentations/full-library/*.pptx
+
 # Generated local-only presentation corpus and QA workspace. The source material
 # contains customer-confidential slides and must not be published through Pages.
 /.tmp-master-split.*/

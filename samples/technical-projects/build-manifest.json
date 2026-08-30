@@ -12,7 +12,92 @@
       "source/sample-07.js",
       "source/sample-08.css"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.txt",
+        "bytes": 2675,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Control / validation",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-02.conf",
+        "bytes": 3323,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Control / validation",
+          "Operations / delivery",
+          "Configuration / infrastructure"
+        ]
+      },
+      {
+        "file": "source/sample-03.js",
+        "bytes": 9902,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-04.txt",
+        "bytes": 702,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration",
+          "User experience",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-05.yml",
+        "bytes": 679,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Operations / delivery",
+          "Configuration / infrastructure"
+        ]
+      },
+      {
+        "file": "source/sample-06.html",
+        "bytes": 1142,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration",
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-07.js",
+        "bytes": 9902,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-08.css",
+        "bytes": 42864,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      }
+    ],
     "included_file_count": 8,
+    "non_empty_file_count": 8,
+    "empty_file_count": 0,
+    "meaningful_bytes": 71189,
     "included_bytes": 71189,
     "source_types": {
       ".conf": 1,
@@ -54,8 +139,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "profitability-portfolio-source.zip",
-    "package_bytes": 39086,
-    "package_sha256": "8b23171ba44a92a810867acc7557d8e8840ccab03a414190c813153cc2008ca5"
+    "package_bytes": 40663,
+    "package_sha256": "54b6747467009cb83d5543cbb86fc1bb09aa7ed0184fac2476836aecf05c1a8d"
   },
   "zeno-injector": {
     "source_archive": "Prod_Data_Injection.zip",
@@ -86,7 +171,239 @@
       "source/sample-23.py",
       "source/sample-24.yml"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.py",
+        "bytes": 5684,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-02.py",
+        "bytes": 16320,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-03.py",
+        "bytes": 19120,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-04.py",
+        "bytes": 28320,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-05.txt",
+        "bytes": 1565,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Test / quality",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-06.txt",
+        "bytes": 2290,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-07.toml",
+        "bytes": 2611,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-08.txt",
+        "bytes": 2804,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-09.txt",
+        "bytes": 10175,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-10.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-11.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-12.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-13.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-14.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-15.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-16.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-17.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-18.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-19.yaml",
+        "bytes": 187,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Configuration / infrastructure"
+        ]
+      },
+      {
+        "file": "source/sample-20.yaml",
+        "bytes": 622,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Configuration / infrastructure"
+        ]
+      },
+      {
+        "file": "source/sample-21.py",
+        "bytes": 923,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-22.yaml",
+        "bytes": 1227,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Data / persistence",
+          "Operations / delivery",
+          "Configuration / infrastructure"
+        ]
+      },
+      {
+        "file": "source/sample-23.py",
+        "bytes": 2111,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-24.yml",
+        "bytes": 2324,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Data / persistence",
+          "Operations / delivery",
+          "Configuration / infrastructure"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 15,
+    "empty_file_count": 9,
+    "meaningful_bytes": 96283,
     "included_bytes": 96283,
     "source_types": {
       ".py": 15,
@@ -137,14 +454,18 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "zeno-injector-portfolio-source.zip",
-    "package_bytes": 53146,
-    "package_sha256": "8d8a91e5e9a119228370e17bcf0fef6ab07ece50bbe6bf3c6cf915a7d58e8ac1"
+    "package_bytes": 55186,
+    "package_sha256": "3e8b4a97ec9cd15d8c34aff1f26f6fe07600d1247138e5f6a7e09337b1b6bff7"
   },
   "paperclip-ai": {
     "source_archive": "Paperclip AI.zip",
     "source_archive_sha256": "5754649bd8587e2cc8d25d17e89c3c8e7568b71309108497757d7568ec055e4d",
     "included_files": [],
+    "included_file_details": [],
     "included_file_count": 0,
+    "non_empty_file_count": 0,
+    "empty_file_count": 0,
+    "meaningful_bytes": 0,
     "included_bytes": 0,
     "source_types": {},
     "redacted_files": {},
@@ -163,8 +484,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "paperclip-ai-portfolio-source.zip",
-    "package_bytes": 16611,
-    "package_sha256": "863320f2e07212ef58c0a6efac0e2d534d9281e4aa5e0d9e4bcc5856910a97a2"
+    "package_bytes": 17780,
+    "package_sha256": "3842995f287f5fdb9126e50d731025f192fe4002bee60f51f2e8192f754fb827"
   },
   "oneview": {
     "source_archive": "Oneview.zip",
@@ -195,7 +516,236 @@
       "source/sample-23.js",
       "source/sample-24.js"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.py",
+        "bytes": 15417,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "User experience",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-02.py",
+        "bytes": 24188,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-03.py",
+        "bytes": 40929,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-04.py",
+        "bytes": 100993,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-05.py",
+        "bytes": 41308,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-06.py",
+        "bytes": 42173,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-07.txt",
+        "bytes": 57,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-08.txt",
+        "bytes": 146,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-09.txt",
+        "bytes": 382,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "User experience",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-10.json",
+        "bytes": 392,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-11.txt",
+        "bytes": 573,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-12.txt",
+        "bytes": 1312,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Control / validation",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-13.txt",
+        "bytes": 1649,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-14.txt",
+        "bytes": 5447,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-15.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-16.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-17.jsx",
+        "bytes": 241,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-18.jsx",
+        "bytes": 285,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-19.jsx",
+        "bytes": 362,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-20.jsx",
+        "bytes": 410,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-21.html",
+        "bytes": 361,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-22.jsx",
+        "bytes": 530,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-23.js",
+        "bytes": 766,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "User experience",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-24.js",
+        "bytes": 799,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 22,
+    "empty_file_count": 2,
+    "meaningful_bytes": 278720,
     "included_bytes": 278720,
     "source_types": {
       ".html": 1,
@@ -247,8 +797,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "oneview-portfolio-source.zip",
-    "package_bytes": 102141,
-    "package_sha256": "27eb14c0d4f4106e98127c57e2a359a469b98b06a2ddc78afe022e327167e221"
+    "package_bytes": 104119,
+    "package_sha256": "f4c2144459db64aa189c33dbe7843fd0168c749d32c9f9af9d556c67a24b4783"
   },
   "okr-dashboard": {
     "source_archive": "OKRDashboard.zip",
@@ -279,7 +829,216 @@
       "source/sample-23.py",
       "source/sample-24.py"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.jsx",
+        "bytes": 96988,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-02.jsx",
+        "bytes": 276601,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-03.py",
+        "bytes": 47357,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-04.txt",
+        "bytes": 69,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-05.json",
+        "bytes": 81,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-06.txt",
+        "bytes": 83,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-07.txt",
+        "bytes": 253,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-08.json",
+        "bytes": 848,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-09.jsx",
+        "bytes": 229,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-10.css",
+        "bytes": 2891,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-11.css",
+        "bytes": 5585,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-12.js",
+        "bytes": 160,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-13.py",
+        "bytes": 299,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-14.py",
+        "bytes": 335,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-15.html",
+        "bytes": 354,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-16.py",
+        "bytes": 391,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-17.py",
+        "bytes": 401,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-18.py",
+        "bytes": 463,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-19.py",
+        "bytes": 575,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-20.py",
+        "bytes": 688,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-21.js",
+        "bytes": 758,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-22.cjs",
+        "bytes": 888,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-23.py",
+        "bytes": 970,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-24.py",
+        "bytes": 1090,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Control / validation"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 24,
+    "empty_file_count": 0,
+    "meaningful_bytes": 438357,
     "included_bytes": 438357,
     "source_types": {
       ".cjs": 1,
@@ -382,8 +1141,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "okr-dashboard-portfolio-source.zip",
-    "package_bytes": 92533,
-    "package_sha256": "4e8ae735b4b72838864569763155897ef73130cef6f34c8dddb406f0e7ff61d7"
+    "package_bytes": 94441,
+    "package_sha256": "42bce600dd9705b32c5953e218c1374f1935c7fdc30f84b1b0ae33aadd428c34"
   },
   "obsidian-llm-wiki": {
     "source_archive": "Obsidian_LLM_Wiki.zip",
@@ -414,7 +1173,229 @@
       "source/sample-23.ts",
       "source/sample-24.tsx"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.ts",
+        "bytes": 7959,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-02.ts",
+        "bytes": 9162,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-03.ts",
+        "bytes": 9907,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-04.ts",
+        "bytes": 13683,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-05.ts",
+        "bytes": 16918,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Workflow / orchestration",
+          "Control / validation",
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-06.json",
+        "bytes": 121,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-07.json",
+        "bytes": 121,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-08.txt",
+        "bytes": 160,
+        "meaningful": true,
+        "roles": [
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-09.json",
+        "bytes": 219,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-10.json",
+        "bytes": 251,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-11.json",
+        "bytes": 256,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Workflow / orchestration",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-12.json",
+        "bytes": 267,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Workflow / orchestration",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-13.json",
+        "bytes": 305,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-14.json",
+        "bytes": 348,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-15.json",
+        "bytes": 395,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-16.json",
+        "bytes": 488,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-17.json",
+        "bytes": 503,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-18.txt",
+        "bytes": 610,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Workflow / orchestration",
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-19.json",
+        "bytes": 1633,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Workflow / orchestration",
+          "Test / quality",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-20.tsx",
+        "bytes": 119,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-21.ts",
+        "bytes": 313,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-22.ts",
+        "bytes": 369,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-23.ts",
+        "bytes": 386,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-24.tsx",
+        "bytes": 386,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 24,
+    "empty_file_count": 0,
+    "meaningful_bytes": 64879,
     "included_bytes": 64879,
     "source_types": {
       ".json": 12,
@@ -452,8 +1433,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "obsidian-llm-wiki-portfolio-source.zip",
-    "package_bytes": 41967,
-    "package_sha256": "8798b88c8de540929792bac1b8e67ad0da35bc4b8f1481374f99e3faf0384ca6"
+    "package_bytes": 43927,
+    "package_sha256": "3720e52020362e458b6a31387bfd6cc2a98f3fbbb4862e84af9c4027c7b33e21"
   },
   "wsr-automate": {
     "source_archive": "WSR-Automate.zip",
@@ -484,7 +1465,221 @@
       "source/sample-23.css",
       "source/sample-24.jsx"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.js",
+        "bytes": 6366,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-02.js",
+        "bytes": 19200,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Workflow / orchestration",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-03.js",
+        "bytes": 20694,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-04.js",
+        "bytes": 75438,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-05.js",
+        "bytes": 522213,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-06.txt",
+        "bytes": 165,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-07.json",
+        "bytes": 217,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-08.txt",
+        "bytes": 330,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-09.json",
+        "bytes": 1093,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-10.js",
+        "bytes": 166,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-11.jsx",
+        "bytes": 235,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-12.html",
+        "bytes": 283,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-13.js",
+        "bytes": 333,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-14.js",
+        "bytes": 638,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-15.js",
+        "bytes": 701,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-16.yaml",
+        "bytes": 719,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Workflow / orchestration",
+          "Configuration / infrastructure"
+        ]
+      },
+      {
+        "file": "source/sample-17.js",
+        "bytes": 772,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-18.js",
+        "bytes": 796,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-19.js",
+        "bytes": 800,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-20.js",
+        "bytes": 1334,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-21.js",
+        "bytes": 1613,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-22.js",
+        "bytes": 1656,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-23.css",
+        "bytes": 1685,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-24.jsx",
+        "bytes": 1712,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 24,
+    "empty_file_count": 0,
+    "meaningful_bytes": 659159,
     "included_bytes": 659159,
     "source_types": {
       ".css": 1,
@@ -529,14 +1724,18 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "wsr-automate-portfolio-source.zip",
-    "package_bytes": 181270,
-    "package_sha256": "28a7617dad18e932f2531fb6a99b4c26beee70277482e09dbf7675058ece4a84"
+    "package_bytes": 183356,
+    "package_sha256": "fa1182707926db00caa12e75a5d072adfd8e01cd0cba1613e07bd75d7a1b7e40"
   },
   "world-monitor": {
     "source_archive": "WorldMonitor.zip",
     "source_archive_sha256": "da77912927c8d1b8adb270fc9d1fe3b4fda94ee72952858d91a80978e4944ed7",
     "included_files": [],
+    "included_file_details": [],
     "included_file_count": 0,
+    "non_empty_file_count": 0,
+    "empty_file_count": 0,
+    "meaningful_bytes": 0,
     "included_bytes": 0,
     "source_types": {},
     "redacted_files": {},
@@ -555,8 +1754,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "world-monitor-portfolio-source.zip",
-    "package_bytes": 16733,
-    "package_sha256": "f0882cd8d46d226a9bfb9d00acdd9dd9ac26000b73e0d7ca4239bee0a1390a71"
+    "package_bytes": 17892,
+    "package_sha256": "ce0134db613c7a58a8fd7783c877f13f336320cf96c8ac0a6dd99c6f03563d5e"
   },
   "whatsapp-bot-monitoring": {
     "source_archive": "Whatsapp_BOT_Monitoring.zip",
@@ -587,7 +1786,228 @@
       "source/sample-23.py",
       "source/sample-24.py"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.py",
+        "bytes": 17550,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-02.py",
+        "bytes": 28303,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-03.py",
+        "bytes": 4984,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Test / quality",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-04.py",
+        "bytes": 20362,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Control / validation",
+          "Test / quality",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-05.txt",
+        "bytes": 50,
+        "meaningful": true,
+        "roles": [
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-06.txt",
+        "bytes": 67,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-07.txt",
+        "bytes": 132,
+        "meaningful": true,
+        "roles": [
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-08.py",
+        "bytes": 1,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-09.sh",
+        "bytes": 550,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-10.sh",
+        "bytes": 671,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Test / quality",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-11.py",
+        "bytes": 2825,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-12.py",
+        "bytes": 4381,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-13.py",
+        "bytes": 9015,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration",
+          "Data / persistence",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-14.py",
+        "bytes": 1,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-15.py",
+        "bytes": 1,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-16.py",
+        "bytes": 1,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-17.py",
+        "bytes": 696,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-18.py",
+        "bytes": 909,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-19.py",
+        "bytes": 1315,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-20.py",
+        "bytes": 1397,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-21.py",
+        "bytes": 1551,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-22.py",
+        "bytes": 1950,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-23.py",
+        "bytes": 4190,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Data / persistence",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-24.py",
+        "bytes": 6000,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Test / quality"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 20,
+    "empty_file_count": 4,
+    "meaningful_bytes": 106898,
     "included_bytes": 106902,
     "source_types": {
       ".py": 19,
@@ -650,8 +2070,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "whatsapp-bot-monitoring-portfolio-source.zip",
-    "package_bytes": 49969,
-    "package_sha256": "477bb66ec754d242bbc0b4c6cbdb32ffd86f2348a15c664a8e30b855cd249fb8"
+    "package_bytes": 51935,
+    "package_sha256": "cc03e42ac4bd1e68c10a1d6339fc0a3efa706e3dbd83f5696481850af6d468f2"
   },
   "us-project-health": {
     "source_archive": "USProjecthealth.zip",
@@ -672,7 +2092,136 @@
       "source/sample-13.html",
       "source/sample-14.html"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.py",
+        "bytes": 3912,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-02.py",
+        "bytes": 4159,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-03.py",
+        "bytes": 10406,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-04.py",
+        "bytes": 19051,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Control / validation",
+          "User experience",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-05.py",
+        "bytes": 29483,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-06.txt",
+        "bytes": 63,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-07.txt",
+        "bytes": 217,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-08.py",
+        "bytes": 480,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-09.py",
+        "bytes": 1626,
+        "meaningful": true,
+        "roles": [
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-10.html",
+        "bytes": 2925,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-11.py",
+        "bytes": 4243,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-12.py",
+        "bytes": 11554,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-13.html",
+        "bytes": 25772,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-14.html",
+        "bytes": 78864,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "User experience"
+        ]
+      }
+    ],
     "included_file_count": 14,
+    "non_empty_file_count": 14,
+    "empty_file_count": 0,
+    "meaningful_bytes": 192755,
     "included_bytes": 192755,
     "source_types": {
       ".html": 3,
@@ -725,14 +2274,18 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "us-project-health-portfolio-source.zip",
-    "package_bytes": 69974,
-    "package_sha256": "4436ff86e70ecd71833939c82b7793f2a9781d75f80ac439fe9ea4b168cc5657"
+    "package_bytes": 71735,
+    "package_sha256": "db83155bf9de1203aab46a0a903beca64bad7b71fa69d3fa5bbe26368ea20aa0"
   },
   "skill-management": {
     "source_archive": "Skillmanagement.zip",
     "source_archive_sha256": "711f971c2de5505d507b470be544654fca16496636b67cadce7656e3032b9a32",
     "included_files": [],
+    "included_file_details": [],
     "included_file_count": 0,
+    "non_empty_file_count": 0,
+    "empty_file_count": 0,
+    "meaningful_bytes": 0,
     "included_bytes": 0,
     "source_types": {},
     "redacted_files": {},
@@ -751,8 +2304,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "skill-management-portfolio-source.zip",
-    "package_bytes": 16641,
-    "package_sha256": "2db77788ce64e3a81487d098040a5660c5b05dbacb6f0cfedbf35ec508ea12cb"
+    "package_bytes": 17818,
+    "package_sha256": "c671d9fb5ce7b07e5f0479bd9d4879ca705b22343f9af55a29175162dd5602e1"
   },
   "rmg-bot": {
     "source_archive": "RMGBOT.zip",
@@ -772,7 +2325,130 @@
       "source/sample-12.html",
       "source/sample-13.css"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.py",
+        "bytes": 7047,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-02.py",
+        "bytes": 7726,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-03.py",
+        "bytes": 12290,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-04.py",
+        "bytes": 15857,
+        "meaningful": true,
+        "roles": [
+          "Test / quality",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-05.js",
+        "bytes": 81585,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Control / validation",
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-06.txt",
+        "bytes": 203,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-07.ps1",
+        "bytes": 228,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-08.py",
+        "bytes": 455,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-09.ps1",
+        "bytes": 1279,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-10.py",
+        "bytes": 2840,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-11.ps1",
+        "bytes": 2995,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-12.html",
+        "bytes": 8416,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-13.css",
+        "bytes": 35407,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "User experience"
+        ]
+      }
+    ],
     "included_file_count": 13,
+    "non_empty_file_count": 13,
+    "empty_file_count": 0,
+    "meaningful_bytes": 176328,
     "included_bytes": 176328,
     "source_types": {
       ".css": 1,
@@ -821,8 +2497,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "rmg-bot-portfolio-source.zip",
-    "package_bytes": 66248,
-    "package_sha256": "c6f5c858543696ebe9f11edc8dedce3be73736d4f841e3afdfb0715b5b6856ab"
+    "package_bytes": 68007,
+    "package_sha256": "7bf3e431be1cf19c65948f4b12494ebdc340f7579252182cefa3b09afe2e296f"
   },
   "rmg-budgeting": {
     "source_archive": "RMG_Budgeting.zip",
@@ -853,7 +2529,222 @@
       "source/sample-23.ts",
       "source/sample-24.py"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.ts",
+        "bytes": 4244,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-02.py",
+        "bytes": 4723,
+        "meaningful": true,
+        "roles": [
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-03.ts",
+        "bytes": 9072,
+        "meaningful": true,
+        "roles": [
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-04.ts",
+        "bytes": 28114,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-05.sql",
+        "bytes": 8140,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-06.txt",
+        "bytes": 214,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Control / validation",
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-07.json",
+        "bytes": 265,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-08.json",
+        "bytes": 295,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-09.json",
+        "bytes": 372,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-10.json",
+        "bytes": 500,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-11.json",
+        "bytes": 522,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-12.json",
+        "bytes": 592,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-13.txt",
+        "bytes": 703,
+        "meaningful": true,
+        "roles": [
+          "Test / quality",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-14.json",
+        "bytes": 712,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-15.json",
+        "bytes": 750,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Data / persistence",
+          "Test / quality",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-16.json",
+        "bytes": 837,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-17.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-18.ts",
+        "bytes": 223,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-19.ts",
+        "bytes": 274,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-20.ts",
+        "bytes": 404,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-21.ts",
+        "bytes": 419,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-22.ts",
+        "bytes": 516,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-23.ts",
+        "bytes": 522,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-24.py",
+        "bytes": 543,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 23,
+    "empty_file_count": 1,
+    "meaningful_bytes": 62956,
     "included_bytes": 62956,
     "source_types": {
       ".json": 9,
@@ -894,8 +2785,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "rmg-budgeting-portfolio-source.zip",
-    "package_bytes": 43581,
-    "package_sha256": "de468bc17816fd5827ed6ef3f8a799a90764cf01d13eda94bcb17bb1c5b4ab19"
+    "package_bytes": 45558,
+    "package_sha256": "251158e3a18df88f09f3b21e44936764bf9c775e6fce904d37a3ba779e5c0d54"
   },
   "rmg-project360": {
     "source_archive": "RMG.zip",
@@ -926,7 +2817,224 @@
       "source/sample-23.ts",
       "source/sample-24.ts"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.py",
+        "bytes": 4144,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Data / persistence",
+          "Control / validation",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-02.py",
+        "bytes": 4723,
+        "meaningful": true,
+        "roles": [
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-03.ts",
+        "bytes": 9072,
+        "meaningful": true,
+        "roles": [
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-04.py",
+        "bytes": 56117,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-05.sql",
+        "bytes": 8140,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-06.txt",
+        "bytes": 70,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-07.txt",
+        "bytes": 167,
+        "meaningful": true,
+        "roles": [
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-08.txt",
+        "bytes": 214,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Control / validation",
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-09.json",
+        "bytes": 265,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-10.json",
+        "bytes": 295,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-11.json",
+        "bytes": 372,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-12.json",
+        "bytes": 500,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-13.json",
+        "bytes": 522,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-14.json",
+        "bytes": 592,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-15.txt",
+        "bytes": 703,
+        "meaningful": true,
+        "roles": [
+          "Test / quality",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-16.json",
+        "bytes": 712,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-17.json",
+        "bytes": 750,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Data / persistence",
+          "Test / quality",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-18.json",
+        "bytes": 837,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-19.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-20.ts",
+        "bytes": 223,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-21.ts",
+        "bytes": 274,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-22.ts",
+        "bytes": 404,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-23.ts",
+        "bytes": 419,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-24.ts",
+        "bytes": 516,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 23,
+    "empty_file_count": 1,
+    "meaningful_bytes": 90031,
     "included_bytes": 90031,
     "source_types": {
       ".json": 9,
@@ -971,8 +3079,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "rmg-project360-portfolio-source.zip",
-    "package_bytes": 49141,
-    "package_sha256": "d80455c470ec086ba8c41e603b0a0638bb74ba155426d8bcc7e08f7392040456"
+    "package_bytes": 51145,
+    "package_sha256": "4353d1ecf9bad7dc27cd0786ea2c43984c5b6981313557e8efb9de62060a06af"
   },
   "nps-survey-engine": {
     "source_archive": "NPS.zip",
@@ -1003,7 +3111,218 @@
       "source/sample-23.tsx",
       "source/sample-24.ts"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.ts",
+        "bytes": 17346,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Data / persistence",
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-02.ts",
+        "bytes": 18744,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-03.ts",
+        "bytes": 9449,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-04.ts",
+        "bytes": 20592,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-05.txt",
+        "bytes": 655,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-06.json",
+        "bytes": 670,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-07.txt",
+        "bytes": 1434,
+        "meaningful": true,
+        "roles": [
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-08.txt",
+        "bytes": 1477,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration",
+          "Data / persistence",
+          "Control / validation",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-09.json",
+        "bytes": 1677,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-10.tsx",
+        "bytes": 88,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-11.tsx",
+        "bytes": 95,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-12.ts",
+        "bytes": 498,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-13.tsx",
+        "bytes": 509,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-14.ts",
+        "bytes": 572,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-15.tsx",
+        "bytes": 574,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-16.ts",
+        "bytes": 563,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-17.tsx",
+        "bytes": 658,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-18.ts",
+        "bytes": 733,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-19.tsx",
+        "bytes": 771,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-20.ts",
+        "bytes": 795,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-21.ts",
+        "bytes": 852,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-22.ts",
+        "bytes": 918,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-23.tsx",
+        "bytes": 922,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-24.ts",
+        "bytes": 1038,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Control / validation"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 24,
+    "empty_file_count": 0,
+    "meaningful_bytes": 81630,
     "included_bytes": 81630,
     "source_types": {
       ".json": 2,
@@ -1037,8 +3356,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "nps-survey-engine-portfolio-source.zip",
-    "package_bytes": 45775,
-    "package_sha256": "676869013e4d95960e25346aff2d9391e6f187e4c1c18d91786ed4919062ebed"
+    "package_bytes": 47720,
+    "package_sha256": "f69bbd0b3a06bd6205879bd3781370ed0380bf722a7e17594db6e70ec37f12c4"
   },
   "newsnext": {
     "source_archive": "Newsnext.zip",
@@ -1069,7 +3388,238 @@
       "source/sample-23.js",
       "source/sample-24.js"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.js",
+        "bytes": 9623,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-02.js",
+        "bytes": 10642,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-03.js",
+        "bytes": 15150,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-04.js",
+        "bytes": 21631,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Workflow / orchestration",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-05.js",
+        "bytes": 23593,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-06.txt",
+        "bytes": 204,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-07.txt",
+        "bytes": 545,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-08.json",
+        "bytes": 817,
+        "meaningful": true,
+        "roles": [
+          "Control / validation",
+          "Test / quality",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-09.txt",
+        "bytes": 2021,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration",
+          "Control / validation",
+          "Test / quality",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-10.txt",
+        "bytes": 4952,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Control / validation",
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-11.mjs",
+        "bytes": 9699,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration",
+          "Control / validation",
+          "User experience",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-12.mjs",
+        "bytes": 17628,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-13.mjs",
+        "bytes": 4001,
+        "meaningful": true,
+        "roles": [
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-14.mjs",
+        "bytes": 4750,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Workflow / orchestration",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-15.js",
+        "bytes": 1060,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-16.yml",
+        "bytes": 2763,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Operations / delivery",
+          "Configuration / infrastructure"
+        ]
+      },
+      {
+        "file": "source/sample-17.mjs",
+        "bytes": 2684,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-18.mjs",
+        "bytes": 2618,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-19.js",
+        "bytes": 2877,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-20.js",
+        "bytes": 3295,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Control / validation",
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-21.js",
+        "bytes": 3373,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-22.js",
+        "bytes": 3547,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-23.js",
+        "bytes": 3740,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-24.js",
+        "bytes": 4204,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 24,
+    "empty_file_count": 0,
+    "meaningful_bytes": 155417,
     "included_bytes": 155417,
     "source_types": {
       ".js": 12,
@@ -1127,8 +3677,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "newsnext-portfolio-source.zip",
-    "package_bytes": 85625,
-    "package_sha256": "b66ea911cb4657a4cd00368ccdcdfa24220ebb6a58c48eab5cdbff172b53fdf0"
+    "package_bytes": 87734,
+    "package_sha256": "0fefd1ebf379a830bf74f90d919dce0dcc8cc0c25bc5f85c49cee638645cd668"
   },
   "netsuite-token-service": {
     "source_archive": "NetSuiteToken.zip",
@@ -1143,7 +3693,81 @@
       "source/sample-07.cs",
       "source/sample-08.cs"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.cs",
+        "bytes": 4655,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-02.cs",
+        "bytes": 2336,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-03.cs",
+        "bytes": 4116,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Control / validation",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-04.cs",
+        "bytes": 938,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-05.txt",
+        "bytes": 8,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-06.txt",
+        "bytes": 342,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-07.cs",
+        "bytes": 115,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-08.cs",
+        "bytes": 611,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      }
+    ],
     "included_file_count": 8,
+    "non_empty_file_count": 8,
+    "empty_file_count": 0,
+    "meaningful_bytes": 13121,
     "included_bytes": 13121,
     "source_types": {
       ".cs": 6,
@@ -1173,8 +3797,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "netsuite-token-service-portfolio-source.zip",
-    "package_bytes": 23742,
-    "package_sha256": "e81f5a1bad3182cb9d80ba4dfe8596362e0ac76fd249e0014c0c928a3aabdd09"
+    "package_bytes": 25275,
+    "package_sha256": "c7bfeed9af3a6ac55c84827cea8f9407bd36b917501586da6471fc2d0c286fa0"
   },
   "nemoclaw-revops": {
     "source_archive": "NEMOCLAWFORMY.zip",
@@ -1205,7 +3829,230 @@
       "source/sample-23.py",
       "source/sample-24.py"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.py",
+        "bytes": 6229,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Workflow / orchestration",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-02.py",
+        "bytes": 6800,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-03.py",
+        "bytes": 10928,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-04.py",
+        "bytes": 14485,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-05.py",
+        "bytes": 18895,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-06.txt",
+        "bytes": 253,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-07.txt",
+        "bytes": 277,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-08.json",
+        "bytes": 706,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-09.py",
+        "bytes": 13,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-10.py",
+        "bytes": 37,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-11.js",
+        "bytes": 160,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-12.jsx",
+        "bytes": 229,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-13.html",
+        "bytes": 360,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-14.py",
+        "bytes": 369,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-15.js",
+        "bytes": 758,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-16.py",
+        "bytes": 825,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-17.py",
+        "bytes": 1050,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-18.css",
+        "bytes": 1546,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-19.py",
+        "bytes": 1722,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-20.py",
+        "bytes": 1901,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-21.py",
+        "bytes": 1989,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-22.py",
+        "bytes": 2004,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-23.py",
+        "bytes": 2103,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-24.py",
+        "bytes": 2229,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 24,
+    "empty_file_count": 0,
+    "meaningful_bytes": 75868,
     "included_bytes": 75868,
     "source_types": {
       ".css": 1,
@@ -1269,8 +4116,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "nemoclaw-revops-portfolio-source.zip",
-    "package_bytes": 47716,
-    "package_sha256": "b658cc93eee9e324b05f49eacec58c36027c73dc34bbd3a22a17ac609f34837b"
+    "package_bytes": 49627,
+    "package_sha256": "594134d55d833e4375fcca5dd587b5cf364d91b7c8544a6ea095bd5eeb611581"
   },
   "mprbot": {
     "source_archive": "MPRBOT-1.zip",
@@ -1301,7 +4148,220 @@
       "source/sample-23.py",
       "source/sample-24.mjs"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.py",
+        "bytes": 2394,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-02.py",
+        "bytes": 7405,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-03.py",
+        "bytes": 9221,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-04.py",
+        "bytes": 11157,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-05.py",
+        "bytes": 13157,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-06.py",
+        "bytes": 13457,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-07.txt",
+        "bytes": 327,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-08.txt",
+        "bytes": 327,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-09.txt",
+        "bytes": 342,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-10.txt",
+        "bytes": 688,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration",
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-11.json",
+        "bytes": 781,
+        "meaningful": true,
+        "roles": [
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-12.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-13.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-14.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-15.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-16.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-17.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-18.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-19.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-20.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-21.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-22.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-23.py",
+        "bytes": 43,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-24.mjs",
+        "bytes": 94,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 13,
+    "empty_file_count": 11,
+    "meaningful_bytes": 59393,
     "included_bytes": 59393,
     "source_types": {
       ".json": 1,
@@ -1344,8 +4404,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "mprbot-portfolio-source.zip",
-    "package_bytes": 39857,
-    "package_sha256": "7f27859867882f38340c4ec4f1fa4a4a1afb0d8f9c759c0f5a3d2342f026ba6d"
+    "package_bytes": 41650,
+    "package_sha256": "ef4804e42b0b6e0a9495e3586019c5f4e6e2c3dbc9cb3eaa5d97df1f5970f4af"
   },
   "kb-preproduction": {
     "source_archive": "KB_Preproduction.zip",
@@ -1376,7 +4436,217 @@
       "source/sample-23.ps1",
       "source/sample-24.py"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.py",
+        "bytes": 117,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-02.py",
+        "bytes": 287,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-03.py",
+        "bytes": 1601,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-04.py",
+        "bytes": 2136,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-05.py",
+        "bytes": 3362,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-06.txt",
+        "bytes": 156,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-07.txt",
+        "bytes": 250,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-08.txt",
+        "bytes": 463,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-09.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-10.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-11.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-12.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-13.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-14.py",
+        "bytes": 70,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-15.py",
+        "bytes": 120,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-16.py",
+        "bytes": 187,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-17.py",
+        "bytes": 626,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-18.py",
+        "bytes": 710,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-19.py",
+        "bytes": 864,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-20.py",
+        "bytes": 868,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-21.py",
+        "bytes": 970,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-22.sh",
+        "bytes": 1579,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-23.ps1",
+        "bytes": 1590,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-24.py",
+        "bytes": 2155,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Control / validation"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 19,
+    "empty_file_count": 5,
+    "meaningful_bytes": 18111,
     "included_bytes": 18111,
     "source_types": {
       ".ps1": 1,
@@ -1410,8 +4680,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "kb-preproduction-portfolio-source.zip",
-    "package_bytes": 28612,
-    "package_sha256": "1d17db4590764cbdd1af98c41fd1e4940d184a11cc3e9d0a8fa98cbc0417bc84"
+    "package_bytes": 30424,
+    "package_sha256": "58b0315cc9b09e50d2fdcdc370101f711e80ef4539784fe0e392f1fcec15601e"
   },
   "kb-prod": {
     "source_archive": "KB PROD.zip",
@@ -1442,7 +4712,214 @@
       "source/sample-23.py",
       "source/sample-24.py"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.py",
+        "bytes": 288,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-02.py",
+        "bytes": 1602,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-03.py",
+        "bytes": 2034,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-04.txt",
+        "bytes": 48,
+        "meaningful": true,
+        "roles": [
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-05.txt",
+        "bytes": 62,
+        "meaningful": true,
+        "roles": [
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-06.txt",
+        "bytes": 204,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-07.txt",
+        "bytes": 221,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-08.py",
+        "bytes": 19,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-09.py",
+        "bytes": 25,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-10.py",
+        "bytes": 25,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-11.py",
+        "bytes": 29,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-12.py",
+        "bytes": 37,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-13.py",
+        "bytes": 42,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-14.py",
+        "bytes": 42,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-15.py",
+        "bytes": 72,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-16.py",
+        "bytes": 118,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-17.py",
+        "bytes": 121,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-18.py",
+        "bytes": 188,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-19.py",
+        "bytes": 636,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-20.py",
+        "bytes": 736,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-21.py",
+        "bytes": 869,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-22.py",
+        "bytes": 1023,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-23.py",
+        "bytes": 1079,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-24.py",
+        "bytes": 2109,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 24,
+    "empty_file_count": 0,
+    "meaningful_bytes": 11629,
     "included_bytes": 11629,
     "source_types": {
       ".py": 20,
@@ -1466,8 +4943,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "kb-prod-portfolio-source.zip",
-    "package_bytes": 25709,
-    "package_sha256": "ff58f0b09face40a0701d2b5270dccc551c2ae6ab600449ae7380f09d50bf0ea"
+    "package_bytes": 27536,
+    "package_sha256": "a658985dbff0bd6ac521a228f2fc9a63d256a4b56bb423afbe2f854471e3fd55"
   },
   "btkb": {
     "source_archive": "KB.zip",
@@ -1498,7 +4975,238 @@
       "source/sample-23.yaml",
       "source/sample-24.yaml"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.py",
+        "bytes": 7244,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-02.py",
+        "bytes": 9580,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-03.py",
+        "bytes": 10674,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-04.py",
+        "bytes": 12536,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-05.py",
+        "bytes": 118186,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-06.txt",
+        "bytes": 112,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-07.json",
+        "bytes": 739,
+        "meaningful": true,
+        "roles": [
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-08.txt",
+        "bytes": 1092,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Test / quality",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-09.txt",
+        "bytes": 1806,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-10.txt",
+        "bytes": 6202,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-11.py",
+        "bytes": 25,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-12.py",
+        "bytes": 27,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-13.py",
+        "bytes": 74,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-14.py",
+        "bytes": 77,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-15.yaml",
+        "bytes": 100,
+        "meaningful": true,
+        "roles": [
+          "Operations / delivery",
+          "Configuration / infrastructure"
+        ]
+      },
+      {
+        "file": "source/sample-16.js",
+        "bytes": 138,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-17.yaml",
+        "bytes": 228,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "User experience",
+          "Operations / delivery",
+          "Configuration / infrastructure"
+        ]
+      },
+      {
+        "file": "source/sample-18.js",
+        "bytes": 249,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-19.js",
+        "bytes": 255,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-20.yaml",
+        "bytes": 394,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Control / validation",
+          "Configuration / infrastructure"
+        ]
+      },
+      {
+        "file": "source/sample-21.js",
+        "bytes": 532,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-22.js",
+        "bytes": 644,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-23.yaml",
+        "bytes": 679,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Control / validation",
+          "Operations / delivery",
+          "Configuration / infrastructure"
+        ]
+      },
+      {
+        "file": "source/sample-24.yaml",
+        "bytes": 777,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Operations / delivery",
+          "Configuration / infrastructure"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 24,
+    "empty_file_count": 0,
+    "meaningful_bytes": 172370,
     "included_bytes": 172370,
     "source_types": {
       ".js": 5,
@@ -1548,14 +5256,18 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "btkb-portfolio-source.zip",
-    "package_bytes": 78943,
-    "package_sha256": "31ebe1826a20350a425f18c690b2d3bebdbc66e04458ef49bd106a5ebaee1340"
+    "package_bytes": 81172,
+    "package_sha256": "77745e53d2114896bca088c0ce8063591f508a1becd60ba5d67b70255cd7be52"
   },
   "it-initiative": {
     "source_archive": "IT Initiative.zip",
     "source_archive_sha256": "028474d7fa145fa2ac20178745a815362dd0381f7fa64c91124543a363b113b2",
     "included_files": [],
+    "included_file_details": [],
     "included_file_count": 0,
+    "non_empty_file_count": 0,
+    "empty_file_count": 0,
+    "meaningful_bytes": 0,
     "included_bytes": 0,
     "source_types": {},
     "redacted_files": {},
@@ -1574,8 +5286,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "it-initiative-portfolio-source.zip",
-    "package_bytes": 16574,
-    "package_sha256": "f046cb0ed59a44f5ba7651122318a250a20a2fbe4bac88c354bb2ef55450a69c"
+    "package_bytes": 17738,
+    "package_sha256": "1aa07b10d48e11f59e39f2996949a7cc1fce4efdd7216a094aeb49c3c720bd89"
   },
   "ideastorm": {
     "source_archive": "Ideastorm.zip",
@@ -1606,7 +5318,230 @@
       "source/sample-23.ts",
       "source/sample-24.ts"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.ts",
+        "bytes": 8189,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-02.ts",
+        "bytes": 9129,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Workflow / orchestration",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-03.ts",
+        "bytes": 10300,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-04.ts",
+        "bytes": 22019,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Workflow / orchestration",
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-05.ts",
+        "bytes": 47994,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-06.json",
+        "bytes": 472,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-07.json",
+        "bytes": 578,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-08.json",
+        "bytes": 628,
+        "meaningful": true,
+        "roles": [
+          "Test / quality",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-09.txt",
+        "bytes": 980,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration",
+          "Data / persistence",
+          "Control / validation",
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-10.txt",
+        "bytes": 1345,
+        "meaningful": true,
+        "roles": [
+          "Control / validation",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-11.txt",
+        "bytes": 2301,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Control / validation",
+          "User experience",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-12.json",
+        "bytes": 3446,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Control / validation",
+          "Test / quality",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-13.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-14.ts",
+        "bytes": 169,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-15.ts",
+        "bytes": 232,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-16.ts",
+        "bytes": 407,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-17.ts",
+        "bytes": 419,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-18.ts",
+        "bytes": 427,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-19.ts",
+        "bytes": 532,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-20.ts",
+        "bytes": 569,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-21.ts",
+        "bytes": 617,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-22.ts",
+        "bytes": 664,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-23.ts",
+        "bytes": 668,
+        "meaningful": true,
+        "roles": [
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-24.ts",
+        "bytes": 684,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration",
+          "Control / validation"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 23,
+    "empty_file_count": 1,
+    "meaningful_bytes": 112769,
     "included_bytes": 112769,
     "source_types": {
       ".json": 4,
@@ -1652,14 +5587,18 @@
       "reference-pack/09-IdeaStorm-Target-Architecture-and-Roadmap.png"
     ],
     "package_file": "ideastorm-portfolio-source.zip",
-    "package_bytes": 14194687,
-    "package_sha256": "d9a6193d346924947604fe0ed222cc208d2b50b3d88310ac48b28a65cfc7cb94"
+    "package_bytes": 14770228,
+    "package_sha256": "99cef840603b64a75dc9980259d4b279549f86323bce2225e858d458f6953fab"
   },
   "hr-agent": {
     "source_archive": "HRAGENT.zip",
     "source_archive_sha256": "3b2ef83415dd05e74e490fb11a9219f97f90a72a9833d1e4bcfbe429ca0eb1b3",
     "included_files": [],
+    "included_file_details": [],
     "included_file_count": 0,
+    "non_empty_file_count": 0,
+    "empty_file_count": 0,
+    "meaningful_bytes": 0,
     "included_bytes": 0,
     "source_types": {},
     "redacted_files": {},
@@ -1678,8 +5617,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "hr-agent-portfolio-source.zip",
-    "package_bytes": 16638,
-    "package_sha256": "1a7c62bd0cbf6bae618402d384e83995343530b8e6e513dd65011130c50bd6b3"
+    "package_bytes": 17805,
+    "package_sha256": "cd47096509e4164ea65c33282926461d2f5e4bf99e6c27c257802a09d4814691"
   },
   "delivery-command-center": {
     "source_archive": "Delivery Command Center.zip",
@@ -1710,7 +5649,226 @@
       "source/sample-23.py",
       "source/sample-24.tsx"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.py",
+        "bytes": 11693,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-02.py",
+        "bytes": 53759,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-03.py",
+        "bytes": 3212,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-04.txt",
+        "bytes": 120,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-05.txt",
+        "bytes": 123,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-06.txt",
+        "bytes": 757,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-07.txt",
+        "bytes": 2587,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Control / validation",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-08.py",
+        "bytes": 36,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-09.py",
+        "bytes": 48,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-10.py",
+        "bytes": 55,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-11.py",
+        "bytes": 67,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-12.ts",
+        "bytes": 169,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-13.tsx",
+        "bytes": 457,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-14.tsx",
+        "bytes": 1089,
+        "meaningful": true,
+        "roles": [
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-15.tsx",
+        "bytes": 1239,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-16.py",
+        "bytes": 1306,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-17.ts",
+        "bytes": 1698,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-18.tsx",
+        "bytes": 1840,
+        "meaningful": true,
+        "roles": [
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-19.py",
+        "bytes": 3397,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-20.tsx",
+        "bytes": 3761,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-21.py",
+        "bytes": 4143,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Data / persistence",
+          "Control / validation",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-22.tsx",
+        "bytes": 4821,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-23.py",
+        "bytes": 5170,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-24.tsx",
+        "bytes": 5496,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 24,
+    "empty_file_count": 0,
+    "meaningful_bytes": 107043,
     "included_bytes": 107043,
     "source_types": {
       ".py": 11,
@@ -1748,14 +5906,18 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "delivery-command-center-portfolio-source.zip",
-    "package_bytes": 55195,
-    "package_sha256": "6b4c2543187d5b9be70b4e19c2af747fd77df05352734f5a14c36baef04ca5eb"
+    "package_bytes": 57162,
+    "package_sha256": "665117b4af28c6c8c75aff908199d30b29d6089c5df7e039be453b610a03d28d"
   },
   "deal-intelligence": {
     "source_archive": "Dealintelligence.zip",
     "source_archive_sha256": "18927751651518ff82f8d4caa5f25bd84035e198bac482d0d2d3ef651f9d116b",
     "included_files": [],
+    "included_file_details": [],
     "included_file_count": 0,
+    "non_empty_file_count": 0,
+    "empty_file_count": 0,
+    "meaningful_bytes": 0,
     "included_bytes": 0,
     "source_types": {},
     "redacted_files": {},
@@ -1774,8 +5936,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "deal-intelligence-portfolio-source.zip",
-    "package_bytes": 16786,
-    "package_sha256": "e54a169bcd7728bd67c82b4d616769035898bb354627bc7318123e74b22aacc6"
+    "package_bytes": 17942,
+    "package_sha256": "abd5762302bc299602ea4bb4c9f97800342a63774981e0db6830e4e74d4179c9"
   },
   "dbprod": {
     "source_archive": "DBProd.zip",
@@ -1806,7 +5968,247 @@
       "source/sample-23.py",
       "source/sample-24.py"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.py",
+        "bytes": 17678,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-02.py",
+        "bytes": 23190,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Data / persistence",
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-03.py",
+        "bytes": 45194,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-04.py",
+        "bytes": 72914,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-05.py",
+        "bytes": 229708,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-06.txt",
+        "bytes": 96,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-07.txt",
+        "bytes": 434,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-08.json",
+        "bytes": 310,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-09.toml",
+        "bytes": 605,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Configuration / infrastructure"
+        ]
+      },
+      {
+        "file": "source/sample-10.txt",
+        "bytes": 684,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-11.txt",
+        "bytes": 3973,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-12.txt",
+        "bytes": 4548,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-13.sh",
+        "bytes": 934,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-14.py",
+        "bytes": 1033,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-15.mjs",
+        "bytes": 1254,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-16.py",
+        "bytes": 2860,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Control / validation",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-17.py",
+        "bytes": 3459,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-18.sh",
+        "bytes": 4968,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-19.py",
+        "bytes": 6083,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-20.py",
+        "bytes": 9028,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-21.py",
+        "bytes": 10713,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Data / persistence",
+          "Control / validation",
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-22.py",
+        "bytes": 11070,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-23.py",
+        "bytes": 12931,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-24.py",
+        "bytes": 13449,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Control / validation"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 24,
+    "empty_file_count": 0,
+    "meaningful_bytes": 477116,
     "included_bytes": 477116,
     "source_types": {
       ".json": 1,
@@ -1892,8 +6294,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "dbprod-portfolio-source.zip",
-    "package_bytes": 128259,
-    "package_sha256": "2f896441054444956aa50438e13979cd040772be691b37b87161177f1cf06bbb"
+    "package_bytes": 130463,
+    "package_sha256": "e810fbe1fe07ed140e83cb88e77bba66253f63ad26ed06b6d84196487ca28313"
   },
   "dbbot": {
     "source_archive": "DBBOT.zip",
@@ -1924,7 +6326,224 @@
       "source/sample-23.js",
       "source/sample-24.js"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.js",
+        "bytes": 4160,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-02.js",
+        "bytes": 4732,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-03.js",
+        "bytes": 7114,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-04.js",
+        "bytes": 11161,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-05.js",
+        "bytes": 13450,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-06.js",
+        "bytes": 19065,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-07.txt",
+        "bytes": 253,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-08.json",
+        "bytes": 654,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-09.json",
+        "bytes": 1138,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-10.txt",
+        "bytes": 1998,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-11.jsx",
+        "bytes": 229,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-12.js",
+        "bytes": 236,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-13.html",
+        "bytes": 360,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-14.js",
+        "bytes": 438,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-15.js",
+        "bytes": 502,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-16.js",
+        "bytes": 502,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-17.js",
+        "bytes": 568,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-18.js",
+        "bytes": 615,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-19.js",
+        "bytes": 647,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-20.js",
+        "bytes": 652,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-21.js",
+        "bytes": 758,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-22.js",
+        "bytes": 758,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-23.js",
+        "bytes": 762,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-24.js",
+        "bytes": 789,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 24,
+    "empty_file_count": 0,
+    "meaningful_bytes": 71541,
     "included_bytes": 71541,
     "source_types": {
       ".html": 1,
@@ -1980,8 +6599,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "dbbot-portfolio-source.zip",
-    "package_bytes": 47060,
-    "package_sha256": "df620799377700342519cb1af074100b1c9f5aabe6ccfda37e13b024722398b2"
+    "package_bytes": 48940,
+    "package_sha256": "d2f0e6d7b36482df9f6afee880774494edd2943272b31440ad22e130cdb99ac6"
   },
   "datamart-dwh": {
     "source_archive": "DATAMART-DWH.zip",
@@ -2006,7 +6625,157 @@
       "source/sample-17.py",
       "source/sample-18.py"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.py",
+        "bytes": 3349,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-02.py",
+        "bytes": 7406,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-03.py",
+        "bytes": 1173,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-04.py",
+        "bytes": 1526,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-05.py",
+        "bytes": 4064,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-06.py",
+        "bytes": 338,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-07.py",
+        "bytes": 485,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-08.py",
+        "bytes": 659,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-09.py",
+        "bytes": 688,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-10.py",
+        "bytes": 711,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-11.py",
+        "bytes": 817,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-12.py",
+        "bytes": 823,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-13.py",
+        "bytes": 864,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-14.py",
+        "bytes": 948,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-15.py",
+        "bytes": 986,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-16.py",
+        "bytes": 1000,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-17.py",
+        "bytes": 1029,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-18.py",
+        "bytes": 2482,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence"
+        ]
+      }
+    ],
     "included_file_count": 18,
+    "non_empty_file_count": 18,
+    "empty_file_count": 0,
+    "meaningful_bytes": 29348,
     "included_bytes": 29348,
     "source_types": {
       ".py": 18
@@ -2111,8 +6880,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "datamart-dwh-portfolio-source.zip",
-    "package_bytes": 31793,
-    "package_sha256": "f40a43a5d60874f98f8655827a05216f8a97d32d9be977e260193b25647ec7a0"
+    "package_bytes": 33475,
+    "package_sha256": "0c9d6a87db899986cb347e100a5c46343662441737024c4e7ee33b6648c7e854"
   },
   "crm-data-audit": {
     "source_archive": "Data Audit Framework.zip",
@@ -2143,7 +6912,225 @@
       "source/sample-23.tsx",
       "source/sample-24.tsx"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.js",
+        "bytes": 963,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-02.tsx",
+        "bytes": 5613,
+        "meaningful": true,
+        "roles": [
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-03.js",
+        "bytes": 6592,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-04.js",
+        "bytes": 7308,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-05.js",
+        "bytes": 8803,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-06.txt",
+        "bytes": 95,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-07.json",
+        "bytes": 596,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-08.json",
+        "bytes": 624,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-09.tsx",
+        "bytes": 237,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-10.js",
+        "bytes": 834,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-11.js",
+        "bytes": 870,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-12.ts",
+        "bytes": 884,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-13.js",
+        "bytes": 990,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-14.js",
+        "bytes": 1117,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-15.ts",
+        "bytes": 1294,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-16.tsx",
+        "bytes": 1608,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-17.js",
+        "bytes": 1884,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-18.css",
+        "bytes": 1930,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-19.js",
+        "bytes": 3009,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-20.tsx",
+        "bytes": 3358,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-21.tsx",
+        "bytes": 4042,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Data / persistence",
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-22.tsx",
+        "bytes": 4449,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-23.tsx",
+        "bytes": 4738,
+        "meaningful": true,
+        "roles": [
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-24.tsx",
+        "bytes": 6776,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Data / persistence",
+          "User experience"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 24,
+    "empty_file_count": 0,
+    "meaningful_bytes": 68614,
     "included_bytes": 68614,
     "source_types": {
       ".css": 1,
@@ -2177,8 +7164,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "crm-data-audit-portfolio-source.zip",
-    "package_bytes": 45080,
-    "package_sha256": "a6bc763ef4705e786f4ae3501650997facecccf4f76d6f62010d1c202434a2f7"
+    "package_bytes": 46986,
+    "package_sha256": "1dab753d38e053e21658e45c3e6c6125199508b003aca9131fb7d326255aea8c"
   },
   "consentnext": {
     "source_archive": "Consent Management.zip",
@@ -2209,7 +7196,211 @@
       "source/sample-23.py",
       "source/sample-24.py"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.py",
+        "bytes": 7141,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-02.txt",
+        "bytes": 10,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-03.txt",
+        "bytes": 39,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-04.txt",
+        "bytes": 70,
+        "meaningful": true,
+        "roles": [
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-05.txt",
+        "bytes": 102,
+        "meaningful": true,
+        "roles": [
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-06.txt",
+        "bytes": 191,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Data / persistence",
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-07.txt",
+        "bytes": 250,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-08.txt",
+        "bytes": 450,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-09.json",
+        "bytes": 612,
+        "meaningful": true,
+        "roles": [
+          "Test / quality",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-10.json",
+        "bytes": 666,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-11.ini",
+        "bytes": 693,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Configuration / infrastructure"
+        ]
+      },
+      {
+        "file": "source/sample-12.txt",
+        "bytes": 2287,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence",
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-13.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-14.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-15.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-16.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-17.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-18.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-19.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-20.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-21.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-22.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-23.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-24.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 12,
+    "empty_file_count": 12,
+    "meaningful_bytes": 12511,
     "included_bytes": 12511,
     "source_types": {
       ".ini": 1,
@@ -2241,8 +7432,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "consentnext-portfolio-source.zip",
-    "package_bytes": 26435,
-    "package_sha256": "a79ca5163fea9a5c336bc149fc4bb8ec6a08d5751476cb298916b30ad619caee"
+    "package_bytes": 28381,
+    "package_sha256": "140897b9bc7180e3bd6f1ea4bb9702b53fdd6e2660969f7b3f4ffa464dac52cb"
   },
   "clm-ocr-rag": {
     "source_archive": "CLMOCR.zip",
@@ -2273,7 +7464,223 @@
       "source/sample-23.ps1",
       "source/sample-24.py"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.py",
+        "bytes": 1876,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-02.py",
+        "bytes": 4743,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-03.py",
+        "bytes": 5012,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-04.py",
+        "bytes": 5187,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-05.py",
+        "bytes": 6872,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-06.py",
+        "bytes": 25220,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-07.txt",
+        "bytes": 232,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-08.txt",
+        "bytes": 1685,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-09.py",
+        "bytes": 13,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-10.py",
+        "bytes": 13,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-11.py",
+        "bytes": 16,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-12.py",
+        "bytes": 19,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-13.py",
+        "bytes": 19,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-14.py",
+        "bytes": 576,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-15.ps1",
+        "bytes": 931,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-16.py",
+        "bytes": 955,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-17.py",
+        "bytes": 993,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-18.py",
+        "bytes": 1068,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-19.py",
+        "bytes": 1069,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      },
+      {
+        "file": "source/sample-20.py",
+        "bytes": 1227,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-21.py",
+        "bytes": 1313,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-22.py",
+        "bytes": 1567,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-23.ps1",
+        "bytes": 2006,
+        "meaningful": true,
+        "roles": [
+          "Service / API"
+        ]
+      },
+      {
+        "file": "source/sample-24.py",
+        "bytes": 2090,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 24,
+    "empty_file_count": 0,
+    "meaningful_bytes": 64702,
     "included_bytes": 64702,
     "source_types": {
       ".ps1": 2,
@@ -2308,8 +7715,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "clm-ocr-rag-portfolio-source.zip",
-    "package_bytes": 42122,
-    "package_sha256": "b9e657d3b17f894c13b9977fa6cdc5625314fe975acb81aafb90a70cb45df5f0"
+    "package_bytes": 44165,
+    "package_sha256": "f2e4d12f8b586f89fb95a63a230911153f75647a9ac0daf2232dc6874284c09e"
   },
   "biztech-command-center": {
     "source_archive": "Biztech_Command_center.zip",
@@ -2340,7 +7747,222 @@
       "source/sample-23.jsx",
       "source/sample-24.js"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.js",
+        "bytes": 3643,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-02.tsx",
+        "bytes": 15419,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-03.js",
+        "bytes": 24036,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-04.py",
+        "bytes": 73233,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-05.txt",
+        "bytes": 67,
+        "meaningful": true,
+        "roles": [
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-06.json",
+        "bytes": 193,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-07.txt",
+        "bytes": 451,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-08.json",
+        "bytes": 683,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-09.json",
+        "bytes": 1186,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-10.txt",
+        "bytes": 2384,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-11.jsx",
+        "bytes": 394,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-12.js",
+        "bytes": 404,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-13.jsx",
+        "bytes": 427,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-14.js",
+        "bytes": 439,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-15.jsx",
+        "bytes": 455,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-16.jsx",
+        "bytes": 482,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-17.jsx",
+        "bytes": 498,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-18.tsx",
+        "bytes": 592,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-19.js",
+        "bytes": 606,
+        "meaningful": true,
+        "roles": [
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-20.jsx",
+        "bytes": 666,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration",
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-21.jsx",
+        "bytes": 677,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-22.ts",
+        "bytes": 761,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-23.jsx",
+        "bytes": 804,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-24.js",
+        "bytes": 861,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 24,
+    "empty_file_count": 0,
+    "meaningful_bytes": 129361,
     "included_bytes": 129361,
     "source_types": {
       ".js": 6,
@@ -2385,8 +8007,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "biztech-command-center-portfolio-source.zip",
-    "package_bytes": 59318,
-    "package_sha256": "d4b20935ffd29b56ef4cd22e6a5a85388f5ddfa4612d1c3f07ee93d237d02f3e"
+    "package_bytes": 61246,
+    "package_sha256": "6c9ccfc463445095fdcf374e2bdf29b939ff9b423f818cdb2182f51d757d7f53"
   },
   "biztech-enterprise": {
     "source_archive": "BizTech.zip",
@@ -2417,7 +8039,212 @@
       "source/sample-23.py",
       "source/sample-24.py"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.txt",
+        "bytes": 73,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-02.json",
+        "bytes": 193,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-03.json",
+        "bytes": 683,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-04.txt",
+        "bytes": 1052,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Workflow / orchestration",
+          "Data / persistence",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-05.json",
+        "bytes": 1186,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-06.jsx",
+        "bytes": 394,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-07.js",
+        "bytes": 404,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-08.jsx",
+        "bytes": 427,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-09.js",
+        "bytes": 439,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-10.jsx",
+        "bytes": 455,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-11.jsx",
+        "bytes": 482,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-12.jsx",
+        "bytes": 498,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-13.tsx",
+        "bytes": 592,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-14.js",
+        "bytes": 606,
+        "meaningful": true,
+        "roles": [
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-15.jsx",
+        "bytes": 666,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration",
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-16.jsx",
+        "bytes": 677,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-17.py",
+        "bytes": 554,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-18.sh",
+        "bytes": 736,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-19.ts",
+        "bytes": 761,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-20.jsx",
+        "bytes": 804,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-21.js",
+        "bytes": 861,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-22.jsx",
+        "bytes": 918,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-23.py",
+        "bytes": 877,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-24.py",
+        "bytes": 1075,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 24,
+    "empty_file_count": 0,
+    "meaningful_bytes": 15413,
     "included_bytes": 15413,
     "source_types": {
       ".js": 4,
@@ -2457,14 +8284,18 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "biztech-enterprise-portfolio-source.zip",
-    "package_bytes": 29207,
-    "package_sha256": "ad276fd91d5c6d11b87e61bdc9e9614dc1848a051e474a4df558cdf8e6bca7d2"
+    "package_bytes": 31119,
+    "package_sha256": "70925c31fac8a40e35da0369544245d52dd5a92b2a042f526f1efddb9d8668cf"
   },
   "alerting-framework": {
     "source_archive": "alertingframework.zip",
     "source_archive_sha256": "7c9c833e7eb958095ca4057071adb9dc897a500dba0c1423b34fa76a7abf515d",
     "included_files": [],
+    "included_file_details": [],
     "included_file_count": 0,
+    "non_empty_file_count": 0,
+    "empty_file_count": 0,
+    "meaningful_bytes": 0,
     "included_bytes": 0,
     "source_types": {},
     "redacted_files": {},
@@ -2483,8 +8314,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "alerting-framework-portfolio-source.zip",
-    "package_bytes": 16706,
-    "package_sha256": "6fa69a132476eaae4c0e68a061488a727cadc45e248f8ac0b95d06036f9d1d2c"
+    "package_bytes": 17888,
+    "package_sha256": "3a1be3be8091078ab8a723a3b40501c039618a0eff8ef99371e7c402a6b2d6b7"
   },
   "ai-testing-bizvalidate": {
     "source_archive": "AITESTING.zip",
@@ -2515,7 +8346,232 @@
       "source/sample-23.py",
       "source/sample-24.py"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.py",
+        "bytes": 4513,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-02.py",
+        "bytes": 15466,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Control / validation",
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-03.py",
+        "bytes": 38652,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Control / validation",
+          "Test / quality",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-04.py",
+        "bytes": 42217,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-05.py",
+        "bytes": 48267,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-06.txt",
+        "bytes": 228,
+        "meaningful": true,
+        "roles": [
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-07.txt",
+        "bytes": 359,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Data / persistence",
+          "Test / quality",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-08.json",
+        "bytes": 363,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-09.txt",
+        "bytes": 480,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-10.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-11.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-12.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-13.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-14.py",
+        "bytes": 0,
+        "meaningful": false,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-15.py",
+        "bytes": 57,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-16.mjs",
+        "bytes": 121,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-17.mjs",
+        "bytes": 387,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-18.js",
+        "bytes": 417,
+        "meaningful": true,
+        "roles": [
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-19.py",
+        "bytes": 1046,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-20.py",
+        "bytes": 1276,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Data / persistence",
+          "Control / validation",
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-21.py",
+        "bytes": 1376,
+        "meaningful": true,
+        "roles": [
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-22.js",
+        "bytes": 1378,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-23.py",
+        "bytes": 1426,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-24.py",
+        "bytes": 1452,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 19,
+    "empty_file_count": 5,
+    "meaningful_bytes": 159481,
     "included_bytes": 159481,
     "source_types": {
       ".js": 2,
@@ -2568,8 +8624,8 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "ai-testing-bizvalidate-portfolio-source.zip",
-    "package_bytes": 62229,
-    "package_sha256": "fb82e5060eafe660bc8434de4b9fb5bd61753766e76dfda52f3aaa1c485975d4"
+    "package_bytes": 64320,
+    "package_sha256": "2115779309b126a41922a7fe06d513bf7e9254aac48fc15cd51f9df9fd1d6907"
   },
   "agentic-harness": {
     "source_archive": "Agentic Harness.zip",
@@ -2600,7 +8656,237 @@
       "source/sample-23.py",
       "source/sample-24.py"
     ],
+    "included_file_details": [
+      {
+        "file": "source/sample-01.js",
+        "bytes": 17627,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-02.py",
+        "bytes": 4617,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Workflow / orchestration",
+          "Data / persistence",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-03.py",
+        "bytes": 10432,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-04.py",
+        "bytes": 14774,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-05.py",
+        "bytes": 20019,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Data / persistence",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-06.txt",
+        "bytes": 35,
+        "meaningful": true,
+        "roles": [
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-07.txt",
+        "bytes": 62,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-08.json",
+        "bytes": 85,
+        "meaningful": true,
+        "roles": [
+          "Test / quality"
+        ]
+      },
+      {
+        "file": "source/sample-09.txt",
+        "bytes": 91,
+        "meaningful": true,
+        "roles": [
+          "General implementation / configuration"
+        ]
+      },
+      {
+        "file": "source/sample-10.txt",
+        "bytes": 186,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-11.toml",
+        "bytes": 251,
+        "meaningful": true,
+        "roles": [
+          "Test / quality",
+          "Configuration / infrastructure"
+        ]
+      },
+      {
+        "file": "source/sample-12.json",
+        "bytes": 291,
+        "meaningful": true,
+        "roles": [
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-13.txt",
+        "bytes": 294,
+        "meaningful": true,
+        "roles": [
+          "Data / persistence",
+          "Test / quality",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-14.txt",
+        "bytes": 1695,
+        "meaningful": true,
+        "roles": [
+          "Operations / delivery"
+        ]
+      },
+      {
+        "file": "source/sample-15.py",
+        "bytes": 282,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-16.py",
+        "bytes": 622,
+        "meaningful": true,
+        "roles": [
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-17.py",
+        "bytes": 827,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-18.py",
+        "bytes": 2082,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Control / validation"
+        ]
+      },
+      {
+        "file": "source/sample-19.py",
+        "bytes": 15605,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration"
+        ]
+      },
+      {
+        "file": "source/sample-20.py",
+        "bytes": 25927,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-21.py",
+        "bytes": 34203,
+        "meaningful": true,
+        "roles": [
+          "Service / API",
+          "Workflow / orchestration",
+          "Control / validation",
+          "User experience"
+        ]
+      },
+      {
+        "file": "source/sample-22.py",
+        "bytes": 45785,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-23.py",
+        "bytes": 49673,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Service / API",
+          "Workflow / orchestration",
+          "Data / persistence"
+        ]
+      },
+      {
+        "file": "source/sample-24.py",
+        "bytes": 813,
+        "meaningful": true,
+        "roles": [
+          "AI / retrieval",
+          "Test / quality"
+        ]
+      }
+    ],
     "included_file_count": 24,
+    "non_empty_file_count": 24,
+    "empty_file_count": 0,
+    "meaningful_bytes": 246278,
     "included_bytes": 246278,
     "source_types": {
       ".js": 1,
@@ -2687,7 +8973,7 @@
       "09-target-architecture-roadmap.svg"
     ],
     "package_file": "agentic-harness-portfolio-source.zip",
-    "package_bytes": 85686,
-    "package_sha256": "e6d9afd6cdcc89a02d839eb056f97a26f2f2af8c206bde787e840ae30b58f7f3"
+    "package_bytes": 87727,
+    "package_sha256": "4d5d72b2e78c8b31bfaa388f1051c9ffeb0d3ac27455b9e438ddc77c3ffca0f1"
   }
 }

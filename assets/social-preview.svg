@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">Aditya Singh — Enterprise AI value strategy and BFSI transformation</title>
+  <desc id="description">A navy portfolio card connecting strategy, governed architecture, delivery and evidence.</desc>
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#203653"/>
+      <stop offset="1" stop-color="#10233f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#10233f"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect x="0" y="0" width="12" height="630" fill="#c8f33d"/>
+  <circle cx="1130" cy="66" r="160" fill="#2457f5" opacity="0.16"/>
+  <circle cx="1080" cy="560" r="210" fill="#5ed5c7" opacity="0.08"/>
+
+  <g transform="translate(64 54)">
+    <rect width="62" height="62" rx="3" fill="#c8f33d"/>
+    <text x="31" y="40" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" fill="#10233f">AS</text>
+    <text x="82" y="24" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800" letter-spacing="0.4" fill="#fffdf8">Aditya Singh</text>
+    <text x="82" y="48" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2.4" fill="#5ed5c7">ENTERPRISE AI · BANKING · TRANSFORMATION</text>
+  </g>
+
+  <g transform="translate(64 175)">
+    <text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="65" font-weight="800" letter-spacing="-2.8" fill="#fffdf8">Strategy that survives</text>
+    <text x="0" y="72" font-family="Arial, Helvetica, sans-serif" font-size="65" font-weight="800" letter-spacing="-2.8" fill="#fffdf8">implementation.</text>
+    <rect x="1" y="166" width="520" height="3" fill="#2457f5"/>
+    <text x="0" y="211" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-style="italic" fill="#c8f33d">Value strategy · Governed architecture · Delivery at scale</text>
+    <text x="0" y="256" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#cbd4df">Technical systems, decision architecture and public build evidence</text>
+    <text x="0" y="284" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#cbd4df">for complex, regulated enterprises.</text>
+  </g>
+
+  <g transform="translate(785 164)">
+    <rect width="340" height="326" rx="3" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.18"/>
+    <text x="28" y="42" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="800" letter-spacing="2.2" fill="#5ed5c7">OPERATING SYSTEM</text>
+
+    <g font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800">
+      <rect x="28" y="72" width="126" height="52" rx="2" fill="#2457f5"/>
+      <text x="91" y="103" text-anchor="middle" fill="#ffffff">DECISION</text>
+      <rect x="186" y="72" width="126" height="52" rx="2" fill="#c8f33d"/>
+      <text x="249" y="103" text-anchor="middle" fill="#10233f">VALUE</text>
+      <rect x="28" y="164" width="126" height="52" rx="2" fill="#5ed5c7"/>
+      <text x="91" y="195" text-anchor="middle" fill="#10233f">CONTROL</text>
+      <rect x="186" y="164" width="126" height="52" rx="2" fill="#ef6a35"/>
+      <text x="249" y="195" text-anchor="middle" fill="#10233f">DELIVERY</text>
+    </g>
+
+    <g fill="none" stroke="#ffffff" stroke-opacity="0.5" stroke-width="2">
+      <path d="M154 98H186"/>
+      <path d="M91 124V164"/>
+      <path d="M249 124V164"/>
+      <path d="M154 190H186"/>
+    </g>
+    <circle cx="170" cy="98" r="4" fill="#fffdf8"/>
+    <circle cx="91" cy="144" r="4" fill="#fffdf8"/>
+    <circle cx="249" cy="144" r="4" fill="#fffdf8"/>
+    <circle cx="170" cy="190" r="4" fill="#fffdf8"/>
+
+    <rect x="28" y="254" width="284" height="44" rx="2" fill="#fffdf8" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.16"/>
+    <circle cx="50" cy="276" r="5" fill="#c8f33d"/>
+    <text x="65" y="281" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2" fill="#ffffff">EVIDENCE AT EVERY LAYER</text>
+  </g>
+
+  <g transform="translate(64 566)" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="800" letter-spacing="1.6">
+    <text fill="#c8f33d">PORTFOLIO</text>
+    <text x="117" fill="#ffffff">AI SYSTEMS</text>
+    <text x="250" fill="#ffffff">ARCHITECTURE</text>
+    <text x="401" fill="#ffffff">BUILD EVIDENCE</text>
+  </g>
+  <text x="1125" y="574" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2" fill="#9eacbd">SINGHADITYA21.GITHUB.IO/RESUME</text>
+</svg>

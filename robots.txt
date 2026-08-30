@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://singhaditya21.github.io/Resume/sitemap.xml

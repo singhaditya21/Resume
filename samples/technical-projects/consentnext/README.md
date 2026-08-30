@@ -1,7 +1,12 @@
 # ConsentNext Governance Platform
 
 - **Evidence status:** Code-derived architecture
+- **Source evidence:** Sanitized source samples
+- **Verification:** Static review only · code not executed
+- **Delivery maturity:** Implementation archive
+- **Intelligence type:** AI-assisted intelligence
 - **Category:** Governance, risk & security
+- **Project family:** Independent system
 - **Source package:** `Consent Management.zip`
 
 A multi-tenant consent and preference platform with signed append-only evidence, maker-checker governance and reliable downstream propagation.
@@ -45,15 +50,21 @@ IdeaStorm additionally includes the nine supplied PNG reference diagrams under `
 
 ## Source evidence reviewed
 
-- `consentnext/ARCHITECTURE.md`
-- `consentnext/backend/app/modules/consent/`
-- `consentnext/backend/app/modules/integration/`
-- `consentnext/backend/app/modules/governance/`
-- `consentnext/backend/app/platform/kms.py`
+See [`PUBLIC_EVIDENCE_MAP.md`](PUBLIC_EVIDENCE_MAP.md) for a claim-to-sample map and the complete anonymized sample inventory. Original archive-member paths are intentionally not published.
+
+## Attribution, outcomes and decisions
+
+- **Personal ownership:** Not established from the supplied archive.
+- **Measured outcomes:** Not established from the supplied archive.
+
+- Consent evidence uses insert-only signed versions rather than mutable history.
+- Tenant/purpose isolation and maker-checker approval gate governed changes.
 
 ## Public-package boundary
 
 This is a curated, non-runnable portfolio snapshot rather than the original production archive. Credentials, environment files, customer datasets, contract documents, employee records, database backups, vector indexes, model weights, generated dependencies, media and live deployment state are excluded. Selected source text is anonymized, scanned and redacted for credential-like values, known customer names, identity literals, email addresses, phone numbers, identifiers, service URLs, network addresses and local filesystem paths.
 
-- Included source files: **24**
+- Meaningful anonymized source samples: **12**
+- Retained empty source placeholders: **12**
+- Total included source files: **24**
 - Included sanitized source bytes: **12,511**

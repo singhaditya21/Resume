@@ -2,6 +2,8 @@
 
 This authorized public archive contains all 2,256 unique slides from the consolidated master presentation. Slides are assigned exactly once across 16 thematic PowerPoint files; 548 duplicate occurrences from the 2,804-slide source corpus were removed.
 
+The complete binary set is preserved in the versioned GitHub release [`slide-archive-2026-08-30`](https://github.com/singhaditya21/Resume/releases/tag/slide-archive-2026-08-30). The website's [presentation archive](../../../presentation-archive.html) links every file individually, and the release includes a SHA-256 manifest. Moving the binaries out of the Pages tree changes only delivery and repository weight; no deck or slide was removed.
+
 | Set | Theme | Slides | File size |
 |---:|---|---:|---:|
 | 01 | Enterprise credentials, proof and CRM platform | 71 | 45,795,166 bytes |
@@ -21,4 +23,4 @@ This authorized public archive contains all 2,256 unique slides from the consoli
 | 15 | Adoption, usage insights and portfolio health | 111 | 27,128,718 bytes |
 | 16 | BOOST operating model and transformation | 125 | 26,823,941 bytes |
 
-All files are below GitHub's 100 MiB per-file hard limit. Source formatting and within-theme slide order are preserved. Two malformed legacy source presentations contribute 90 visually faithful full-slide images; those particular slides are not element-editable.
+Source formatting and within-theme slide order are preserved. Two malformed legacy source presentations contribute 90 visually faithful full-slide images; those particular slides are not element-editable.

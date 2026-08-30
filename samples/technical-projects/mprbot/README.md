@@ -1,7 +1,12 @@
 # MPR Support Intelligence Hub
 
 - **Evidence status:** Source-backed prototype
+- **Source evidence:** Sanitized source samples
+- **Verification:** Static review only · code not executed
+- **Delivery maturity:** Prototype archive
+- **Intelligence type:** RAG / document AI
 - **Category:** Knowledge, RAG & document AI
+- **Project family:** Independent system
 - **Source package:** `MPRBOT-1.zip`
 
 A support intelligence workspace combining historical cases, operating procedures and hybrid retrieval for recommendations and diagnostics.
@@ -45,16 +50,20 @@ IdeaStorm additionally includes the nine supplied PNG reference diagrams under `
 
 ## Source evidence reviewed
 
-- `services/agent.py`
-- `services/llm_provider.py`
-- `services/retriever.py`
-- `services/indexer.py`
-- `services/reranker.py`
-- `backend_api/app/routers/search.py`
+See [`PUBLIC_EVIDENCE_MAP.md`](PUBLIC_EVIDENCE_MAP.md) for a claim-to-sample map and the complete anonymized sample inventory. Original archive-member paths are intentionally not published.
+
+## Attribution, outcomes and decisions
+
+- **Personal ownership:** Not established from the supplied archive.
+- **Measured outcomes:** Not established from the supplied archive.
+
+- **Technical decision rationale:** Not established from the supplied archive.
 
 ## Public-package boundary
 
 This is a curated, non-runnable portfolio snapshot rather than the original production archive. Credentials, environment files, customer datasets, contract documents, employee records, database backups, vector indexes, model weights, generated dependencies, media and live deployment state are excluded. Selected source text is anonymized, scanned and redacted for credential-like values, known customer names, identity literals, email addresses, phone numbers, identifiers, service URLs, network addresses and local filesystem paths.
 
-- Included source files: **24**
+- Meaningful anonymized source samples: **13**
+- Retained empty source placeholders: **11**
+- Total included source files: **24**
 - Included sanitized source bytes: **59,393**

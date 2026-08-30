@@ -1,7 +1,12 @@
 # BizValidate Agentic Quality Platform
 
 - **Evidence status:** Code-derived architecture
+- **Source evidence:** Sanitized source samples
+- **Verification:** Static review only · code not executed
+- **Delivery maturity:** Implementation archive
+- **Intelligence type:** AI-assisted quality
 - **Category:** AI testing & quality
+- **Project family:** Quality & monitoring
 - **Source package:** `AITESTING.zip`
 
 An AI-assisted web and API validation platform spanning browser journeys, DOM and accessibility analysis, HAR evidence, visual regression and selector healing.
@@ -45,16 +50,21 @@ IdeaStorm additionally includes the nine supplied PNG reference diagrams under `
 
 ## Source evidence reviewed
 
-- `backend/app/services/pipeline.py`
-- `backend/app/services/playwright_engine.py`
-- `backend/app/services/dom_analyzer.py`
-- `backend/app/services/llm_service.py`
-- `backend/app/services/healing_engine.py`
-- `backend/app/autoresearch/`
+See [`PUBLIC_EVIDENCE_MAP.md`](PUBLIC_EVIDENCE_MAP.md) for a claim-to-sample map and the complete anonymized sample inventory. Original archive-member paths are intentionally not published.
+
+## Attribution, outcomes and decisions
+
+- **Personal ownership:** Not established from the supplied archive.
+- **Measured outcomes:** Not established from the supplied archive.
+
+- Playwright and deterministic validators own execution; model proposals remain bounded inputs.
+- Default administrative access is disabled and test evidence is sanitized and encrypted.
 
 ## Public-package boundary
 
 This is a curated, non-runnable portfolio snapshot rather than the original production archive. Credentials, environment files, customer datasets, contract documents, employee records, database backups, vector indexes, model weights, generated dependencies, media and live deployment state are excluded. Selected source text is anonymized, scanned and redacted for credential-like values, known customer names, identity literals, email addresses, phone numbers, identifiers, service URLs, network addresses and local filesystem paths.
 
-- Included source files: **24**
+- Meaningful anonymized source samples: **19**
+- Retained empty source placeholders: **5**
+- Total included source files: **24**
 - Included sanitized source bytes: **159,481**

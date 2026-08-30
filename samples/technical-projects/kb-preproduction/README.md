@@ -1,7 +1,12 @@
 # AIbot RAG API — Preproduction
 
 - **Evidence status:** Code-derived architecture
+- **Source evidence:** Sanitized source samples
+- **Verification:** Static review only · code not executed
+- **Delivery maturity:** Implementation archive
+- **Intelligence type:** RAG / document AI
 - **Category:** Knowledge, RAG & document AI
+- **Project family:** Zeno & enterprise knowledge
 - **Source package:** `KB_Preproduction.zip`
 
 A channel-ready retrieval service with Milvus search, reranking, streaming generation, session memory and trace instrumentation.
@@ -45,15 +50,20 @@ IdeaStorm additionally includes the nine supplied PNG reference diagrams under `
 
 ## Source evidence reviewed
 
-- `app/services/rag_pipeline.py`
-- `app/services/retriever.py`
-- `app/services/generator.py`
-- `llm/providers/chat_client.py`
-- `vector_store/queries.py`
+See [`PUBLIC_EVIDENCE_MAP.md`](PUBLIC_EVIDENCE_MAP.md) for a claim-to-sample map and the complete anonymized sample inventory. Original archive-member paths are intentionally not published.
+
+## Attribution, outcomes and decisions
+
+- **Personal ownership:** Not established from the supplied archive.
+- **Measured outcomes:** Not established from the supplied archive.
+
+- **Technical decision rationale:** Not established from the supplied archive.
 
 ## Public-package boundary
 
 This is a curated, non-runnable portfolio snapshot rather than the original production archive. Credentials, environment files, customer datasets, contract documents, employee records, database backups, vector indexes, model weights, generated dependencies, media and live deployment state are excluded. Selected source text is anonymized, scanned and redacted for credential-like values, known customer names, identity literals, email addresses, phone numbers, identifiers, service URLs, network addresses and local filesystem paths.
 
-- Included source files: **24**
+- Meaningful anonymized source samples: **19**
+- Retained empty source placeholders: **5**
+- Total included source files: **24**
 - Included sanitized source bytes: **18,111**

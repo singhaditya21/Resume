@@ -1,24 +1,25 @@
 (() => {
     const search = document.querySelector("[data-tech-search]");
+    const capability = document.querySelector("[data-tech-capability]");
+    const status = document.querySelector("[data-tech-status]");
+    const family = document.querySelector("[data-tech-family]");
     const count = document.querySelector("[data-tech-count]");
     const grid = document.querySelector("[data-tech-grid]");
     const empty = document.querySelector("[data-tech-empty]");
     const sort = document.querySelector("[data-tech-sort]");
     const clear = document.querySelector("[data-tech-clear]");
+    const disclosure = document.querySelector("[data-complete-library]");
     const cards = [...document.querySelectorAll("[data-project-card]")];
-    const filters = [...document.querySelectorAll("[data-tech-filter]")];
 
     if (!grid || cards.length === 0) return;
 
+    const controls = [search, capability, status, family, sort, clear].filter(Boolean);
     const gridId = grid.id || "technical-project-grid";
     grid.id = gridId;
-    grid.setAttribute("aria-label", "Technical projects");
-    search?.setAttribute("aria-controls", gridId);
-    sort?.setAttribute("aria-controls", gridId);
-    clear?.setAttribute("aria-controls", gridId);
-    filters.forEach((button) => button.setAttribute("aria-controls", gridId));
+    grid.setAttribute("aria-label", "Complete technical project library");
+    controls.forEach((control) => control.setAttribute("aria-controls", gridId));
     cards.forEach((card, index) => {
-        card.dataset.featuredOrder = String(index);
+        card.dataset.portfolioOrder = String(index);
     });
 
     if (count) {
@@ -27,13 +28,21 @@
         count.setAttribute("aria-atomic", "true");
     }
 
-    const availableCategories = new Set(filters.map((button) => button.dataset.techFilter));
     const initialParams = new URLSearchParams(window.location.search);
-    const requestedCategory = initialParams.get("category") || "all";
-    let activeCategory = availableCategories.has(requestedCategory) ? requestedCategory : "all";
-
     if (search) search.value = initialParams.get("q") || "";
+    if (capability) capability.value = optionValue(capability, initialParams.get("capability"));
+    if (status) status.value = optionValue(status, initialParams.get("status"));
+    if (family) family.value = optionValue(family, initialParams.get("family"));
     if (sort) sort.value = initialParams.get("sort") === "az" ? "az" : "featured";
+
+    if (disclosure && (window.location.hash === "#complete-library" || [...initialParams.keys()].length > 0)) {
+        disclosure.open = true;
+    }
+
+    function optionValue(select, requested) {
+        if (!select || !requested) return "all";
+        return [...select.options].some((option) => option.value === requested) ? requested : "all";
+    }
 
     function normalized(value) {
         return value.trim().toLocaleLowerCase();
@@ -41,17 +50,19 @@
 
     function updateUrl() {
         const url = new URL(window.location.href);
-        const query = search?.value.trim() || "";
+        const values = {
+            q: search?.value.trim() || "",
+            capability: capability?.value || "all",
+            status: status?.value || "all",
+            family: family?.value || "all",
+            sort: sort?.value || "featured",
+        };
 
-        if (query) url.searchParams.set("q", query);
-        else url.searchParams.delete("q");
-
-        if (activeCategory !== "all") url.searchParams.set("category", activeCategory);
-        else url.searchParams.delete("category");
-
-        if (sort?.value === "az") url.searchParams.set("sort", "az");
-        else url.searchParams.delete("sort");
-
+        Object.entries(values).forEach(([key, value]) => {
+            const isDefault = !value || value === "all" || (key === "sort" && value === "featured");
+            if (isDefault) url.searchParams.delete(key);
+            else url.searchParams.set(key, value);
+        });
         window.history.replaceState(null, "", `${url.pathname}${url.search}${url.hash}`);
     }
 
@@ -63,43 +74,41 @@
             if (sort?.value === "az") {
                 return (left.dataset.name || "").localeCompare(right.dataset.name || "");
             }
-            return Number(left.dataset.featuredOrder) - Number(right.dataset.featuredOrder);
+            return Number(left.dataset.portfolioOrder) - Number(right.dataset.portfolioOrder);
         });
         orderedCards.forEach((card) => grid.append(card));
 
         cards.forEach((card) => {
-            const categoryMatches = activeCategory === "all" || card.dataset.category === activeCategory;
-            const searchMatches = !query || normalized(card.dataset.search || card.textContent || "").includes(query);
-            const show = categoryMatches && searchMatches;
-            card.hidden = !show;
-            if (show) visible += 1;
-        });
-
-        filters.forEach((button) => {
-            const active = button.dataset.techFilter === activeCategory;
-            button.classList.toggle("is-active", active);
-            button.setAttribute("aria-pressed", String(active));
+            const matches = [
+                !query || normalized(card.dataset.search || card.textContent || "").includes(query),
+                !capability || capability.value === "all" || card.dataset.capability === capability.value,
+                !status || status.value === "all" || card.dataset.status === status.value,
+                !family || family.value === "all" || card.dataset.family === family.value,
+            ].every(Boolean);
+            card.hidden = !matches;
+            if (matches) visible += 1;
         });
 
         if (count) count.textContent = `${visible} ${visible === 1 ? "project" : "projects"}`;
         if (empty) empty.hidden = visible !== 0;
-        if (clear) clear.disabled = !query && activeCategory === "all" && sort?.value !== "az";
+        if (clear) {
+            clear.disabled = !query
+                && (!capability || capability.value === "all")
+                && (!status || status.value === "all")
+                && (!family || family.value === "all")
+                && (!sort || sort.value === "featured");
+        }
         if (updateHistory) updateUrl();
     }
 
-    filters.forEach((button) => {
-        button.addEventListener("click", () => {
-            activeCategory = button.dataset.techFilter || "all";
-            render();
-        });
-    });
-
     search?.addEventListener("input", () => render());
-    sort?.addEventListener("change", () => render());
+    [capability, status, family, sort].forEach((control) => control?.addEventListener("change", () => render()));
     clear?.addEventListener("click", () => {
         if (search) search.value = "";
+        if (capability) capability.value = "all";
+        if (status) status.value = "all";
+        if (family) family.value = "all";
         if (sort) sort.value = "featured";
-        activeCategory = "all";
         render();
         search?.focus();
     });
@@ -111,9 +120,10 @@
 
     window.addEventListener("popstate", () => {
         const params = new URLSearchParams(window.location.search);
-        const category = params.get("category") || "all";
-        activeCategory = availableCategories.has(category) ? category : "all";
         if (search) search.value = params.get("q") || "";
+        if (capability) capability.value = optionValue(capability, params.get("capability"));
+        if (status) status.value = optionValue(status, params.get("status"));
+        if (family) family.value = optionValue(family, params.get("family"));
         if (sort) sort.value = params.get("sort") === "az" ? "az" : "featured";
         render({ updateHistory: false });
     });
